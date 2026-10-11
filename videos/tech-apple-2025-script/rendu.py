@@ -362,7 +362,7 @@ def scene5(img, t):
         s2 *= 1.0 + 0.08 * (math.floor(t * 6) % 2)
     coller(img, texte_img("PLUS SIMPLE", px(84), RED), CX, 580, s2)
     coller(img, sprite(CARTE, 16), CX, 800, s, int(round(math.sin(t * 3) * 3)) * 3)
-    coller_tampon(img, "JE RÉPÈTE", 80, CX, 1050, t, at("y'a", 2) - 0.08)
+    coller_tampon(img, "Y'A PAS PLUS SIMPLE", 46, CX, 1050, t, at("y'a", 2) - 0.08)
 
 def bloc(lignes_txt, size, fond_col, txt_col):
     f = px(size)
@@ -402,7 +402,7 @@ SCENES = [(C2, scene1, None), (C3, scene2, None), (C4, scene3, C3), (C5, scene4,
 # ---------- sous-titres ----------
 ROUGES = {"apple", "2025", "dinguerie", "explose", "majeur", "pc", "iphone", "cadeau", "gratuite", "revends",
           "simple", "go", "gratuitement"}
-COUPES = [2, 4, 3, 4, 3, 5, 3, 3, 3, 4, 5, 4, 4, 4, 2, 4]  # mots par morceau (6 max)
+COUPES = [2, 4, 3, 4, 3, 4, 3, 3, 3, 4, 5, 4, 4, 4, 2, 4]  # mots par morceau (6 max)
 MORCEAUX, k = [], 0
 for n in COUPES:
     MORCEAUX.append(MOTS[k:k + n])
