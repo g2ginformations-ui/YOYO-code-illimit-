@@ -1,0 +1,404 @@
+{
+ "language_code": "fra",
+ "language_probability": 1.0,
+ "text": "Les gars, la tech Apple 2025, c'est une dinguerie comment elle explose tout. Si t'es majeur et que t'as un PC ou un iPhone. Carte cadeau gratuite. Tu vas dépenser sur le site Apple. T'achètes ce que tu veux et après, tu revends. Y'a pas plus simple. Y'a pas plus simple. Commente Go et je t'accompagne gratuitement",
+ "words": [
+  {
+   "text": "Les",
+   "start": 0.2,
+   "end": 0.3,
+   "type": "word",
+   "logprob": -8.821098163025454e-05
+  },
+  {
+   "text": "gars,",
+   "start": 0.38,
+   "end": 0.56,
+   "type": "word",
+   "logprob": -3.580901393434033e-05
+  },
+  {
+   "text": "la",
+   "start": 0.7,
+   "end": 0.78,
+   "type": "word",
+   "logprob": -5.245195097813848e-06
+  },
+  {
+   "text": "tech",
+   "start": 0.88,
+   "end": 1.04,
+   "type": "word",
+   "logprob": -0.012536413036286831
+  },
+  {
+   "text": "Apple",
+   "start": 1.1,
+   "end": 1.3,
+   "type": "word",
+   "logprob": -9.298280929215252e-06
+  },
+  {
+   "text": "2025,",
+   "start": 1.32,
+   "end": 1.92,
+   "type": "word"
+  },
+  {
+   "text": "c'est",
+   "start": 2.22,
+   "end": 2.3,
+   "type": "word",
+   "logprob": -2.4318623175645372e-06
+  },
+  {
+   "text": "une",
+   "start": 2.32,
+   "end": 2.4,
+   "type": "word",
+   "logprob": -4.768370445162873e-07
+  },
+  {
+   "text": "dinguerie",
+   "start": 2.58,
+   "end": 3.0,
+   "type": "word",
+   "logprob": -0.0001422009485736453
+  },
+  {
+   "text": "comment",
+   "start": 3.08,
+   "end": 3.26,
+   "type": "word",
+   "logprob": -4.7801782784517854e-05
+  },
+  {
+   "text": "elle",
+   "start": 3.28,
+   "end": 3.34,
+   "type": "word",
+   "logprob": -2.145764938177308e-06
+  },
+  {
+   "text": "explose",
+   "start": 3.36,
+   "end": 3.74,
+   "type": "word",
+   "logprob": -0.0002478851545544915
+  },
+  {
+   "text": "tout.",
+   "start": 3.78,
+   "end": 3.94,
+   "type": "word",
+   "logprob": -7.867810154493782e-07
+  },
+  {
+   "text": "Si",
+   "start": 4.34,
+   "end": 4.42,
+   "type": "word",
+   "logprob": -3.576272320060525e-06
+  },
+  {
+   "text": "t'es",
+   "start": 4.48,
+   "end": 4.56,
+   "type": "word",
+   "logprob": -0.00029302382594309506
+  },
+  {
+   "text": "majeur",
+   "start": 4.6,
+   "end": 5.04,
+   "type": "word",
+   "logprob": -0.0004681444843299687
+  },
+  {
+   "text": "et",
+   "start": 5.24,
+   "end": 5.3,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "que",
+   "start": 5.32,
+   "end": 5.36,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "t'as",
+   "start": 5.4,
+   "end": 5.48,
+   "type": "word",
+   "logprob": -0.008411413989961147
+  },
+  {
+   "text": "un",
+   "start": 5.5,
+   "end": 5.58,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "PC",
+   "start": 5.62,
+   "end": 5.98,
+   "type": "word",
+   "logprob": -2.8609820219571702e-05
+  },
+  {
+   "text": "ou",
+   "start": 6.08,
+   "end": 6.16,
+   "type": "word",
+   "logprob": -5.960462772236497e-07
+  },
+  {
+   "text": "un",
+   "start": 6.2,
+   "end": 6.26,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "iPhone.",
+   "start": 6.32,
+   "end": 6.66,
+   "type": "word",
+   "logprob": -0.008889201847653436
+  },
+  {
+   "text": "Carte",
+   "start": 6.98,
+   "end": 7.22,
+   "type": "word",
+   "logprob": -0.004129692446440458
+  },
+  {
+   "text": "cadeau",
+   "start": 7.26,
+   "end": 7.54,
+   "type": "word",
+   "logprob": -0.0015411416534334421
+  },
+  {
+   "text": "gratuite.",
+   "start": 7.82,
+   "end": 8.32,
+   "type": "word",
+   "logprob": -0.00018690075739868917
+  },
+  {
+   "text": "Tu",
+   "start": 8.66,
+   "end": 8.74,
+   "type": "word",
+   "logprob": -4.172238186583854e-05
+  },
+  {
+   "text": "vas",
+   "start": 8.78,
+   "end": 8.92,
+   "type": "word",
+   "logprob": -4.6491513785440475e-06
+  },
+  {
+   "text": "dépenser",
+   "start": 8.96,
+   "end": 9.38,
+   "type": "word",
+   "logprob": -0.0010858775848987534
+  },
+  {
+   "text": "sur",
+   "start": 9.42,
+   "end": 9.52,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "le",
+   "start": 9.56,
+   "end": 9.62,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "site",
+   "start": 9.66,
+   "end": 9.84,
+   "type": "word",
+   "logprob": -8.344646857949556e-07
+  },
+  {
+   "text": "Apple.",
+   "start": 9.88,
+   "end": 10.2,
+   "type": "word",
+   "logprob": -1.400661968394464e-05
+  },
+  {
+   "text": "T'achètes",
+   "start": 10.52,
+   "end": 10.96,
+   "type": "word",
+   "logprob": -0.00014690030011226755
+  },
+  {
+   "text": "ce",
+   "start": 11.02,
+   "end": 11.12,
+   "type": "word",
+   "logprob": -6.305972783593461e-05
+  },
+  {
+   "text": "que",
+   "start": 11.14,
+   "end": 11.24,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "tu",
+   "start": 11.32,
+   "end": 11.42,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "veux",
+   "start": 11.48,
+   "end": 11.64,
+   "type": "word",
+   "logprob": -2.3841830625315197e-06
+  },
+  {
+   "text": "et",
+   "start": 12.18,
+   "end": 12.26,
+   "type": "word",
+   "logprob": -0.0006275591440498829
+  },
+  {
+   "text": "après,",
+   "start": 12.32,
+   "end": 12.76,
+   "type": "word",
+   "logprob": -3.061423408704892e-05
+  },
+  {
+   "text": "tu",
+   "start": 13.06,
+   "end": 13.16,
+   "type": "word",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "revends.",
+   "start": 13.24,
+   "end": 13.58,
+   "type": "word",
+   "logprob": -4.951446499035228e-05
+  },
+  {
+   "text": "Y'a",
+   "start": 14.6,
+   "end": 14.72,
+   "type": "word"
+  },
+  {
+   "text": "pas",
+   "start": 14.78,
+   "end": 14.9,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "plus",
+   "start": 14.92,
+   "end": 15.06,
+   "type": "word",
+   "logprob": -7.152555099310121e-07
+  },
+  {
+   "text": "simple.",
+   "start": 15.1,
+   "end": 15.38,
+   "type": "word",
+   "logprob": -4.1893452557165545e-06
+  },
+  {
+   "text": "Y'a",
+   "start": 15.64,
+   "end": 15.78,
+   "type": "word"
+  },
+  {
+   "text": "pas",
+   "start": 15.94,
+   "end": 16.04,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "plus",
+   "start": 16.12,
+   "end": 16.3,
+   "type": "word",
+   "logprob": -2.7418097943154862e-06
+  },
+  {
+   "text": "simple.",
+   "start": 16.34,
+   "end": 16.74,
+   "type": "word",
+   "logprob": -2.3637174824183864e-05
+  },
+  {
+   "text": "Commente",
+   "start": 17.06,
+   "end": 17.32,
+   "type": "word"
+  },
+  {
+   "text": "Go",
+   "start": 17.36,
+   "end": 17.48,
+   "type": "word",
+   "logprob": -7.617183291586116e-05
+  },
+  {
+   "text": "et",
+   "start": 17.8,
+   "end": 17.86,
+   "type": "word",
+   "logprob": -4.076874756719917e-05
+  },
+  {
+   "text": "je",
+   "start": 17.88,
+   "end": 17.94,
+   "type": "word",
+   "logprob": -2.0265558760002023e-06
+  },
+  {
+   "text": "t'accompagne",
+   "start": 17.96,
+   "end": 18.4,
+   "type": "word",
+   "logprob": -0.0006072478846590457
+  },
+  {
+   "text": "gratuitement",
+   "start": 18.44,
+   "end": 18.86,
+   "type": "word",
+   "logprob": -2.1576648578047752e-05
+  }
+ ],
+ "transcription_id": "4MZiiXoOLXH8hQNQzeOI",
+ "audio_duration_secs": 18.898875
+}
