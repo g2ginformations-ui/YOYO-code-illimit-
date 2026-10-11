@@ -274,10 +274,10 @@ assert len({len(l) for l in TEL}) == 1 and len({len(l) for l in INTER}) == 1
 
 def coupe(mot, n=1):
     return at(mot, n) - 0.15  # une scène change 0,15 s avant sa phrase
-C2, C3, C4, C5, C6, C7 = coupe("chaque"), coupe("ça"), coupe("tu"), coupe("et"), coupe("ou"), coupe("c'est")
+C2, C4, C5, C6, C7 = coupe("chaque"), coupe("tu"), coupe("et"), coupe("ou"), coupe("c'est")
 T_CTA = coupe("écris")
 T_TEL = at("iphone") - 0.08
-GLITCHS = [0.0, C2, C3, C4, C5, T_TEL, C6, C7, at("pas") - 0.08, T_CTA]
+GLITCHS = [0.0, C2, C4, C5, T_TEL, C6, C7, at("pas") - 0.08, T_CTA]
 
 def scene1(img, t):
     coller(img, tag("LES GARS", 52, W_, INK), CX, 370, apparition(t, -0.2))
@@ -302,17 +302,6 @@ def scene2(img, t):
     coller(img, win, CX, 680, apparition(t, C2 + 0.1))
     if t >= STOPS[2] + 0.2 and (math.floor(t * 4) % 2 == 0 or t < STOPS[2] + 0.36):
         coller(img, tag("GAGNÉ !", 64, W_, INK), CX, 960, apparition(t, STOPS[2] + 0.2))
-
-def scene3(img, t):
-    """La valeur de la carte : de 1 € à 20 €."""
-    coller(img, tag("CARTE CADEAU", 56, RED, W_), CX, 370, apparition(t, C3 + 0.07))
-    rot = int(round(math.sin(t * 3) * 3)) * 3
-    coller(img, sprite(CARTE, 18), CX, 610, apparition(t, C3 + 0.07), rot)
-    t1, t20 = at("euro") - 0.08, at("vingt") - 0.08
-    if t >= t1:
-        v = 1 if t < t20 else min(20, 1 + int((t - t20) / 0.02))  # compteur qui grimpe, cran par cran
-        coller(img, texte_img(f"{v} €", px(150), W_ if v < 20 else RED), CX, 820, apparition(t, t1))
-    coller_tampon(img, "GRATUIT", 90, CX, 1050, t, at("gratuitement") - 0.08)
 
 def scene4(img, t):
     """On cumule : un jour de plus toutes les 0,12 s, la cagnotte se remplit."""
@@ -340,7 +329,7 @@ def scene5(img, t):
         s *= 1.0 + 0.06 * (math.floor(t * 4) % 2)
     coller(img, sprite(TEL, 20), CX, 690, s, int(round(math.sin(t * 3) * 2)) * 3)
     explosion(img, t, T_TEL, CX, 690)
-    coller_tampon(img, "IPHONE GRATUIT", 60, CX, 1070, t, at("gratuit", 2) - 0.08)
+    coller_tampon(img, "IPHONE GRATUIT", 60, CX, 1070, t, at("gratuit") - 0.08)
 
 L1, L2, L3 = at("t'achètes") - 0.08, at("sur") - 0.08, at("revends") - 0.08
 def scene6(img, t):
@@ -395,13 +384,13 @@ def scene8(img, t):
     coller(img, bloc(["JE T'ACCOMPAGNE", "GRATUITEMENT"], 52, RED, W_), CX, 1085,
            apparition(t, at("t'accompagne") - 0.08))
 
-SCENES = [(C2, scene1), (C3, scene2), (C4, scene3), (C5, scene4), (C6, scene5), (C7, scene6),
+SCENES = [(C2, scene1), (C4, scene2), (C5, scene4), (C6, scene5), (C7, scene6),
           (T_CTA, scene7), (DUREE + 1, scene8)]
 
 # ---------- sous-titres ----------
-ROUGES = {"apple", "2k25", "cadeau", "chance", "euro", "vingt", "euros", "gratuitement", "gratuit", "iphone",
+ROUGES = {"apple", "2k25", "cadeau", "chance", "gratuitement", "gratuit", "iphone",
           "revends", "dinguerie", "simple", "go"}
-COUPES = [2, 4, 3, 2, 5, 4, 4, 4, 5, 3, 3, 3, 6, 2, 5, 4, 3, 3, 5, 4, 4]  # mots par morceau (6 max)
+COUPES = [2, 4, 3, 2, 5, 4, 5, 3, 3, 3, 6, 2, 5, 4, 3, 3, 4, 4, 4]  # mots par morceau (6 max)
 MORCEAUX, k = [], 0
 for n in COUPES:
     MORCEAUX.append(MOTS[k:k + n])

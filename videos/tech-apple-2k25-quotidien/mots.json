@@ -1,1 +1,965 @@
-{"language_code":"fra","language_probability":1.0,"text":"Les gars, la tech Apple 2K25, personne n'en parle. Chaque jour, t'as une chance de gagner une carte cadeau Apple. Ça va d'un euro à vingt euros gratuitement. Tu cumules jour après jour sans rien payer. Et au bout de quelques mois, tu peux t'offrir un iPhone gratuit. Ou alors t'achètes ce que tu veux sur le site Apple et tu revends. [rire] C'est une dinguerie. Y a pas plus simple. Écris Go en commentaire et je t'accompagne gratuitement.","words":[{"text":"Les","start":0.14,"end":0.24,"type":"word","logprob":-0.0000423184028477408},{"text":" ","start":0.24,"end":0.3,"type":"spacing","logprob":-0.000016093124941107817},{"text":"gars,","start":0.3,"end":0.48,"type":"word","logprob":-0.000022029563842806966},{"text":" ","start":0.48,"end":0.7,"type":"spacing","logprob":-0.000013947389561508317},{"text":"la","start":0.7,"end":0.78,"type":"word","logprob":-0.000013947389561508317},{"text":" ","start":0.78,"end":0.86,"type":"spacing","logprob":-0.10036369413137436},{"text":"tech","start":0.86,"end":1.0,"type":"word","logprob":-0.10036369413137436},{"text":" ","start":1.0,"end":1.04,"type":"spacing","logprob":-7.748573807475623e-6},{"text":"Apple","start":1.04,"end":1.28,"type":"word","logprob":-7.748573807475623e-6},{"text":" ","start":1.28,"end":1.48,"type":"spacing","logprob":-0.000028490614567999728},{"text":"2K25,","start":1.48,"end":2.14,"type":"word","logprob":-0.023478664426873762},{"text":" ","start":2.14,"end":2.34,"type":"spacing","logprob":-0.00005411955135059543},{"text":"personne","start":2.34,"end":2.72,"type":"word","logprob":-0.00005411955135059543},{"text":" ","start":2.72,"end":2.74,"type":"spacing","logprob":0.0},{"text":"n'en","start":2.74,"end":2.84,"type":"word","logprob":-2.9802320611338473e-8},{"text":" ","start":2.84,"end":2.92,"type":"spacing","logprob":-4.6491513785440475e-6},{"text":"parle.","start":2.92,"end":3.24,"type":"word","logprob":-4.072974851017837e-6},{"text":" ","start":3.24,"end":3.24,"type":"spacing","logprob":-0.00002777537883957848},{"text":"Chaque","start":3.64,"end":3.82,"type":"word","logprob":-0.00002777537883957848},{"text":" ","start":3.82,"end":3.88,"type":"spacing","logprob":-9.775113539944869e-6},{"text":"jour,","start":3.88,"end":4.12,"type":"word","logprob":-8.296927444462198e-6},{"text":" ","start":4.12,"end":4.32,"type":"spacing","logprob":-0.6931473016738892},{"text":"t'as","start":4.32,"end":4.46,"type":"word","logprob":-0.17328926920299637},{"text":" ","start":4.46,"end":4.52,"type":"spacing","logprob":-5.960462772236497e-7},{"text":"une","start":4.52,"end":4.66,"type":"word","logprob":-5.960462772236497e-7},{"text":" ","start":4.66,"end":4.7,"type":"spacing","logprob":-7.748573807475623e-6},{"text":"chance","start":4.7,"end":4.94,"type":"word","logprob":-7.748573807475623e-6},{"text":" ","start":4.94,"end":4.96,"type":"spacing","logprob":0.0},{"text":"de","start":4.96,"end":5.04,"type":"word","logprob":0.0},{"text":" ","start":5.04,"end":5.06,"type":"spacing","logprob":-6.556489552167477e-6},{"text":"gagner","start":5.06,"end":5.26,"type":"word","logprob":-6.556489552167477e-6},{"text":" ","start":5.26,"end":5.28,"type":"spacing","logprob":-1.1920922133867862e-6},{"text":"une","start":5.28,"end":5.4,"type":"word","logprob":-1.1920922133867862e-6},{"text":" ","start":5.4,"end":5.44,"type":"spacing","logprob":-0.00008022463589441031},{"text":"carte","start":5.44,"end":5.6,"type":"word","logprob":-0.00008022463589441031},{"text":" ","start":5.6,"end":5.64,"type":"spacing","logprob":-0.0027386562433093786},{"text":"cadeau","start":5.64,"end":5.84,"type":"word","logprob":-0.0027386562433093786},{"text":" ","start":5.84,"end":5.88,"type":"spacing","logprob":-3.576278118089249e-7},{"text":"Apple.","start":5.88,"end":6.18,"type":"word","logprob":-3.1789139024832974e-7},{"text":" ","start":6.18,"end":6.18,"type":"spacing","logprob":-0.0005296258023008704},{"text":"Ça","start":6.6,"end":6.68,"type":"word","logprob":-0.0005296258023008704},{"text":" ","start":6.68,"end":6.74,"type":"spacing","logprob":-7.152555099310121e-7},{"text":"va","start":6.74,"end":6.84,"type":"word","logprob":-7.152555099310121e-7},{"text":" ","start":6.84,"end":6.96,"type":"spacing","logprob":-0.000024318398573086597},{"text":"d'un","start":6.96,"end":7.16,"type":"word","logprob":-0.00002789442668671427},{"text":" ","start":7.16,"end":7.2,"type":"spacing","logprob":-0.000052927523938706145},{"text":"euro","start":7.2,"end":7.44,"type":"word","logprob":-0.000052927523938706145},{"text":" ","start":7.44,"end":7.62,"type":"spacing","logprob":-2.3841855067985307e-7},{"text":"à","start":7.62,"end":7.66,"type":"word","logprob":-2.3841855067985307e-7},{"text":" ","start":7.66,"end":7.82,"type":"spacing","logprob":-0.000012636104656849056},{"text":"vingt","start":7.84,"end":8.0,"type":"word","logprob":-0.000012636104656849056},{"text":" ","start":8.0,"end":8.039,"type":"spacing","logprob":-0.0007438276661559939},{"text":"euros","start":8.039,"end":8.26,"type":"word","logprob":-0.0007438276661559939},{"text":" ","start":8.26,"end":8.56,"type":"spacing","logprob":-0.006306509021669626},{"text":"gratuitement.","start":8.56,"end":9.16,"type":"word","logprob":-0.005821392943079655},{"text":" ","start":9.16,"end":9.16,"type":"spacing","logprob":-7.867782187531702e-6},{"text":"Tu","start":9.52,"end":9.6,"type":"word","logprob":-7.867782187531702e-6},{"text":" ","start":9.6,"end":9.68,"type":"spacing","logprob":-0.0020461592357605696},{"text":"cumules","start":9.68,"end":10.12,"type":"word","logprob":-0.000892592678220743},{"text":" ","start":10.12,"end":10.26,"type":"spacing","logprob":-8.344646857949556e-7},{"text":"jour","start":10.26,"end":10.4,"type":"word","logprob":-8.344646857949556e-7},{"text":" ","start":10.4,"end":10.46,"type":"spacing","logprob":-0.000014185804502631072},{"text":"après","start":10.46,"end":10.66,"type":"word","logprob":-0.000014185804502631072},{"text":" ","start":10.66,"end":10.72,"type":"spacing","logprob":-2.3841830625315197e-6},{"text":"jour","start":10.72,"end":10.94,"type":"word","logprob":-2.3841830625315197e-6},{"text":" ","start":10.94,"end":11.26,"type":"spacing","logprob":-0.00012516192509792745},{"text":"sans","start":11.26,"end":11.4,"type":"word","logprob":-0.00012516192509792745},{"text":" ","start":11.4,"end":11.44,"type":"spacing","logprob":-1.1920928244535389e-7},{"text":"rien","start":11.44,"end":11.62,"type":"word","logprob":-1.1920928244535389e-7},{"text":" ","start":11.62,"end":11.68,"type":"spacing","logprob":-2.3841855067985307e-7},{"text":"payer.","start":11.68,"end":11.9,"type":"word","logprob":-0.00017232744719327306},{"text":" ","start":11.9,"end":12.22,"type":"spacing","logprob":-0.00010299152199877426},{"text":"Et","start":12.22,"end":12.28,"type":"word","logprob":-0.00010299152199877426},{"text":" ","start":12.28,"end":12.32,"type":"spacing","logprob":-3.576278118089249e-7},{"text":"au","start":12.32,"end":12.36,"type":"word","logprob":-3.576278118089249e-7},{"text":" ","start":12.36,"end":12.42,"type":"spacing","logprob":-4.0531076592742465e-6},{"text":"bout","start":12.42,"end":12.5,"type":"word","logprob":-4.0531076592742465e-6},{"text":" ","start":12.5,"end":12.52,"type":"spacing","logprob":0.0},{"text":"de","start":12.52,"end":12.64,"type":"word","logprob":0.0},{"text":" ","start":12.64,"end":12.7,"type":"spacing","logprob":-6.556489552167477e-6},{"text":"quelques","start":12.7,"end":12.98,"type":"word","logprob":-6.556489552167477e-6},{"text":" ","start":12.98,"end":13.02,"type":"spacing","logprob":-0.000010132738680113107},{"text":"mois,","start":13.02,"end":13.18,"type":"word","logprob":-8.130032800579556e-6},{"text":" ","start":13.18,"end":13.32,"type":"spacing","logprob":-1.1920928244535389e-7},{"text":"tu","start":13.32,"end":13.38,"type":"word","logprob":-1.1920928244535389e-7},{"text":" ","start":13.38,"end":13.44,"type":"spacing","logprob":-2.3841830625315197e-6},{"text":"peux","start":13.44,"end":13.52,"type":"word","logprob":-2.3841830625315197e-6},{"text":" ","start":13.52,"end":13.56,"type":"spacing","logprob":-1.9073468138230965e-6},{"text":"t'offrir","start":13.56,"end":13.82,"type":"word","logprob":-0.00003281098667784477},{"text":" ","start":13.82,"end":13.86,"type":"spacing","logprob":0.0},{"text":"un","start":13.86,"end":13.94,"type":"word","logprob":0.0},{"text":" ","start":13.94,"end":14.02,"type":"spacing","logprob":-0.000011205610462639015},{"text":"iPhone","start":14.02,"end":14.4,"type":"word","logprob":-0.000011205610462639015},{"text":" ","start":14.4,"end":14.64,"type":"spacing","logprob":-0.00006890059739816934},{"text":"gratuit.","start":14.64,"end":15.08,"type":"word","logprob":-0.0000857664108480094},{"text":" ","start":15.08,"end":15.08,"type":"spacing","logprob":-0.0000252720492426306},{"text":"Ou","start":15.44,"end":15.52,"type":"word","logprob":-0.0000252720492426306},{"text":" ","start":15.52,"end":15.58,"type":"spacing","logprob":-3.576278118089249e-7},{"text":"alors","start":15.58,"end":15.98,"type":"word","logprob":-3.576278118089249e-7},{"text":" ","start":15.98,"end":16.12,"type":"spacing","logprob":-0.0003968881501350552},{"text":"t'achètes","start":16.12,"end":16.46,"type":"word","logprob":-0.0001319361609704275},{"text":" ","start":16.46,"end":16.5,"type":"spacing","logprob":-4.410734163684538e-6},{"text":"ce","start":16.5,"end":16.56,"type":"word","logprob":-4.410734163684538e-6},{"text":" ","start":16.56,"end":16.58,"type":"spacing","logprob":-1.0728830375228426e-6},{"text":"que","start":16.58,"end":16.66,"type":"word","logprob":-1.0728830375228426e-6},{"text":" ","start":16.66,"end":16.72,"type":"spacing","logprob":-1.1920928244535389e-7},{"text":"tu","start":16.72,"end":16.82,"type":"word","logprob":-1.1920928244535389e-7},{"text":" ","start":16.82,"end":16.86,"type":"spacing","logprob":-5.8412379075889476e-6},{"text":"veux","start":16.86,"end":16.96,"type":"word","logprob":-5.8412379075889476e-6},{"text":" ","start":16.96,"end":17.02,"type":"spacing","logprob":0.0},{"text":"sur","start":17.02,"end":17.14,"type":"word","logprob":0.0},{"text":" ","start":17.14,"end":17.16,"type":"spacing","logprob":-1.1920922133867862e-6},{"text":"le","start":17.16,"end":17.22,"type":"word","logprob":-1.1920922133867862e-6},{"text":" ","start":17.22,"end":17.26,"type":"spacing","logprob":-2.3841855067985307e-7},{"text":"site","start":17.26,"end":17.38,"type":"word","logprob":-2.3841855067985307e-7},{"text":" ","start":17.38,"end":17.42,"type":"spacing","logprob":-7.152531907195225e-6},{"text":"Apple","start":17.42,"end":17.76,"type":"word","logprob":-7.152531907195225e-6},{"text":" ","start":17.76,"end":18.0,"type":"spacing","logprob":-2.50339189733495e-6},{"text":"et","start":18.0,"end":18.08,"type":"word","logprob":-2.50339189733495e-6},{"text":" ","start":18.08,"end":18.12,"type":"spacing","logprob":-1.1920928244535389e-7},{"text":"tu","start":18.12,"end":18.22,"type":"word","logprob":-1.1920928244535389e-7},{"text":" ","start":18.22,"end":18.26,"type":"spacing","logprob":-0.00013529339048545808},{"text":"revends.","start":18.26,"end":18.52,"type":"word","logprob":-0.00006007797605889209},{"text":" ","start":18.52,"end":18.8,"type":"spacing","logprob":-0.31326374411582947},{"text":"[rire]","start":18.8,"end":19.22,"type":"audio_event","logprob":-0.11744374609164272},{"text":" ","start":19.22,"end":19.62,"type":"spacing","logprob":-0.00038378025055862963},{"text":"C'est","start":19.62,"end":19.74,"type":"word","logprob":-0.00007942633360471518},{"text":" ","start":19.74,"end":19.78,"type":"spacing","logprob":-2.3841855067985307e-7},{"text":"une","start":19.78,"end":19.88,"type":"word","logprob":-2.3841855067985307e-7},{"text":" ","start":19.88,"end":20.0,"type":"spacing","logprob":-8.4638240878121e-6},{"text":"dinguerie.","start":20.0,"end":20.4,"type":"word","logprob":-0.00037967594325323263},{"text":" ","start":20.4,"end":20.78,"type":"spacing","logprob":-0.002805704018101096},{"text":"Y","start":20.78,"end":20.82,"type":"word","logprob":-0.002805704018101096},{"text":" ","start":20.82,"end":20.88,"type":"spacing","logprob":-4.768370445162873e-7},{"text":"a","start":20.88,"end":20.9,"type":"word","logprob":-4.768370445162873e-7},{"text":" ","start":20.9,"end":21.0,"type":"spacing","logprob":-1.311301275563892e-6},{"text":"pas","start":21.0,"end":21.12,"type":"word","logprob":-1.311301275563892e-6},{"text":" ","start":21.12,"end":21.14,"type":"spacing","logprob":-1.1920928244535389e-7},{"text":"plus","start":21.14,"end":21.3,"type":"word","logprob":-1.1920928244535389e-7},{"text":" ","start":21.3,"end":21.34,"type":"spacing","logprob":-2.145764938177308e-6},{"text":"simple.","start":21.34,"end":21.52,"type":"word","logprob":-1.8562569873584574e-6},{"text":" ","start":21.52,"end":21.84,"type":"spacing","logprob":-0.0008232779800891876},{"text":"Écris","start":21.84,"end":22.06,"type":"word","logprob":-0.0021719085052609444},{"text":" ","start":22.06,"end":22.2,"type":"spacing","logprob":-0.07973557710647583},{"text":"Go","start":22.2,"end":22.4,"type":"word","logprob":-0.07973557710647583},{"text":" ","start":22.4,"end":22.44,"type":"spacing","logprob":0.0},{"text":"en","start":22.44,"end":22.52,"type":"word","logprob":0.0},{"text":" ","start":22.52,"end":22.56,"type":"spacing","logprob":-5.245195097813848e-6},{"text":"commentaire","start":22.56,"end":23.02,"type":"word","logprob":-5.245195097813848e-6},{"text":" ","start":23.02,"end":23.2,"type":"spacing","logprob":0.0},{"text":"et","start":23.2,"end":23.24,"type":"word","logprob":0.0},{"text":" ","start":23.24,"end":23.28,"type":"spacing","logprob":-1.4305104514278355e-6},{"text":"je","start":23.28,"end":23.32,"type":"word","logprob":-1.4305104514278355e-6},{"text":" ","start":23.32,"end":23.34,"type":"spacing","logprob":0.0},{"text":"t'accompagne","start":23.34,"end":23.78,"type":"word","logprob":-0.00021579982853836555},{"text":" ","start":23.78,"end":23.82,"type":"spacing","logprob":-0.00005006664650863968},{"text":"gratuitement.","start":23.82,"end":24.26,"type":"word","logprob":-0.04870771787402471}],"transcription_id":"oHHribyQHHrPqZCjj3AP","audio_duration_secs":24.290625}
+{
+ "language_code": "fra",
+ "language_probability": 1.0,
+ "text": "Les gars, la tech Apple 2K25, personne n'en parle. Chaque jour, t'as une chance de gagner une carte cadeau Apple. Tu cumules jour après jour sans rien payer. Et au bout de quelques mois, tu peux t'offrir un iPhone gratuit. Ou alors t'achètes ce que tu veux sur le site Apple et tu revends. C'est une dinguerie. Y'a pas plus simple. Écris Go en commentaire et je t'accompagne gratuitement",
+ "words": [
+  {
+   "text": "Les",
+   "start": 0.14,
+   "end": 0.24,
+   "type": "word",
+   "logprob": -0.00010442188795423135
+  },
+  {
+   "text": " ",
+   "start": 0.24,
+   "end": 0.3,
+   "type": "spacing",
+   "logprob": -1.3351351299206726e-05
+  },
+  {
+   "text": "gars,",
+   "start": 0.3,
+   "end": 0.48,
+   "type": "word",
+   "logprob": -9.932929970091209e-05
+  },
+  {
+   "text": " ",
+   "start": 0.48,
+   "end": 0.7,
+   "type": "spacing",
+   "logprob": -2.539125671319198e-05
+  },
+  {
+   "text": "la",
+   "start": 0.7,
+   "end": 0.78,
+   "type": "word",
+   "logprob": -2.539125671319198e-05
+  },
+  {
+   "text": " ",
+   "start": 0.78,
+   "end": 0.86,
+   "type": "spacing",
+   "logprob": -0.08921905606985092
+  },
+  {
+   "text": "tech",
+   "start": 0.86,
+   "end": 1.0,
+   "type": "word",
+   "logprob": -0.08921905606985092
+  },
+  {
+   "text": " ",
+   "start": 1.0,
+   "end": 1.04,
+   "type": "spacing",
+   "logprob": -7.271740287251305e-06
+  },
+  {
+   "text": "Apple",
+   "start": 1.04,
+   "end": 1.28,
+   "type": "word",
+   "logprob": -7.271740287251305e-06
+  },
+  {
+   "text": " ",
+   "start": 1.28,
+   "end": 1.48,
+   "type": "spacing",
+   "logprob": -0.0001851148990681395
+  },
+  {
+   "text": "2K25,",
+   "start": 1.48,
+   "end": 2.14,
+   "type": "word",
+   "logprob": -0.010420348358206866
+  },
+  {
+   "text": " ",
+   "start": 2.14,
+   "end": 2.36,
+   "type": "spacing",
+   "logprob": -3.135155202471651e-05
+  },
+  {
+   "text": "personne",
+   "start": 2.36,
+   "end": 2.72,
+   "type": "word",
+   "logprob": -3.135155202471651e-05
+  },
+  {
+   "text": " ",
+   "start": 2.72,
+   "end": 2.74,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "n'en",
+   "start": 2.74,
+   "end": 2.84,
+   "type": "word",
+   "logprob": -2.9802320611338473e-08
+  },
+  {
+   "text": " ",
+   "start": 2.84,
+   "end": 2.92,
+   "type": "spacing",
+   "logprob": -3.933898824470816e-06
+  },
+  {
+   "text": "parle.",
+   "start": 2.94,
+   "end": 3.24,
+   "type": "word",
+   "logprob": -4.212052469180587e-06
+  },
+  {
+   "text": " ",
+   "start": 3.24,
+   "end": 3.24,
+   "type": "spacing",
+   "logprob": -2.002696055569686e-05
+  },
+  {
+   "text": "Chaque",
+   "start": 3.64,
+   "end": 3.82,
+   "type": "word",
+   "logprob": -2.002696055569686e-05
+  },
+  {
+   "text": " ",
+   "start": 3.82,
+   "end": 3.88,
+   "type": "spacing",
+   "logprob": -1.4066597032069694e-05
+  },
+  {
+   "text": "jour,",
+   "start": 3.88,
+   "end": 4.12,
+   "type": "word",
+   "logprob": -1.1920848555746488e-05
+  },
+  {
+   "text": " ",
+   "start": 4.12,
+   "end": 4.3,
+   "type": "spacing",
+   "logprob": -0.029750879853963852
+  },
+  {
+   "text": "t'as",
+   "start": 4.3,
+   "end": 4.46,
+   "type": "word"
+  },
+  {
+   "text": " ",
+   "start": 4.46,
+   "end": 4.52,
+   "type": "spacing",
+   "logprob": -4.768370445162873e-07
+  },
+  {
+   "text": "une",
+   "start": 4.52,
+   "end": 4.66,
+   "type": "word",
+   "logprob": -4.768370445162873e-07
+  },
+  {
+   "text": " ",
+   "start": 4.66,
+   "end": 4.7,
+   "type": "spacing",
+   "logprob": -1.0847986231965479e-05
+  },
+  {
+   "text": "chance",
+   "start": 4.7,
+   "end": 4.94,
+   "type": "word",
+   "logprob": -1.0847986231965479e-05
+  },
+  {
+   "text": " ",
+   "start": 4.94,
+   "end": 4.96,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "de",
+   "start": 4.96,
+   "end": 5.04,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 5.04,
+   "end": 5.06,
+   "type": "spacing",
+   "logprob": -1.6212332411669195e-05
+  },
+  {
+   "text": "gagner",
+   "start": 5.06,
+   "end": 5.26,
+   "type": "word",
+   "logprob": -1.6212332411669195e-05
+  },
+  {
+   "text": " ",
+   "start": 5.26,
+   "end": 5.28,
+   "type": "spacing",
+   "logprob": -2.622600959512056e-06
+  },
+  {
+   "text": "une",
+   "start": 5.28,
+   "end": 5.4,
+   "type": "word",
+   "logprob": -2.622600959512056e-06
+  },
+  {
+   "text": " ",
+   "start": 5.4,
+   "end": 5.44,
+   "type": "spacing",
+   "logprob": -0.0001591317413840443
+  },
+  {
+   "text": "carte",
+   "start": 5.44,
+   "end": 5.6,
+   "type": "word",
+   "logprob": -0.0001591317413840443
+  },
+  {
+   "text": " ",
+   "start": 5.6,
+   "end": 5.64,
+   "type": "spacing",
+   "logprob": -0.0021212236024439335
+  },
+  {
+   "text": "cadeau",
+   "start": 5.64,
+   "end": 5.84,
+   "type": "word",
+   "logprob": -0.0021212236024439335
+  },
+  {
+   "text": " ",
+   "start": 5.84,
+   "end": 5.88,
+   "type": "spacing",
+   "logprob": -2.50339189733495e-06
+  },
+  {
+   "text": "Apple.",
+   "start": 5.88,
+   "end": 6.18,
+   "type": "word",
+   "logprob": -2.086159914445792e-06
+  },
+  {
+   "text": " ",
+   "start": 6.18,
+   "end": 6.18,
+   "type": "spacing",
+   "logprob": -1.1324817933200393e-05
+  },
+  {
+   "text": "Tu",
+   "start": 6.5,
+   "end": 6.62,
+   "type": "word",
+   "logprob": -1.1324817933200393e-05
+  },
+  {
+   "text": " ",
+   "start": 6.62,
+   "end": 6.66,
+   "type": "spacing",
+   "logprob": -0.002100168028846383
+  },
+  {
+   "text": "cumules",
+   "start": 6.66,
+   "end": 7.1,
+   "type": "word",
+   "logprob": -0.0009171016572508961
+  },
+  {
+   "text": " ",
+   "start": 7.1,
+   "end": 7.22,
+   "type": "spacing",
+   "logprob": -9.536738616588991e-07
+  },
+  {
+   "text": "jour",
+   "start": 7.22,
+   "end": 7.38,
+   "type": "word",
+   "logprob": -9.536738616588991e-07
+  },
+  {
+   "text": " ",
+   "start": 7.38,
+   "end": 7.42,
+   "type": "spacing",
+   "logprob": -1.8000440832111053e-05
+  },
+  {
+   "text": "après",
+   "start": 7.42,
+   "end": 7.62,
+   "type": "word",
+   "logprob": -1.8000440832111053e-05
+  },
+  {
+   "text": " ",
+   "start": 7.62,
+   "end": 7.68,
+   "type": "spacing",
+   "logprob": -1.9073468138230965e-06
+  },
+  {
+   "text": "jour",
+   "start": 7.68,
+   "end": 7.92,
+   "type": "word",
+   "logprob": -1.9073468138230965e-06
+  },
+  {
+   "text": " ",
+   "start": 7.92,
+   "end": 8.24,
+   "type": "spacing",
+   "logprob": -0.0007231004419736564
+  },
+  {
+   "text": "sans",
+   "start": 8.24,
+   "end": 8.36,
+   "type": "word",
+   "logprob": -0.0007231004419736564
+  },
+  {
+   "text": " ",
+   "start": 8.36,
+   "end": 8.42,
+   "type": "spacing",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "rien",
+   "start": 8.42,
+   "end": 8.58,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": " ",
+   "start": 8.58,
+   "end": 8.66,
+   "type": "spacing",
+   "logprob": -9.536738616588991e-07
+  },
+  {
+   "text": "payer.",
+   "start": 8.66,
+   "end": 8.88,
+   "type": "word",
+   "logprob": -2.72372243822853e-05
+  },
+  {
+   "text": " ",
+   "start": 8.88,
+   "end": 8.88,
+   "type": "spacing",
+   "logprob": -3.635817120084539e-05
+  },
+  {
+   "text": "Et",
+   "start": 9.2,
+   "end": 9.24,
+   "type": "word",
+   "logprob": -3.635817120084539e-05
+  },
+  {
+   "text": " ",
+   "start": 9.24,
+   "end": 9.3,
+   "type": "spacing",
+   "logprob": -2.0265558760002023e-06
+  },
+  {
+   "text": "au",
+   "start": 9.3,
+   "end": 9.34,
+   "type": "word",
+   "logprob": -2.0265558760002023e-06
+  },
+  {
+   "text": " ",
+   "start": 9.34,
+   "end": 9.4,
+   "type": "spacing",
+   "logprob": -0.00023362292267847806
+  },
+  {
+   "text": "bout",
+   "start": 9.4,
+   "end": 9.46,
+   "type": "word",
+   "logprob": -0.00023362292267847806
+  },
+  {
+   "text": " ",
+   "start": 9.46,
+   "end": 9.5,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "de",
+   "start": 9.5,
+   "end": 9.62,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 9.62,
+   "end": 9.66,
+   "type": "spacing",
+   "logprob": -8.34461570775602e-06
+  },
+  {
+   "text": "quelques",
+   "start": 9.66,
+   "end": 9.94,
+   "type": "word",
+   "logprob": -8.34461570775602e-06
+  },
+  {
+   "text": " ",
+   "start": 9.94,
+   "end": 10.0,
+   "type": "spacing",
+   "logprob": -1.9073304429184645e-05
+  },
+  {
+   "text": "mois,",
+   "start": 10.0,
+   "end": 10.14,
+   "type": "word",
+   "logprob": -1.5354010952250973e-05
+  },
+  {
+   "text": " ",
+   "start": 10.14,
+   "end": 10.3,
+   "type": "spacing",
+   "logprob": -4.768370445162873e-07
+  },
+  {
+   "text": "tu",
+   "start": 10.3,
+   "end": 10.36,
+   "type": "word",
+   "logprob": -4.768370445162873e-07
+  },
+  {
+   "text": " ",
+   "start": 10.36,
+   "end": 10.4,
+   "type": "spacing",
+   "logprob": -3.3378546504536644e-06
+  },
+  {
+   "text": "peux",
+   "start": 10.4,
+   "end": 10.48,
+   "type": "word",
+   "logprob": -3.3378546504536644e-06
+  },
+  {
+   "text": " ",
+   "start": 10.48,
+   "end": 10.52,
+   "type": "spacing",
+   "logprob": -5.960462772236497e-07
+  },
+  {
+   "text": "t'offrir",
+   "start": 10.52,
+   "end": 10.8,
+   "type": "word",
+   "logprob": -4.248093873471248e-05
+  },
+  {
+   "text": " ",
+   "start": 10.8,
+   "end": 10.82,
+   "type": "spacing",
+   "logprob": -5.960462772236497e-07
+  },
+  {
+   "text": "un",
+   "start": 10.82,
+   "end": 10.92,
+   "type": "word",
+   "logprob": -5.960462772236497e-07
+  },
+  {
+   "text": " ",
+   "start": 10.92,
+   "end": 11.0,
+   "type": "spacing",
+   "logprob": -1.7404405298293568e-05
+  },
+  {
+   "text": "iPhone",
+   "start": 11.0,
+   "end": 11.38,
+   "type": "word",
+   "logprob": -1.7404405298293568e-05
+  },
+  {
+   "text": " ",
+   "start": 11.38,
+   "end": 11.62,
+   "type": "spacing",
+   "logprob": -0.00011967896716669202
+  },
+  {
+   "text": "gratuit.",
+   "start": 11.62,
+   "end": 12.06,
+   "type": "word",
+   "logprob": -0.00010476379974733163
+  },
+  {
+   "text": " ",
+   "start": 12.06,
+   "end": 12.06,
+   "type": "spacing",
+   "logprob": -1.4305012882687151e-05
+  },
+  {
+   "text": "Ou",
+   "start": 12.42,
+   "end": 12.48,
+   "type": "word",
+   "logprob": -1.4305012882687151e-05
+  },
+  {
+   "text": " ",
+   "start": 12.48,
+   "end": 12.56,
+   "type": "spacing",
+   "logprob": -2.3841830625315197e-06
+  },
+  {
+   "text": "alors",
+   "start": 12.56,
+   "end": 12.96,
+   "type": "word",
+   "logprob": -2.3841830625315197e-06
+  },
+  {
+   "text": " ",
+   "start": 12.96,
+   "end": 13.1,
+   "type": "spacing",
+   "logprob": -0.042490486055612564
+  },
+  {
+   "text": "t'achètes",
+   "start": 13.1,
+   "end": 13.44,
+   "type": "word"
+  },
+  {
+   "text": " ",
+   "start": 13.44,
+   "end": 13.48,
+   "type": "spacing",
+   "logprob": -1.4066597032069694e-05
+  },
+  {
+   "text": "ce",
+   "start": 13.48,
+   "end": 13.54,
+   "type": "word",
+   "logprob": -1.4066597032069694e-05
+  },
+  {
+   "text": " ",
+   "start": 13.54,
+   "end": 13.56,
+   "type": "spacing",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "que",
+   "start": 13.56,
+   "end": 13.64,
+   "type": "word",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": " ",
+   "start": 13.64,
+   "end": 13.7,
+   "type": "spacing",
+   "logprob": -7.152555099310121e-07
+  },
+  {
+   "text": "tu",
+   "start": 13.7,
+   "end": 13.8,
+   "type": "word",
+   "logprob": -7.152555099310121e-07
+  },
+  {
+   "text": " ",
+   "start": 13.8,
+   "end": 13.82,
+   "type": "spacing",
+   "logprob": -9.679325739853084e-05
+  },
+  {
+   "text": "veux",
+   "start": 13.82,
+   "end": 13.96,
+   "type": "word",
+   "logprob": -9.679325739853084e-05
+  },
+  {
+   "text": " ",
+   "start": 13.96,
+   "end": 14.0,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "sur",
+   "start": 14.0,
+   "end": 14.1,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 14.1,
+   "end": 14.14,
+   "type": "spacing",
+   "logprob": -1.0251946150674485e-05
+  },
+  {
+   "text": "le",
+   "start": 14.14,
+   "end": 14.2,
+   "type": "word",
+   "logprob": -1.0251946150674485e-05
+  },
+  {
+   "text": " ",
+   "start": 14.2,
+   "end": 14.24,
+   "type": "spacing",
+   "logprob": -3.2186455882765586e-06
+  },
+  {
+   "text": "site",
+   "start": 14.24,
+   "end": 14.36,
+   "type": "word",
+   "logprob": -3.2186455882765586e-06
+  },
+  {
+   "text": " ",
+   "start": 14.36,
+   "end": 14.4,
+   "type": "spacing",
+   "logprob": -1.0251946150674485e-05
+  },
+  {
+   "text": "Apple",
+   "start": 14.4,
+   "end": 14.72,
+   "type": "word",
+   "logprob": -1.0251946150674485e-05
+  },
+  {
+   "text": " ",
+   "start": 14.72,
+   "end": 14.98,
+   "type": "spacing",
+   "logprob": -1.680836794548668e-05
+  },
+  {
+   "text": "et",
+   "start": 14.98,
+   "end": 15.06,
+   "type": "word",
+   "logprob": -1.680836794548668e-05
+  },
+  {
+   "text": " ",
+   "start": 15.06,
+   "end": 15.1,
+   "type": "spacing",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "tu",
+   "start": 15.1,
+   "end": 15.2,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": " ",
+   "start": 15.2,
+   "end": 15.24,
+   "type": "spacing",
+   "logprob": -0.0001472126314183697
+  },
+  {
+   "text": "revends.",
+   "start": 15.24,
+   "end": 15.5,
+   "type": "word",
+   "logprob": -6.754276546416804e-05
+  },
+  {
+   "text": " ",
+   "start": 15.5,
+   "end": 15.5,
+   "type": "spacing",
+   "logprob": -0.22545486688613892
+  },
+  {
+   "text": "C'est",
+   "start": 16.6,
+   "end": 16.72,
+   "type": "word",
+   "logprob": -0.045091474056096106
+  },
+  {
+   "text": " ",
+   "start": 16.72,
+   "end": 16.74,
+   "type": "spacing",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "une",
+   "start": 16.74,
+   "end": 16.84,
+   "type": "word",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": " ",
+   "start": 16.84,
+   "end": 16.98,
+   "type": "spacing",
+   "logprob": -2.276871418871451e-05
+  },
+  {
+   "text": "dinguerie.",
+   "start": 16.98,
+   "end": 17.38,
+   "type": "word",
+   "logprob": -4.111388988690123e-05
+  },
+  {
+   "text": " ",
+   "start": 17.38,
+   "end": 17.76,
+   "type": "spacing",
+   "logprob": -0.0076529644429683685
+  },
+  {
+   "text": "Y'a",
+   "start": 17.76,
+   "end": 17.88,
+   "type": "word"
+  },
+  {
+   "text": " ",
+   "start": 17.88,
+   "end": 17.96,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "pas",
+   "start": 17.96,
+   "end": 18.08,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 18.08,
+   "end": 18.12,
+   "type": "spacing",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "plus",
+   "start": 18.12,
+   "end": 18.28,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": " ",
+   "start": 18.28,
+   "end": 18.32,
+   "type": "spacing",
+   "logprob": -3.576272320060525e-06
+  },
+  {
+   "text": "simple.",
+   "start": 18.32,
+   "end": 18.54,
+   "type": "word",
+   "logprob": -4.700237176231374e-06
+  },
+  {
+   "text": " ",
+   "start": 18.54,
+   "end": 18.82,
+   "type": "spacing",
+   "logprob": -0.0009273757459595799
+  },
+  {
+   "text": "Écris",
+   "start": 18.82,
+   "end": 19.04,
+   "type": "word",
+   "logprob": -0.007379120984114707
+  },
+  {
+   "text": " ",
+   "start": 19.04,
+   "end": 19.18,
+   "type": "spacing",
+   "logprob": -0.01118980161845684
+  },
+  {
+   "text": "Go",
+   "start": 19.18,
+   "end": 19.32,
+   "type": "word",
+   "logprob": -0.01118980161845684
+  },
+  {
+   "text": " ",
+   "start": 19.32,
+   "end": 19.42,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "en",
+   "start": 19.42,
+   "end": 19.48,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 19.48,
+   "end": 19.52,
+   "type": "spacing",
+   "logprob": -1.7762025890988298e-05
+  },
+  {
+   "text": "commentaire",
+   "start": 19.52,
+   "end": 20.0,
+   "type": "word",
+   "logprob": -1.7762025890988298e-05
+  },
+  {
+   "text": " ",
+   "start": 20.0,
+   "end": 20.16,
+   "type": "spacing",
+   "logprob": -1.6689286894688848e-06
+  },
+  {
+   "text": "et",
+   "start": 20.18,
+   "end": 20.22,
+   "type": "word",
+   "logprob": -1.6689286894688848e-06
+  },
+  {
+   "text": " ",
+   "start": 20.22,
+   "end": 20.24,
+   "type": "spacing",
+   "logprob": 0.0
+  },
+  {
+   "text": "je",
+   "start": 20.24,
+   "end": 20.3,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": " ",
+   "start": 20.3,
+   "end": 20.32,
+   "type": "spacing",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "t'accompagne",
+   "start": 20.32,
+   "end": 20.74,
+   "type": "word",
+   "logprob": -0.00023376045767520282
+  },
+  {
+   "text": " ",
+   "start": 20.74,
+   "end": 20.8,
+   "type": "spacing",
+   "logprob": -0.00011789103882620111
+  },
+  {
+   "text": "gratuitement",
+   "start": 20.8,
+   "end": 21.24,
+   "type": "word",
+   "logprob": -0.00011789103882620111
+  }
+ ],
+ "transcription_id": "BZ6BM7NhlvGCgDLDYcWY",
+ "audio_duration_secs": 21.2636875
+}

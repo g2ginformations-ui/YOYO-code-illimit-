@@ -157,7 +157,7 @@ def whoosh():
 
 def coupe(mot, n=1):
     return at(mot, n) - 0.15
-C2, C3, C4, C5, C6, C7 = coupe("chaque"), coupe("ça"), coupe("tu"), coupe("et"), coupe("ou"), coupe("c'est")
+C2, C4, C5, C6, C7 = coupe("chaque"), coupe("tu"), coupe("et"), coupe("ou"), coupe("c'est")
 T_CTA = coupe("écris")  # mêmes instants que rendu.py
 T_TEL = at("iphone") - 0.08
 STOPS = [at("carte") - 0.08 + k * 0.14 for k in range(3)]
@@ -167,12 +167,10 @@ for t0, x in [
     (at("personne") - 0.08, stamp()),
     (C2 - 0.1, whoosh()), (C2, glitch(0.12)), (C2 + 0.1, ppop()),
     *[(s0, click()) for s0 in STOPS], (STOPS[2] + 0.2, chime()),
-    (C3 - 0.1, whoosh()), (C3, glitch(0.12)), (C3 + 0.07, ppop()), (at("euro") - 0.08, ppop()),
-    (at("vingt") - 0.08, riseblips()), (at("gratuitement") - 0.08, stamp()),
     (C4 - 0.1, whoosh()), (C4, glitch(0.12)), (C4 + 0.1, ppop()), (at("cumules") - 0.08, riseblips()),
     (at("sans") - 0.08, stamp()),
     (C5 - 0.1, whoosh()), (C5, glitch(0.12)), (T_TEL, impact()), (T_TEL, glitch()), (T_TEL + 0.1, chime()),
-    (at("gratuit", 2) - 0.08, stamp()),
+    (at("gratuit") - 0.08, stamp()),
     (C6 - 0.1, whoosh()), (C6, glitch(0.12)), (C6 + 0.1, ppop()),
     (L1, typer(0.45)), (L2, typer(0.45)), (L3, typer(0.3)), (L3 + 0.1, riseblips()),
     (C7 - 0.1, whoosh()), (C7, glitch(0.12)), (C7, ppop()), (at("pas") - 0.08, stamp()),
