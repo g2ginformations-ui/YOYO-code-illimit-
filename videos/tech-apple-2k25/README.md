@@ -1,7 +1,7 @@
 # Tech Apple 2k25 — DA pixel noir et rouge
 
-Vidéo TikTok 9:16 (1080 × 1920, 30 i/s, 12 s) : la voix d'origine, posée sur le décor pixel
-(halo rouge, poussières, lignes de balayage, glitchs, tampons, chiptune).
+Vidéo TikTok 9:16 (1080 × 1920, 30 i/s, 15 s) : la voix d'origine (remontée et compressée), posée sur le décor pixel
+(halo rouge, poussières, lignes de balayage, glitchs, tampons, chiptune discrète), puis 3 s de fin « COMMENTE GO ».
 
 - `tech-apple-2k25.mp4` : la vidéo finie (−14 LUFS).
 - `mots.json` : transcription mot à mot de la voix (instants de chaque mot).

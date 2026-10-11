@@ -19,7 +19,9 @@ INK, RED, RED_D, W_, GREY = (7, 3, 3), (232, 38, 43), (142, 18, 22), (244, 241, 
 CASE_VIDE = (58, 37, 38)
 
 with wave.open(VOIX) as wf:
-    DUREE = wf.getnframes() / wf.getframerate()
+    FIN_VOIX = wf.getnframes() / wf.getframerate()
+CTA = 3.0  # secondes de fin « COMMENTE GO » après la voix (même valeur dans synth.py)
+DUREE = FIN_VOIX + CTA
 NF = int(round(DUREE * FPS))
 
 # ---------- mots ----------
@@ -144,19 +146,19 @@ def coller_tampon(fond, txt, size, cx, cy, t, t0):
     ech = [1.6, 1.4, 1.2, 1.0][k]
     coller(fond, tampon(txt, size), cx, cy, ech)
 
-def fenetre(titre, larg, haut):
+def fenetre(titre, larg, haut, barre=RED, titre_col=W_):
     im = Image.new("RGBA", (larg + 48, haut + 48), (0, 0, 0, 0))
     # lueur rouge simple, par paliers (pas de flou)
     d = ImageDraw.Draw(im)
     for k, a in ((20, 18), (12, 30), (4, 255)):
         col = (232, 38, 43, a) if k > 4 else INK + (255,)
         d.rectangle([24 - k, 24 - k, 24 + larg + k - 1, 24 + haut + k - 1], fill=col)
-    d.rectangle([24, 24, 24 + larg - 1, 24 + haut - 1], fill=(7, 3, 3, 235), outline=RED, width=4)
-    d.rectangle([24, 24, 24 + larg - 1, 24 + 56], fill=RED)
-    d.text((24 + 20, 24 + 12), titre, font=px(30), fill=W_)
+    d.rectangle([24, 24, 24 + larg - 1, 24 + haut - 1], fill=(7, 3, 3, 235), outline=barre, width=4)
+    d.rectangle([24, 24, 24 + larg - 1, 24 + 56], fill=barre)
+    d.text((24 + 20, 24 + 12), titre, font=px(30), fill=titre_col)
     for j in range(3):
         x = 24 + larg - 30 - j * 22
-        d.rectangle([x, 24 + 22, x + 11, 24 + 33], fill=W_)
+        d.rectangle([x, 24 + 22, x + 11, 24 + 33], fill=titre_col)
     return im
 
 def ligne(txt, size, t, t0, col):
@@ -248,7 +250,8 @@ def explosion(img, t, t0, cx, cy):
 # ---------- scènes (calées sur les mots) ----------
 T_CARTE, T_TU, T_CEST2 = at("carte"), at("tu"), at("c'est", 2)
 COUPE2, COUPE3, COUPE4 = T_CARTE - 0.15, T_TU - 0.15, T_CEST2 - 0.15
-GLITCHS = [0.0, at("explose"), COUPE2, at("gratuite"), COUPE3, COUPE4, at("pas", 1), at("pas", 2)]
+T_CTA = MOTS[-1]["e"] + 0.25  # la fin « COMMENTE GO » démarre juste après le dernier mot
+GLITCHS = [0.0, at("explose"), COUPE2, at("gratuite"), COUPE3, COUPE4, at("pas", 1), at("pas", 2), T_CTA]
 
 def scene1(img, t):
     coller(img, tag("LES GARS", 52, W_, INK), CX, 370, apparition(t, -0.2))
@@ -294,6 +297,25 @@ def scene4(img, t):
     else:
         coller_tampon(img, "PAS PLUS SIMPLE", 58, CX, 1050, t, p1)
 
+def scene5(img, t):
+    """CTA : commente « GO »."""
+    coller(img, tag("EN COMMENTAIRE", 52, W_, INK), CX, 370, apparition(t, T_CTA))
+    coller(img, texte_img("COMMENTE", px(100), W_), CX, 530, apparition(t, T_CTA))
+    s = apparition(t, T_CTA + 0.2)
+    if s and t > T_CTA + 0.6:  # « GO » qui bat, par demi-paliers
+        s *= 1.0 + 0.12 * (math.floor(t * 4) % 2)
+    coller(img, texte_img("« GO »", px(150), RED), CX, 720, s)
+    # fenêtre COMMENTAIRE : « GO » s'écrit, puis le curseur clignote à 2,5 Hz
+    win = fenetre("COMMENTAIRE", 800, 150, barre=W_, titre_col=INK)
+    d = ImageDraw.Draw(win)
+    n = 0 if t < T_CTA + 0.7 else min(2, int((t - T_CTA - 0.7) / 0.12) + 1)
+    f = px(56)
+    d.text((24 + 30, 24 + 76), "GO"[:n], font=f, fill=W_)
+    if math.floor(t * 5) % 2 == 0:
+        x = 24 + 30 + f.getlength("GO"[:n]) + 8
+        d.rectangle([x, 24 + 80, x + 26, 24 + 132], fill=RED)
+    coller(img, win, CX, 990, apparition(t, T_CTA + 0.35))
+
 # ---------- sous-titres ----------
 ROUGES = {"apple", "2k25", "dinguerie", "explose", "cadeau", "gratuite", "revends", "simple"}
 COUPES = [2, 4, 3, 4, 3, 3, 4, 5, 4, 3, 6, 3]  # nombre de mots par morceau (6 max, coupés à la ponctuation)
@@ -307,7 +329,7 @@ def sous_titres(img, t):
     for j, m in enumerate(MORCEAUX):
         debut = m[0]["s"] - 0.08
         fin = MORCEAUX[j + 1][0]["s"] - 0.08 if j + 1 < len(MORCEAUX) else DUREE
-        fin = min(fin, m[-1]["e"] + 0.7)
+        fin = min(fin, m[-1]["e"] + 0.7, T_CTA)
         if not (debut <= t < fin):
             continue
         f = pop(60)
@@ -345,9 +367,11 @@ def image(t):
         scene2(img, t)
     elif t < COUPE4:
         scene3(img, t)
-    else:
+    elif t < T_CTA:
         pluie(img, t, COUPE4 + 0.3)
         scene4(img, t)
+    else:
+        scene5(img, t)
     sous_titres(img, t)
     img.alpha_composite(BALAYAGE)
     for g in GLITCHS:
@@ -371,7 +395,7 @@ if STILLS:
 AUDIO = os.path.join(os.path.dirname(SORTIE), "mix.wav")
 cmd = ["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS),
        "-i", "-", "-i", AUDIO, "-c:v", "libx264", "-preset", "slow", "-b:v", "10M", "-maxrate", "12M",
-       "-bufsize", "20M", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k", "-shortest",
+       "-bufsize", "20M", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k",
        "-movflags", "+faststart", SORTIE]
 p = subprocess.Popen(cmd, stdin=subprocess.PIPE)
 for n in range(NF):

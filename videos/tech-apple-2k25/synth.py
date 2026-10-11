@@ -10,9 +10,26 @@ ICI = os.path.dirname(os.path.abspath(__file__))
 VOIX, SORTIE = sys.argv[1], sys.argv[2]
 SR = 44100
 
-with wave.open(VOIX) as wf:
-    assert wf.getframerate() == SR and wf.getnchannels() == 1
+CTA = 3.0  # secondes de fin « COMMENTE GO » après la voix (même valeur dans rendu.py)
+
+def lufs(f):
+    e = subprocess.run(["ffmpeg", "-hide_banner", "-i", f, "-af", "ebur128", "-f", "null", "-"],
+                       capture_output=True, text=True).stderr
+    return float(e[e.rindex("I:"):].split()[1])
+
+# La voix d'origine est très basse (≈ -33 LUFS) : on la nettoie, on la compresse et on la remonte
+# à -15 LUFS AVANT le mixage, pour qu'elle passe devant la musique et les bruitages.
+VOIX_PREP = SORTIE + ".voix.wav"
+chaine = "highpass=f=80,acompressor=threshold=-30dB:ratio=4:attack=5:release=120:makeup=1"
+subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", VOIX, "-af", chaine, "-ac", "1", "-ar", str(SR), VOIX_PREP], check=True)
+g = -15 - lufs(VOIX_PREP)
+subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", VOIX, "-af",
+                f"{chaine},volume={g:.2f}dB,alimiter=limit=0.89:level=false", "-ac", "1", "-ar", str(SR), VOIX_PREP], check=True)
+with wave.open(VOIX_PREP) as wf:
     voix = np.frombuffer(wf.readframes(wf.getnframes()), np.int16).astype(np.float32) / 32768
+os.remove(VOIX_PREP)
+FIN_VOIX = len(voix) / SR
+voix = np.concatenate([voix, np.zeros(int(CTA * SR), np.float32)])
 N = len(voix)
 DUREE = N / SR
 
@@ -58,10 +75,12 @@ BEAT = 0.5
 # A (tendu) : la m, fa, ré m, mi — puis C (majeur) : do, sol, la m, fa
 ACC = {"Am": (57, 60, 64), "F": (53, 57, 60), "Dm": (50, 53, 57), "E": (52, 56, 59),
        "C": (48, 52, 55), "G": (55, 59, 62)}
-GRILLE = ["Am", "F", "Dm", "E", "Am", "F", "C", "G", "Am", "F", "C", "G"]  # 1 accord = 2 temps
+GRILLE = ["Am", "F", "Dm", "E", "Am", "F", "C", "G", "Am", "F", "C", "G", "C", "G", "Am", "F"]  # 1 accord = 2 temps
 MELO = [76, 74, 72, 74, 76, 79, 76, 72]
 for b, nom in enumerate(GRILLE):
     t0 = b * 2 * BEAT
+    if t0 >= DUREE - 1.0:
+        break
     notes = ACC[nom]
     for k in range(8):  # arpège carré en doubles-croches
         n = notes[k % 3] + 12 * (k // 3 % 2)
@@ -91,6 +110,13 @@ def glitch(d=0.15):
     x = rng.uniform(-1, 1, int(d * SR))
     x = np.repeat(x[::40], 40)[: int(d * SR)]  # « bitcrush »
     return env(np.round(x * 4) / 4, r=0.02) * 0.25
+def ping():
+    out = np.zeros(int(0.3 * SR))
+    for k, n in enumerate((83, 88)):  # si puis mi
+        c = env(carre(hz(n), 0.12, 0.5), r=0.05) * 0.12
+        i = int(k * 0.1 * SR)
+        out[i:i + len(c)] += c
+    return out
 def impact():
     x = tt(0.6)
     return np.sin(2 * np.pi * (70 - 50 * x) * x) * np.exp(-x * 6) * 0.9
@@ -129,6 +155,7 @@ T_CARTE, T_TU, T_CEST2 = at("carte"), at("tu"), at("c'est", 2)
 C2, C3, C4 = T_CARTE - 0.15, T_TU - 0.15, T_CEST2 - 0.15
 L1, L2, L3 = at("dépenser") - 0.08, at("t'achètes") - 0.08, at("revends") - 0.08
 P1, P2 = at("pas", 1) - 0.08, at("pas", 2) - 0.08
+T_CTA = MOTS[-1]["end"] + 0.25  # même instant que rendu.py
 for t0, x in [
     (0.0, glitch()), (0.0, ppop()),
     (at("dinguerie") - 0.08, stamp()),
@@ -137,15 +164,18 @@ for t0, x in [
     (C3 - 0.1, whoosh()), (C3, glitch(0.12)), (C3 + 0.02, ppop()),
     (L1, typer(0.45)), (L2, typer(0.45)), (L3, typer(0.3)), (L3 + 0.1, riseblips()), (L3 + 0.5, chime()),
     (C4 - 0.1, whoosh()), (C4, glitch(0.12)), (C4, ppop()),
-    (P1, stamp()), (P1, glitch(0.12)), (P2, stamp()), (P2, glitch(0.12)), (P2 + 0.1, chime()),
+    (P1, stamp()), (P1, glitch(0.12)), (P2, stamp()), (P2, glitch(0.12)),
+    # fin « COMMENTE GO »
+    (T_CTA - 0.1, whoosh()), (T_CTA, glitch(0.12)), (T_CTA, ppop()), (T_CTA + 0.35, ping()),
+    (T_CTA + 0.7, typer(0.25)), (T_CTA + 1.0, chime()),
 ]:
     ajoute(sfx, t0, x)
 
 # ---------- mixage ----------
-# musique à 0,45, baissée de moitié sous la voix ; bruitages à 1,5
+# la voix devant : musique discrète (encore baissée sous la voix), bruitages légers
 ev = np.convolve(np.abs(voix), np.ones(int(0.15 * SR)) / int(0.15 * SR), mode="same")
 sous_voix = np.clip(ev / 0.02, 0, 1)
-mix = voix + musique * 0.45 * (1 - 0.5 * sous_voix) + sfx * 1.5
+mix = voix + musique * 0.16 * (1 - 0.6 * sous_voix) + sfx * 0.45
 fondu = int(0.8 * SR)
 mix[-fondu:] *= np.linspace(1, 0, fondu)
 mix = np.clip(mix / max(1.0, np.abs(mix).max()), -1, 1)
@@ -156,10 +186,6 @@ with wave.open(brut, "wb") as wf:
     wf.writeframes((mix * 32767).astype(np.int16).tobytes())
 
 # normalisation -14 LUFS : gain mesuré, puis limiteur à -1 dB de crête
-def lufs(f):
-    e = subprocess.run(["ffmpeg", "-hide_banner", "-i", f, "-af", "ebur128", "-f", "null", "-"],
-                       capture_output=True, text=True).stderr
-    return float(e[e.rindex("I:"):].split()[1])
 gain = -14 - lufs(brut)
 for _ in range(5):  # le limiteur mange un peu de volume : on rattrape
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", brut, "-af",
