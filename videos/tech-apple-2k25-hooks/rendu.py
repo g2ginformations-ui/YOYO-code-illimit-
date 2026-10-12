@@ -7,6 +7,9 @@ import json, math, os, subprocess, sys, wave
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from tag_marque import tag_mobile, signature  # tag anti-copie (videos/marque.json)
+
 ICI = os.path.dirname(os.path.abspath(__file__))
 VOIX, POLICES, SORTIE = sys.argv[1], sys.argv[2], sys.argv[3]
 VARIANTE = sys.argv[sys.argv.index("--variante") + 1] if "--variante" in sys.argv else "A"
@@ -483,6 +486,9 @@ def image(t):
             scene(img, t)
             break
     rappel_cta(img, t, RAPPEL)
+    police_px = os.path.join(POLICES, "silkscreen-latin-700-normal.woff")
+    tag_mobile(img, t, police_px, T_CTA)
+    signature(img, t, police_px, at("t'accompagne") + 0.3)
     sous_titres(img, t)
     img.alpha_composite(BALAYAGE)
     for g in GLITCHS:
