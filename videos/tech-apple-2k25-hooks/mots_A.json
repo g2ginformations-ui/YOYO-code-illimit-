@@ -1,0 +1,260 @@
+{
+ "language_code": "fra",
+ "language_probability": 1.0,
+ "text": "L'iPhone 18 Pro, tu peux l'avoir gratuit grâce à la tech Apple 2K25. Il te faut juste deux choses. T'es majeur et t'as un PC ou un iPhone. C'est tout. Commente Go et je t'accompagne gratuitement",
+ "words": [
+  {
+   "text": "L'iPhone",
+   "start": 0.18,
+   "end": 0.54,
+   "type": "word",
+   "logprob": -7.050775181483004e-05
+  },
+  {
+   "text": "18",
+   "start": 0.56,
+   "end": 0.86,
+   "type": "word",
+   "logprob": -2.3364630123978714e-05
+  },
+  {
+   "text": "Pro,",
+   "start": 0.9,
+   "end": 1.1,
+   "type": "word",
+   "logprob": -0.004669487403589301
+  },
+  {
+   "text": "tu",
+   "start": 1.38,
+   "end": 1.44,
+   "type": "word",
+   "logprob": -1.823885577323381e-05
+  },
+  {
+   "text": "peux",
+   "start": 1.5,
+   "end": 1.58,
+   "type": "word",
+   "logprob": -7.033323527139146e-06
+  },
+  {
+   "text": "l'avoir",
+   "start": 1.6,
+   "end": 1.88,
+   "type": "word",
+   "logprob": -4.938653351668368e-06
+  },
+  {
+   "text": "gratuit",
+   "start": 1.92,
+   "end": 2.32,
+   "type": "word",
+   "logprob": -4.792098479811102e-05
+  },
+  {
+   "text": "grâce",
+   "start": 2.74,
+   "end": 2.96,
+   "type": "word",
+   "logprob": -0.002940618433058262
+  },
+  {
+   "text": "à",
+   "start": 3.0,
+   "end": 3.02,
+   "type": "word",
+   "logprob": -4.768370445162873e-07
+  },
+  {
+   "text": "la",
+   "start": 3.06,
+   "end": 3.12,
+   "type": "word",
+   "logprob": -3.2186455882765586e-06
+  },
+  {
+   "text": "tech",
+   "start": 3.18,
+   "end": 3.42,
+   "type": "word",
+   "logprob": -0.006838489323854446
+  },
+  {
+   "text": "Apple",
+   "start": 3.48,
+   "end": 3.76,
+   "type": "word",
+   "logprob": -0.00014828535495325923
+  },
+  {
+   "text": "2K25.",
+   "start": 3.96,
+   "end": 4.6,
+   "type": "word",
+   "logprob": -0.0008045852168322654
+  },
+  {
+   "text": "Il",
+   "start": 4.92,
+   "end": 4.96,
+   "type": "word",
+   "logprob": -1.585470999998506e-05
+  },
+  {
+   "text": "te",
+   "start": 5.0,
+   "end": 5.12,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "faut",
+   "start": 5.14,
+   "end": 5.26,
+   "type": "word",
+   "logprob": -8.34461570775602e-06
+  },
+  {
+   "text": "juste",
+   "start": 5.32,
+   "end": 5.72,
+   "type": "word",
+   "logprob": -8.344646857949556e-07
+  },
+  {
+   "text": "deux",
+   "start": 5.74,
+   "end": 5.9,
+   "type": "word",
+   "logprob": -0.00012134769349358976
+  },
+  {
+   "text": "choses.",
+   "start": 5.92,
+   "end": 6.18,
+   "type": "word",
+   "logprob": -6.1136589205749e-06
+  },
+  {
+   "text": "T'es",
+   "start": 6.46,
+   "end": 6.56,
+   "type": "word",
+   "logprob": -0.00017931622255495938
+  },
+  {
+   "text": "majeur",
+   "start": 6.6,
+   "end": 7.0,
+   "type": "word",
+   "logprob": -0.00020740265608765185
+  },
+  {
+   "text": "et",
+   "start": 7.24,
+   "end": 7.28,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "t'as",
+   "start": 7.34,
+   "end": 7.42,
+   "type": "word",
+   "logprob": -0.0003758230304384824
+  },
+  {
+   "text": "un",
+   "start": 7.46,
+   "end": 7.54,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "PC",
+   "start": 7.58,
+   "end": 7.98,
+   "type": "word",
+   "logprob": -1.2278481335670222e-05
+  },
+  {
+   "text": "ou",
+   "start": 8.02,
+   "end": 8.08,
+   "type": "word",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "un",
+   "start": 8.14,
+   "end": 8.2,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "iPhone.",
+   "start": 8.26,
+   "end": 8.62,
+   "type": "word",
+   "logprob": -9.076894197538163e-06
+  },
+  {
+   "text": "C'est",
+   "start": 9.02,
+   "end": 9.2,
+   "type": "word",
+   "logprob": -1.2159339121353697e-06
+  },
+  {
+   "text": "tout.",
+   "start": 9.24,
+   "end": 9.38,
+   "type": "word",
+   "logprob": -1.382826440021745e-06
+  },
+  {
+   "text": "Commente",
+   "start": 9.88,
+   "end": 10.14,
+   "type": "word"
+  },
+  {
+   "text": "Go",
+   "start": 10.18,
+   "end": 10.32,
+   "type": "word",
+   "logprob": -7.986703712958843e-05
+  },
+  {
+   "text": "et",
+   "start": 10.58,
+   "end": 10.64,
+   "type": "word",
+   "logprob": -0.00012778419477399439
+  },
+  {
+   "text": "je",
+   "start": 10.66,
+   "end": 10.72,
+   "type": "word",
+   "logprob": -9.7508447652217e-05
+  },
+  {
+   "text": "t'accompagne",
+   "start": 10.74,
+   "end": 11.16,
+   "type": "word",
+   "logprob": -0.0004503657983126648
+  },
+  {
+   "text": "gratuitement",
+   "start": 11.2,
+   "end": 11.64,
+   "type": "word",
+   "logprob": -5.638440416078083e-05
+  }
+ ],
+ "transcription_id": "sQiYZ36gSXXW9sLGgvxy",
+ "audio_duration_secs": 11.67575
+}
