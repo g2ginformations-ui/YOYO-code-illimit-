@@ -1,0 +1,9 @@
+[mysterious] Laisse-moi lire dans ta tête.
+[mysterious] T'es quelqu'un de généreux, mais on a déjà profité de toi.
+[mysterious] T'as des grands projets, mais tu sais pas par où commencer.
+[laughs] Je t'ai eu. Ça, ça marche sur tout le monde. C'est l'effet Barnum.
+[confident] Mais un truc, je le sais vraiment : t'as un PC ou un iPhone.
+[amused] Tu me regardes dessus.
+[excited] Et si t'es majeur, la tech Apple deux K vingt-cinq est faite pour toi.
+[excited] L'iPhone 18 Pro, tu peux l'avoir gratuit.
+[confident] Commente go, et je t'accompagne gratuitement.
