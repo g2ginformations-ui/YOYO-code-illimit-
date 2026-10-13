@@ -1,0 +1,6 @@
+[excited] La tech Apple deux K vingt-cinq, c'est un jeu. Et tu peux le finir en trois niveaux.
+[confident] Niveau un : t'es majeur.
+[confident] Niveau deux : t'as un PC ou un iPhone.
+[playful] Niveau trois : tu commentes go.
+[excited] Et la récompense ? L'iPhone 18 Pro, tu peux l'avoir gratuit.
+[confident] Commente go, et je t'accompagne gratuitement.
