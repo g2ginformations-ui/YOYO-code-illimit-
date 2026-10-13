@@ -1,0 +1,274 @@
+{
+ "language_code": "fra",
+ "language_probability": 1.0,
+ "text": "Dans trois secondes, tu sais si la tech Apple 2K25 est faite pour toi. Trois: t'es majeur. Deux: t'as un PC ou un iPhone? Un: l'iPhone 18 Pro, tu peux l'avoir gratuit. Commente Go et je t'accompagne gratuitement",
+ "words": [
+  {
+   "text": "Dans",
+   "start": 0.18,
+   "end": 0.32,
+   "type": "word",
+   "logprob": -0.0003233625029679388
+  },
+  {
+   "text": "trois",
+   "start": 0.36,
+   "end": 0.54,
+   "type": "word",
+   "logprob": -0.0002935693773906678
+  },
+  {
+   "text": "secondes,",
+   "start": 0.6,
+   "end": 1.0,
+   "type": "word",
+   "logprob": -1.2768462006028534e-05
+  },
+  {
+   "text": "tu",
+   "start": 1.24,
+   "end": 1.34,
+   "type": "word",
+   "logprob": -1.7881377516459906e-06
+  },
+  {
+   "text": "sais",
+   "start": 1.4,
+   "end": 1.56,
+   "type": "word",
+   "logprob": -6.544376083184034e-05
+  },
+  {
+   "text": "si",
+   "start": 1.6,
+   "end": 1.68,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "la",
+   "start": 1.7,
+   "end": 1.76,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "tech",
+   "start": 1.84,
+   "end": 2.02,
+   "type": "word",
+   "logprob": -0.006808415986597538
+  },
+  {
+   "text": "Apple",
+   "start": 2.08,
+   "end": 2.32,
+   "type": "word",
+   "logprob": -4.124556289752945e-05
+  },
+  {
+   "text": "2K25",
+   "start": 2.46,
+   "end": 3.14,
+   "type": "word",
+   "logprob": -0.0025809111494634607
+  },
+  {
+   "text": "est",
+   "start": 3.32,
+   "end": 3.42,
+   "type": "word",
+   "logprob": -2.0265558760002023e-06
+  },
+  {
+   "text": "faite",
+   "start": 3.48,
+   "end": 3.64,
+   "type": "word",
+   "logprob": -0.0002520958660170436
+  },
+  {
+   "text": "pour",
+   "start": 3.66,
+   "end": 3.8,
+   "type": "word",
+   "logprob": -4.768370445162873e-07
+  },
+  {
+   "text": "toi.",
+   "start": 3.84,
+   "end": 4.019,
+   "type": "word",
+   "logprob": -1.9967530402453804e-06
+  },
+  {
+   "text": "Trois:",
+   "start": 4.54,
+   "end": 4.78,
+   "type": "word",
+   "logprob": -0.00041309406515210867
+  },
+  {
+   "text": "t'es",
+   "start": 5.22,
+   "end": 5.32,
+   "type": "word",
+   "logprob": -0.010950299910973627
+  },
+  {
+   "text": "majeur.",
+   "start": 5.36,
+   "end": 5.78,
+   "type": "word",
+   "logprob": -0.0006073096132500463
+  },
+  {
+   "text": "Deux:",
+   "start": 6.22,
+   "end": 6.36,
+   "type": "word",
+   "logprob": -0.00012814177898690104
+  },
+  {
+   "text": "t'as",
+   "start": 6.76,
+   "end": 6.84,
+   "type": "word",
+   "logprob": -5.006751962355338e-06
+  },
+  {
+   "text": "un",
+   "start": 6.88,
+   "end": 6.98,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "PC",
+   "start": 7.0,
+   "end": 7.38,
+   "type": "word",
+   "logprob": -7.271740287251305e-06
+  },
+  {
+   "text": "ou",
+   "start": 7.48,
+   "end": 7.54,
+   "type": "word",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "un",
+   "start": 7.6,
+   "end": 7.66,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "iPhone?",
+   "start": 7.72,
+   "end": 8.08,
+   "type": "word",
+   "logprob": -1.1444026313256472e-05
+  },
+  {
+   "text": "Un:",
+   "start": 8.44,
+   "end": 8.56,
+   "type": "word",
+   "logprob": -4.3748852476710454e-05
+  },
+  {
+   "text": "l'iPhone",
+   "start": 8.96,
+   "end": 9.26,
+   "type": "word",
+   "logprob": -3.205177608833765e-05
+  },
+  {
+   "text": "18",
+   "start": 9.3,
+   "end": 9.56,
+   "type": "word",
+   "logprob": -1.1920927533992653e-07
+  },
+  {
+   "text": "Pro,",
+   "start": 9.6,
+   "end": 9.78,
+   "type": "word",
+   "logprob": -4.023205747216707e-05
+  },
+  {
+   "text": "tu",
+   "start": 10.04,
+   "end": 10.1,
+   "type": "word",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "peux",
+   "start": 10.16,
+   "end": 10.24,
+   "type": "word",
+   "logprob": -1.2159273865108844e-05
+  },
+  {
+   "text": "l'avoir",
+   "start": 10.26,
+   "end": 10.48,
+   "type": "word",
+   "logprob": -5.279249048076703e-06
+  },
+  {
+   "text": "gratuit.",
+   "start": 10.58,
+   "end": 11.02,
+   "type": "word",
+   "logprob": -3.656668876317326e-05
+  },
+  {
+   "text": "Commente",
+   "start": 11.38,
+   "end": 11.64,
+   "type": "word"
+  },
+  {
+   "text": "Go",
+   "start": 11.68,
+   "end": 11.8,
+   "type": "word",
+   "logprob": -0.00013290952483657748
+  },
+  {
+   "text": "et",
+   "start": 12.06,
+   "end": 12.12,
+   "type": "word",
+   "logprob": -3.3378546504536644e-06
+  },
+  {
+   "text": "je",
+   "start": 12.14,
+   "end": 12.2,
+   "type": "word",
+   "logprob": -7.986990567587782e-06
+  },
+  {
+   "text": "t'accompagne",
+   "start": 12.22,
+   "end": 12.64,
+   "type": "word",
+   "logprob": -0.0007833005832461973
+  },
+  {
+   "text": "gratuitement",
+   "start": 12.68,
+   "end": 13.12,
+   "type": "word",
+   "logprob": -3.5523738915799186e-05
+  }
+ ],
+ "transcription_id": "LkMENFha9PV981MXbszJ",
+ "audio_duration_secs": 13.1660625
+}

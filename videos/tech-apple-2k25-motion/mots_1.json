@@ -1,0 +1,239 @@
+{
+ "language_code": "fra",
+ "language_probability": 1.0,
+ "text": "Un iPhone 18 Pro gratuit grâce à la tech Apple 2K25. Il te faut deux choses: être majeur et avoir un PC ou un iPhone. C'est tout. Commente Go et je t'accompagne gratuitement",
+ "words": [
+  {
+   "text": "Un",
+   "start": 0.16,
+   "end": 0.26,
+   "type": "word",
+   "logprob": -0.00038485272671096027
+  },
+  {
+   "text": "iPhone",
+   "start": 0.34,
+   "end": 0.64,
+   "type": "word",
+   "logprob": -0.00031418632715940475
+  },
+  {
+   "text": "18",
+   "start": 0.7,
+   "end": 1.1,
+   "type": "word",
+   "logprob": -0.00010280754190716834
+  },
+  {
+   "text": "Pro",
+   "start": 1.14,
+   "end": 1.34,
+   "type": "word",
+   "logprob": -0.16046904027462006
+  },
+  {
+   "text": "gratuit",
+   "start": 1.72,
+   "end": 2.18,
+   "type": "word",
+   "logprob": -0.0007400158210657537
+  },
+  {
+   "text": "grâce",
+   "start": 2.62,
+   "end": 2.84,
+   "type": "word",
+   "logprob": -0.0006482883472926915
+  },
+  {
+   "text": "à",
+   "start": 2.86,
+   "end": 2.9,
+   "type": "word",
+   "logprob": -3.4570634852570947e-06
+  },
+  {
+   "text": "la",
+   "start": 2.92,
+   "end": 2.98,
+   "type": "word",
+   "logprob": -4.0531076592742465e-06
+  },
+  {
+   "text": "tech",
+   "start": 3.06,
+   "end": 3.26,
+   "type": "word",
+   "logprob": -0.0032221563160419464
+  },
+  {
+   "text": "Apple",
+   "start": 3.32,
+   "end": 3.62,
+   "type": "word",
+   "logprob": -2.2649508537142538e-05
+  },
+  {
+   "text": "2K25.",
+   "start": 3.86,
+   "end": 4.54,
+   "type": "word",
+   "logprob": -0.00035389447343732173
+  },
+  {
+   "text": "Il",
+   "start": 4.88,
+   "end": 4.92,
+   "type": "word",
+   "logprob": -2.47952248173533e-05
+  },
+  {
+   "text": "te",
+   "start": 4.98,
+   "end": 5.04,
+   "type": "word",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "faut",
+   "start": 5.14,
+   "end": 5.24,
+   "type": "word",
+   "logprob": -2.7418097943154862e-06
+  },
+  {
+   "text": "deux",
+   "start": 5.38,
+   "end": 5.54,
+   "type": "word",
+   "logprob": -1.6689286894688848e-06
+  },
+  {
+   "text": "choses:",
+   "start": 5.58,
+   "end": 5.84,
+   "type": "word",
+   "logprob": -8.4638240878121e-06
+  },
+  {
+   "text": "être",
+   "start": 6.18,
+   "end": 6.4,
+   "type": "word",
+   "logprob": -1.0251946150674485e-05
+  },
+  {
+   "text": "majeur",
+   "start": 6.44,
+   "end": 6.88,
+   "type": "word",
+   "logprob": -0.000501030299346894
+  },
+  {
+   "text": "et",
+   "start": 7.2,
+   "end": 7.26,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "avoir",
+   "start": 7.3,
+   "end": 7.5,
+   "type": "word",
+   "logprob": -3.099436753473128e-06
+  },
+  {
+   "text": "un",
+   "start": 7.54,
+   "end": 7.62,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "PC",
+   "start": 7.66,
+   "end": 8.08,
+   "type": "word",
+   "logprob": -3.361645576660521e-05
+  },
+  {
+   "text": "ou",
+   "start": 8.119,
+   "end": 8.2,
+   "type": "word",
+   "logprob": -7.152555099310121e-07
+  },
+  {
+   "text": "un",
+   "start": 8.26,
+   "end": 8.34,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "iPhone.",
+   "start": 8.38,
+   "end": 8.76,
+   "type": "word",
+   "logprob": -9.093921562453033e-06
+  },
+  {
+   "text": "C'est",
+   "start": 9.14,
+   "end": 9.26,
+   "type": "word",
+   "logprob": -5.006787944239477e-07
+  },
+  {
+   "text": "tout.",
+   "start": 9.34,
+   "end": 9.52,
+   "type": "word",
+   "logprob": -2.5272329366998747e-06
+  },
+  {
+   "text": "Commente",
+   "start": 9.88,
+   "end": 10.14,
+   "type": "word"
+  },
+  {
+   "text": "Go",
+   "start": 10.18,
+   "end": 10.3,
+   "type": "word",
+   "logprob": -9.405170567333698e-05
+  },
+  {
+   "text": "et",
+   "start": 10.6,
+   "end": 10.68,
+   "type": "word",
+   "logprob": -0.0017218063585460186
+  },
+  {
+   "text": "je",
+   "start": 10.7,
+   "end": 10.76,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "t'accompagne",
+   "start": 10.78,
+   "end": 11.22,
+   "type": "word",
+   "logprob": -0.0003142535521565293
+  },
+  {
+   "text": "gratuitement",
+   "start": 11.26,
+   "end": 11.7,
+   "type": "word",
+   "logprob": -3.0874729418428615e-05
+  }
+ ],
+ "transcription_id": "trdaUg5TLsGs9oNNuTXy",
+ "audio_duration_secs": 11.73025
+}

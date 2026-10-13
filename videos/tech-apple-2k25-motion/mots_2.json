@@ -1,0 +1,267 @@
+{
+ "language_code": "fra",
+ "language_probability": 1.0,
+ "text": "Vérifie si tu es éligible à la tech Apple 2K25. Tu es majeur? Tu as un PC ou un iPhone? Félicitations, tu es éligible. L'iPhone 18 Pro, tu peux l'avoir gratuit. Commente Go et je t'accompagne gratuitement",
+ "words": [
+  {
+   "text": "Vérifie",
+   "start": 0.22,
+   "end": 0.56,
+   "type": "word",
+   "logprob": -2.6463700383568982e-05
+  },
+  {
+   "text": "si",
+   "start": 0.6,
+   "end": 0.68,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "tu",
+   "start": 0.72,
+   "end": 0.76,
+   "type": "word",
+   "logprob": -0.11282703280448914
+  },
+  {
+   "text": "es",
+   "start": 0.76,
+   "end": 0.84,
+   "type": "word",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "éligible",
+   "start": 0.88,
+   "end": 1.24,
+   "type": "word",
+   "logprob": -5.820142018819752e-05
+  },
+  {
+   "text": "à",
+   "start": 1.28,
+   "end": 1.3,
+   "type": "word",
+   "logprob": -4.768370445162873e-07
+  },
+  {
+   "text": "la",
+   "start": 1.34,
+   "end": 1.4,
+   "type": "word",
+   "logprob": -8.940656698541716e-06
+  },
+  {
+   "text": "tech",
+   "start": 1.46,
+   "end": 1.64,
+   "type": "word",
+   "logprob": -0.009946780279278755
+  },
+  {
+   "text": "Apple",
+   "start": 1.7,
+   "end": 1.94,
+   "type": "word",
+   "logprob": -3.802703940891661e-05
+  },
+  {
+   "text": "2K25.",
+   "start": 2.12,
+   "end": 2.78,
+   "type": "word",
+   "logprob": -0.01269118932474953
+  },
+  {
+   "text": "Tu",
+   "start": 3.08,
+   "end": 3.1,
+   "type": "word",
+   "logprob": -0.0036303584929555655
+  },
+  {
+   "text": "es",
+   "start": 3.12,
+   "end": 3.16,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "majeur?",
+   "start": 3.2,
+   "end": 3.56,
+   "type": "word",
+   "logprob": -0.0005981324939057231
+  },
+  {
+   "text": "Tu",
+   "start": 4.14,
+   "end": 4.18,
+   "type": "word",
+   "logprob": -1.2278481335670222e-05
+  },
+  {
+   "text": "as",
+   "start": 4.2,
+   "end": 4.24,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "un",
+   "start": 4.28,
+   "end": 4.36,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "PC",
+   "start": 4.38,
+   "end": 4.74,
+   "type": "word",
+   "logprob": -9.97731985989958e-05
+  },
+  {
+   "text": "ou",
+   "start": 4.8,
+   "end": 4.98,
+   "type": "word",
+   "logprob": -2.861018856492592e-06
+  },
+  {
+   "text": "un",
+   "start": 5.04,
+   "end": 5.12,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "iPhone?",
+   "start": 5.16,
+   "end": 5.5,
+   "type": "word",
+   "logprob": -2.8132995794294402e-05
+  },
+  {
+   "text": "Félicitations,",
+   "start": 5.88,
+   "end": 6.56,
+   "type": "word",
+   "logprob": -3.513120252916581e-05
+  },
+  {
+   "text": "tu",
+   "start": 6.76,
+   "end": 6.78,
+   "type": "word",
+   "logprob": -1.6689286894688848e-06
+  },
+  {
+   "text": "es",
+   "start": 6.8,
+   "end": 6.88,
+   "type": "word",
+   "logprob": -4.768370445162873e-07
+  },
+  {
+   "text": "éligible.",
+   "start": 6.94,
+   "end": 7.44,
+   "type": "word",
+   "logprob": -9.65583143950097e-06
+  },
+  {
+   "text": "L'iPhone",
+   "start": 7.86,
+   "end": 8.18,
+   "type": "word",
+   "logprob": -3.012954764525233e-05
+  },
+  {
+   "text": "18",
+   "start": 8.22,
+   "end": 8.5,
+   "type": "word",
+   "logprob": -8.940692453052179e-07
+  },
+  {
+   "text": "Pro,",
+   "start": 8.54,
+   "end": 8.72,
+   "type": "word",
+   "logprob": -2.0503718131337223e-05
+  },
+  {
+   "text": "tu",
+   "start": 9.02,
+   "end": 9.08,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "peux",
+   "start": 9.12,
+   "end": 9.2,
+   "type": "word",
+   "logprob": -2.13382354559144e-05
+  },
+  {
+   "text": "l'avoir",
+   "start": 9.22,
+   "end": 9.5,
+   "type": "word",
+   "logprob": -6.471332198998425e-06
+  },
+  {
+   "text": "gratuit.",
+   "start": 9.54,
+   "end": 9.98,
+   "type": "word",
+   "logprob": -4.4121227347204695e-05
+  },
+  {
+   "text": "Commente",
+   "start": 10.36,
+   "end": 10.6,
+   "type": "word"
+  },
+  {
+   "text": "Go",
+   "start": 10.66,
+   "end": 10.78,
+   "type": "word",
+   "logprob": -0.002558888401836157
+  },
+  {
+   "text": "et",
+   "start": 11.06,
+   "end": 11.1,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "je",
+   "start": 11.14,
+   "end": 11.18,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "t'accompagne",
+   "start": 11.2,
+   "end": 11.62,
+   "type": "word",
+   "logprob": -0.00044581564600321144
+  },
+  {
+   "text": "gratuitement",
+   "start": 11.66,
+   "end": 12.08,
+   "type": "word",
+   "logprob": -6.151010165922344e-05
+  }
+ ],
+ "transcription_id": "zyWfucZcsriOOe7oMeGG",
+ "audio_duration_secs": 12.105125
+}

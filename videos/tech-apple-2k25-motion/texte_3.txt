@@ -1,0 +1,5 @@
+[mysterious] Dans trois secondes, tu sais si la tech Apple deux K vingt-cinq est faite pour toi.
+[confident] Trois. T'es majeur.
+[confident] Deux. T'as un PC ou un iPhone.
+[excited] Un : l'iPhone 18 Pro, tu peux l'avoir gratuit.
+[confident] Commente go, et je t'accompagne gratuitement.
