@@ -1,0 +1,337 @@
+{
+ "language_code": "fra",
+ "language_probability": 1.0,
+ "text": "Bravo. Tu trouves toujours le bon plan, le resto cool, le chemin le plus court. Fais pareil pour ton iPhone. La tech Apple 2K25. L'iPhone 18 Pro, tu peux l'avoir gratuit. T'es majeur, t'as un PC ou un iPhone? C'est tout. Commente Go et je t'accompagne gratuitement",
+ "words": [
+  {
+   "text": "Bravo.",
+   "start": 0.2,
+   "end": 0.76,
+   "type": "word",
+   "logprob": -0.021303684145095758
+  },
+  {
+   "text": "Tu",
+   "start": 1.16,
+   "end": 1.28,
+   "type": "word",
+   "logprob": -5.924526340095326e-05
+  },
+  {
+   "text": "trouves",
+   "start": 1.3,
+   "end": 1.58,
+   "type": "word",
+   "logprob": -6.401325611347732e-05
+  },
+  {
+   "text": "toujours",
+   "start": 1.6,
+   "end": 1.92,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "le",
+   "start": 1.96,
+   "end": 2.02,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "bon",
+   "start": 2.08,
+   "end": 2.18,
+   "type": "word",
+   "logprob": -0.001423894427716732
+  },
+  {
+   "text": "plan,",
+   "start": 2.26,
+   "end": 2.48,
+   "type": "word",
+   "logprob": -0.022564809024311218
+  },
+  {
+   "text": "le",
+   "start": 2.7,
+   "end": 2.78,
+   "type": "word",
+   "logprob": -6.198863957251888e-06
+  },
+  {
+   "text": "resto",
+   "start": 2.82,
+   "end": 3.06,
+   "type": "word",
+   "logprob": -0.0010942192748188972
+  },
+  {
+   "text": "cool,",
+   "start": 3.18,
+   "end": 3.52,
+   "type": "word",
+   "logprob": -4.8637248028171595e-06
+  },
+  {
+   "text": "le",
+   "start": 3.72,
+   "end": 3.78,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "chemin",
+   "start": 3.88,
+   "end": 4.12,
+   "type": "word",
+   "logprob": -5.960462772236497e-07
+  },
+  {
+   "text": "le",
+   "start": 4.16,
+   "end": 4.2,
+   "type": "word",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "plus",
+   "start": 4.26,
+   "end": 4.4,
+   "type": "word",
+   "logprob": -1.2040065485052764e-05
+  },
+  {
+   "text": "court.",
+   "start": 4.44,
+   "end": 4.74,
+   "type": "word",
+   "logprob": -7.042984483026278e-05
+  },
+  {
+   "text": "Fais",
+   "start": 5.04,
+   "end": 5.14,
+   "type": "word",
+   "logprob": -1.1712230048033234e-05
+  },
+  {
+   "text": "pareil",
+   "start": 5.18,
+   "end": 5.44,
+   "type": "word",
+   "logprob": -1.0013530300057027e-05
+  },
+  {
+   "text": "pour",
+   "start": 5.46,
+   "end": 5.56,
+   "type": "word",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "ton",
+   "start": 5.58,
+   "end": 5.68,
+   "type": "word",
+   "logprob": -3.4570634852570947e-06
+  },
+  {
+   "text": "iPhone.",
+   "start": 5.74,
+   "end": 6.1,
+   "type": "word",
+   "logprob": -9.996496568679244e-06
+  },
+  {
+   "text": "La",
+   "start": 6.44,
+   "end": 6.5,
+   "type": "word",
+   "logprob": -0.000409161759307608
+  },
+  {
+   "text": "tech",
+   "start": 6.58,
+   "end": 6.74,
+   "type": "word",
+   "logprob": -0.03859681263566017
+  },
+  {
+   "text": "Apple",
+   "start": 6.78,
+   "end": 7.02,
+   "type": "word",
+   "logprob": -0.00015436411194968969
+  },
+  {
+   "text": "2K25.",
+   "start": 7.22,
+   "end": 7.94,
+   "type": "word",
+   "logprob": -0.015072424707238952
+  },
+  {
+   "text": "L'iPhone",
+   "start": 8.24,
+   "end": 8.56,
+   "type": "word",
+   "logprob": -1.929675943301845e-05
+  },
+  {
+   "text": "18",
+   "start": 8.64,
+   "end": 8.94,
+   "type": "word",
+   "logprob": -5.823074843647191e-05
+  },
+  {
+   "text": "Pro,",
+   "start": 8.98,
+   "end": 9.14,
+   "type": "word",
+   "logprob": -0.0002620060913471889
+  },
+  {
+   "text": "tu",
+   "start": 9.42,
+   "end": 9.48,
+   "type": "word",
+   "logprob": -7.629365427419543e-06
+  },
+  {
+   "text": "peux",
+   "start": 9.54,
+   "end": 9.62,
+   "type": "word",
+   "logprob": -6.556489552167477e-06
+  },
+  {
+   "text": "l'avoir",
+   "start": 9.64,
+   "end": 9.96,
+   "type": "word",
+   "logprob": -2.1287340652114447e-06
+  },
+  {
+   "text": "gratuit.",
+   "start": 10.0,
+   "end": 10.44,
+   "type": "word",
+   "logprob": -3.358657113494701e-05
+  },
+  {
+   "text": "T'es",
+   "start": 10.82,
+   "end": 10.9,
+   "type": "word",
+   "logprob": -0.00042813445611500356
+  },
+  {
+   "text": "majeur,",
+   "start": 10.94,
+   "end": 11.28,
+   "type": "word",
+   "logprob": -0.0010666489168735488
+  },
+  {
+   "text": "t'as",
+   "start": 11.56,
+   "end": 11.64,
+   "type": "word",
+   "logprob": -0.00025899743178570134
+  },
+  {
+   "text": "un",
+   "start": 11.68,
+   "end": 11.76,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "PC",
+   "start": 11.78,
+   "end": 12.14,
+   "type": "word",
+   "logprob": -1.4066597032069694e-05
+  },
+  {
+   "text": "ou",
+   "start": 12.18,
+   "end": 12.24,
+   "type": "word",
+   "logprob": -1.4305104514278355e-06
+  },
+  {
+   "text": "un",
+   "start": 12.28,
+   "end": 12.36,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "iPhone?",
+   "start": 12.4,
+   "end": 12.72,
+   "type": "word",
+   "logprob": -1.1205610462639015e-05
+  },
+  {
+   "text": "C'est",
+   "start": 13.06,
+   "end": 13.16,
+   "type": "word",
+   "logprob": -3.5762770949077095e-07
+  },
+  {
+   "text": "tout.",
+   "start": 13.2,
+   "end": 13.32,
+   "type": "word",
+   "logprob": -5.197508284027208e-06
+  },
+  {
+   "text": "Commente",
+   "start": 13.62,
+   "end": 13.86,
+   "type": "word"
+  },
+  {
+   "text": "Go",
+   "start": 13.92,
+   "end": 14.04,
+   "type": "word",
+   "logprob": -0.00018308870494365692
+  },
+  {
+   "text": "et",
+   "start": 14.34,
+   "end": 14.4,
+   "type": "word",
+   "logprob": -0.009910544380545616
+  },
+  {
+   "text": "je",
+   "start": 14.44,
+   "end": 14.48,
+   "type": "word",
+   "logprob": -2.145764938177308e-06
+  },
+  {
+   "text": "t'accompagne",
+   "start": 14.5,
+   "end": 14.9,
+   "type": "word",
+   "logprob": -0.00045483877086797503
+  },
+  {
+   "text": "gratuitement",
+   "start": 14.94,
+   "end": 15.36,
+   "type": "word",
+   "logprob": -2.3841574147809297e-05
+  }
+ ],
+ "transcription_id": "b4zQQYVJb6SqL4vbTRcb",
+ "audio_duration_secs": 15.4006875
+}
