@@ -1,11 +1,12 @@
 """Tech Apple 2K25 — 4 vidéos format « pub » (fonds pleins noir / rouge, mots plein écran, coupes sèches).
 
-Usage : python3 pub.py <voix.wav> <dossier_polices> <sortie.mp4> --video 1|2|3|4|5 [--stills t1,...] [--timeline f.json]
+Usage : python3 pub.py <voix.wav> <dossier_polices> <sortie.mp4> --video 1|2|3|4|5|6 [--stills t1,...] [--timeline f.json]
   1 « Sans »     : sans prise de tête, sans cravate, sans te ruiner (mots barrés).
   2 « Bravo »    : tu trouves toujours le bon plan... fais pareil pour ton iPhone (texte en relief, rayons).
   3 « 1·1·1 »    : 1 majeur, 1 PC ou 1 iPhone, 1 commentaire (liste qui s'empile).
   4 « Partout »  : dans ton lit, dans le bus, entre deux cours (pictos).
   5 « Les cases »: iPhone 18 Pro offert -> 2 cases cochées -> la 3e case, c'est ton commentaire.
+  6 « L'offre »  : la formation payante — ce qui est inclus (appel, accompagnement, groupe), TOUT ÇA POUR 70 €.
 Les instants des mots viennent de mots_<video>.json ; le son de out/mix.wav (synth_pub.py).
 """
 import json, math, os, subprocess, sys, wave
@@ -234,6 +235,26 @@ def picto(nom, taille=320, col=BLANC):
         for x in (28, 72):
             d.ellipse([(x - 9) * u, 68 * u, (x + 9) * u, 86 * u], fill=col)
             d.ellipse([(x - 4) * u, 73 * u, (x + 4) * u, 81 * u], fill=vide)
+    elif nom == "appel":  # combiné de téléphone
+        d.arc([14 * u, 14 * u, 86 * u, 86 * u], 110, 250, fill=col, width=int(16 * u))
+        for a in (110, 250):
+            x = 50 * u + math.cos(math.radians(a)) * 36 * u
+            y = 50 * u + math.sin(math.radians(a)) * 36 * u
+            d.ellipse([x - 13 * u, y - 13 * u, x + 13 * u, y + 13 * u], fill=col)
+        for k in range(3):  # ondes
+            r = (20 + k * 10) * u
+            d.arc([62 * u - r, 30 * u - r, 62 * u + r, 30 * u + r], 290, 340, fill=col, width=int(5 * u))
+    elif nom == "bulle":  # bulle de discussion
+        d.rounded_rectangle([8 * u, 16 * u, 92 * u, 70 * u], radius=16 * u, fill=col)
+        d.polygon([(26 * u, 66 * u), (22 * u, 90 * u), (46 * u, 68 * u)], fill=col)
+        for x in (32, 50, 68):
+            d.ellipse([(x - 6) * u, 37 * u, (x + 6) * u, 49 * u], fill=vide)
+    elif nom == "groupe":  # trois personnes
+        for cx_, cy_, r, br in ((24, 40, 10, 17), (76, 40, 10, 17), (50, 34, 13, 22)):
+            d.ellipse([(cx_ - br) * u, (cy_ + r + 4) * u, (cx_ + br) * u, (cy_ + r + 4 + 2 * br) * u], fill=col)
+            d.ellipse([(cx_ - r - 3) * u, (cy_ - r - 3) * u, (cx_ + r + 3) * u, (cy_ + r + 3) * u], fill=vide)
+            d.ellipse([(cx_ - r) * u, (cy_ - r) * u, (cx_ + r) * u, (cy_ + r) * u], fill=col)
+        d.rectangle([0, 86 * u, T, T], fill=vide)
     else:  # livres
         for j, (x0, y0, x1, y1) in enumerate([(14, 66, 86, 82), (20, 48, 80, 64), (10, 30, 74, 46)]):
             d.rounded_rectangle([x0 * u, y0 * u, x1 * u, y1 * u], radius=3 * u, fill=col)
@@ -280,7 +301,7 @@ def sc_pile(img, t, lignes, fond=ROUGE, y0=430, pas=150, taille=130):
     for j, (txt, t0, col) in enumerate(lignes):
         mot(img, txt, taille, CX, y0 + j * pas, t, t0, col)
 
-def sc_fin(img, t, t0, t_go, t_acc, bas="GRATUITEMENT", t_bas=None):
+def sc_fin(img, t, t0, t_go, t_acc, bas="GRATUITEMENT", t_bas=None, haut="JE T'ACCOMPAGNE"):
     """Fin façon pub : COMMENTE + champ « GO » cliqué par un curseur + je t'accompagne gratuitement."""
     fond_plein(img, NOIR)
     etoiles(img, t, t0, 4)
@@ -307,7 +328,7 @@ def sc_fin(img, t, t0, t_go, t_acc, bas="GRATUITEMENT", t_bas=None):
         e = 0.85 if clic <= t < clic + 0.12 else 1
         poser(img, curseur(), x + 30, y + 40, e)
     if t >= t_acc - 0.08:
-        mot(img, "JE T'ACCOMPAGNE", 110, CX, 930, t, t_acc - 0.08)
+        mot(img, haut, 110, CX, 930, t, t_acc - 0.08)
         mot(img, bas, 120, CX, 1050, t, t_bas if t_bas is not None else t_acc + 0.12, ROUGE)
 
 def coupe(mot_, n=1):
@@ -465,6 +486,57 @@ elif VIDEO == "5":  # « Les cases » : la synthèse (résultat d'abord, cases �
     PUNCH = [at("offert") - 0.05, at("2k25") - 0.05, at("majeur") + 0.2, at("iphone") + 0.2, at("troisième") - 0.05]
     CHECKS = [at("majeur") + 0.2, at("iphone") + 0.2]
     RAPPEL = C3
+elif VIDEO == "6":  # « L'offre » : ce qui est inclus, puis TOUT ÇA POUR 70 €
+    C2, C3, C4, C5 = coupe("un"), coupe("un", 2), coupe("et"), coupe("tout")
+    def etiquette(img, t, t0, cx, cy, taille=110):
+        """Étiquette de prix penchée (bloc rouge, texte blanc), comme sur l'affiche de référence."""
+        e = tape(t, t0)
+        if e:
+            poser(img, pilule("70 €", taille, ROUGE, BLANC, 40, 18).copy(), cx, cy, e, 1, 8)
+    def b1(img, t):
+        fond_plein(img, NOIR)
+        mot(img, "LA TECH APPLE 2K25", 90, CX, 430, t, -0.15)
+        mot(img, "DE A À Z", 230, CX, 680, t, at("de") - 0.05, BLANC)
+        etiquette(img, t, -0.1, 700, 960)
+        etoiles(img, t, 0.0, 4)
+    def inclus(img, t, t0, nom, l1, l2, fond):
+        fond_plein(img, fond)
+        mot(img, "INCLUS", 70, CX, 400, t, t0, NOIR if fond == ROUGE else ROUGE)
+        e = tape(t, t0 + 0.05)
+        if e:
+            poser(img, picto(nom, 300), CX, 640, e)
+        mot(img, l1, 150, CX, 880, t, t0 + 0.12)
+        mot(img, l2, 120, CX, 1040, t, t0 + 0.2, NOIR if fond == ROUGE else ROUGE)
+    def b5(img, t):
+        fond_plein(img, NOIR)
+        rayons(img, CX, 900, t, ROUGE, 18, 40)
+        for j, l in enumerate(("APPEL AVEC MOI", "ACCOMPAGNEMENT PRIVÉ", "GROUPE PRIVÉ")):
+            y = 400 + j * 76
+            e = tape(t, C5 + 0.03 + j * 0.08)
+            if e:
+                c = 56
+                box = Image.new("RGBA", (c * 3, c * 3), (0, 0, 0, 0))
+                db = ImageDraw.Draw(box)
+                db.rounded_rectangle([0, 0, c * 3 - 1, c * 3 - 1], radius=24, fill=ROUGE)
+                db.line([(0.24 * c * 3, 0.52 * c * 3), (0.43 * c * 3, 0.7 * c * 3), (0.78 * c * 3, 0.3 * c * 3)], fill=BLANC, width=22, joint="curve")
+                poser(img, box.resize((c, c), Image.LANCZOS), 250, y, e)
+                lab = texte(l, 62, BLANC, "anton", 560)
+                poser(img, lab, 300 + lab.width / 2, y, e)
+        mot(img, "TOUT ÇA POUR", 130, CX, 720, t, at("pour", 3) - 0.1)
+        e = tape(t, at("soixante") - 0.05)
+        if e:
+            poser(img, relief("70 €", 260, BLANC, ROUGE_F), CX, 960, e, 1, -6)
+            etoiles(img, t, at("soixante"), 6)
+    BEATS = [
+        (0, b1),
+        (C2, lambda img, t: inclus(img, t, C2, "appel", "1 APPEL", "AVEC MOI", ROUGE)),
+        (C3, lambda img, t: inclus(img, t, C3, "bulle", "ACCOMPAGNEMENT", "EN PRIVÉ", NOIR)),
+        (C4, lambda img, t: inclus(img, t, C4, "groupe", "GROUPE PRIVÉ", "AVEC LES MEMBRES", ROUGE)),
+        (C5, b5),
+    ]
+    PUNCH = [at("de") - 0.05, C2 + 0.05, C3 + 0.05, C4 + 0.05, at("soixante") - 0.05]
+    CHECKS = [C5 + 0.03, C5 + 0.11, C5 + 0.19]
+    RAPPEL = C2
 else:  # « Partout »
     C2, C3, C4, C5, C6 = coupe("dans", 2), coupe("entre"), coupe("la"), coupe("il"), coupe("l'iphone")
     def lieu(img, t, t0, nom, l1, l2, fond):
@@ -502,8 +574,10 @@ else:  # « Partout »
 
 T_CTA = coupe("commente")
 T_GO = at("go") - 0.05
-T_ACC = at("t'accompagne")
-if VIDEO == "5":
+T_ACC = at("t'envoie") if VIDEO == "6" else at("t'accompagne")
+if VIDEO == "6":
+    BEATS.append((T_CTA, lambda img, t: sc_fin(img, t, T_CTA, T_GO, T_ACC, "TOUT EN PRIVÉ", T_ACC + 0.25, "JE T'ENVOIE")))
+elif VIDEO == "5":
     BEATS.append((T_CTA, lambda img, t: sc_fin(img, t, T_CTA, T_GO, T_ACC, "C'EST OFFERT", at("c'est", 2) - 0.05)))
 else:
     BEATS.append((T_CTA, lambda img, t: sc_fin(img, t, T_CTA, T_GO, T_ACC)))

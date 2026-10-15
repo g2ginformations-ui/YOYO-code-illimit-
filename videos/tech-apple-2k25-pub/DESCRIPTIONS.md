@@ -44,6 +44,19 @@ Il te manque une seule case 👇 Écris GO, je t'accompagne. C'est offert.
 
 #techapple2k25 #iphone18pro #bonplan #astuce #pourtoi #fyp
 
+## 6 — « L'offre » (formation payante, 70 €)
+La tech Apple 2K25, je te la montre de A à Z 👇
+
+✅ 1 appel avec moi pour te lancer
+✅ Un accompagnement en privé pour chaque question
+✅ Le groupe privé avec les autres membres
+
+Tout ça pour 70 €. Commente GO, je t'envoie tout en privé.
+
+#techapple2k25 #formation #accompagnement #pourtoi #fyp
+
+(Pas de prix barré ni de « prix de lancement » : le prix reste 70 €. Pas de promesse de résultat dans une offre payante.)
+
 ## Pour convertir plus
 - Épingle ton propre commentaire « GO 👇 » dès la publication.
 - Réponds aux premiers GO dans l'heure (idéalement en DM + un petit « envoyé ✅ » en réponse).
