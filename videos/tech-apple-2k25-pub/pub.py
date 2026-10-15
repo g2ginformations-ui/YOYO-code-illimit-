@@ -1,10 +1,11 @@
 """Tech Apple 2K25 — 4 vidéos format « pub » (fonds pleins noir / rouge, mots plein écran, coupes sèches).
 
-Usage : python3 pub.py <voix.wav> <dossier_polices> <sortie.mp4> --video 1|2|3|4 [--stills t1,...] [--timeline f.json]
+Usage : python3 pub.py <voix.wav> <dossier_polices> <sortie.mp4> --video 1|2|3|4|5 [--stills t1,...] [--timeline f.json]
   1 « Sans »     : sans prise de tête, sans cravate, sans te ruiner (mots barrés).
   2 « Bravo »    : tu trouves toujours le bon plan... fais pareil pour ton iPhone (texte en relief, rayons).
   3 « 1·1·1 »    : 1 majeur, 1 PC ou 1 iPhone, 1 commentaire (liste qui s'empile).
   4 « Partout »  : dans ton lit, dans le bus, entre deux cours (pictos).
+  5 « Les cases »: iPhone 18 Pro offert -> 2 cases cochées -> la 3e case, c'est ton commentaire.
 Les instants des mots viennent de mots_<video>.json ; le son de out/mix.wav (synth_pub.py).
 """
 import json, math, os, subprocess, sys, wave
@@ -258,19 +259,19 @@ def curseur():
 def fond_plein(img, col):
     img.paste(col + (255,), (0, 0, W, H))
 
-def sc_iphone(img, t, t0, t_gratuit, titre=("IPHONE 18 PRO",), fond=NOIR):
+def sc_iphone(img, t, t0, t_gratuit, titre=("IPHONE 18 PRO",), fond=NOIR, pastille="GRATUIT"):
     """Le téléphone qui tape au centre + pilule GRATUIT."""
     fond_plein(img, fond)
     rayons(img, CX, 760, t, ROUGE if fond == NOIR else NOIR, 18, 40)
     deux = len(titre) > 1
     for j, l in enumerate(titre):
-        mot(img, l, 110 if deux else 120, CX, (390 if deux else 380) + j * 115, t, t0 - 0.05 + j * 0.1)
+        mot(img, l, 110 if deux else 120, CX, (390 if deux else 400) + j * 115, t, t0 - 0.05 + j * 0.1)
     e = tape(t, t0 + 0.05)
     if e:
         poser(img, telephone(230 if deux else 270), CX, 845 if deux else 800, e, 1, math.sin(t * 2) * 3)
     if t >= t_gratuit:
         e = tape(t, t_gratuit)
-        poser(img, pilule("GRATUIT", 110, ROUGE if fond == NOIR else BLANC, BLANC if fond == NOIR else ROUGE), CX, 1060, e, 1, -6)
+        poser(img, pilule(pastille, 110, ROUGE if fond == NOIR else BLANC, BLANC if fond == NOIR else ROUGE), CX, 1060, e, 1, -6)
         etoiles(img, t, t_gratuit, 6)
 
 def sc_pile(img, t, lignes, fond=ROUGE, y0=430, pas=150, taille=130):
@@ -279,7 +280,7 @@ def sc_pile(img, t, lignes, fond=ROUGE, y0=430, pas=150, taille=130):
     for j, (txt, t0, col) in enumerate(lignes):
         mot(img, txt, taille, CX, y0 + j * pas, t, t0, col)
 
-def sc_fin(img, t, t0, t_go, t_acc):
+def sc_fin(img, t, t0, t_go, t_acc, bas="GRATUITEMENT", t_bas=None):
     """Fin façon pub : COMMENTE + champ « GO » cliqué par un curseur + je t'accompagne gratuitement."""
     fond_plein(img, NOIR)
     etoiles(img, t, t0, 4)
@@ -307,7 +308,7 @@ def sc_fin(img, t, t0, t_go, t_acc):
         poser(img, curseur(), x + 30, y + 40, e)
     if t >= t_acc - 0.08:
         mot(img, "JE T'ACCOMPAGNE", 110, CX, 930, t, t_acc - 0.08)
-        mot(img, "GRATUITEMENT", 120, CX, 1050, t, t_acc + 0.12, ROUGE)
+        mot(img, bas, 120, CX, 1050, t, t_bas if t_bas is not None else t_acc + 0.12, ROUGE)
 
 def coupe(mot_, n=1):
     return at(mot_, n) - 0.15
@@ -414,6 +415,56 @@ elif VIDEO == "3":  # « 1·1·1 »
     PUNCH = [at("un", 2) - 0.05, at("un", 4) - 0.05, at("gratuit") - 0.05, at("2k25") - 0.05, at("tout") - 0.05]
     CHECKS = [at("un", 2) - 0.05, at("un", 4) - 0.05]
     RAPPEL = C2
+elif VIDEO == "5":  # « Les cases » : la synthèse (résultat d'abord, cases à cocher, le commentaire = 3e case)
+    C2, C3 = coupe("grâce"), coupe("tu")
+    def ligne_case(img, t, y, label, t_app, t_ok, col=BLANC, attente=False):
+        """Case carrée + libellé ; se coche en rouge à t_ok ; en attente : contour qui clignote et « ? »."""
+        e = tape(t, t_app)
+        if e is None:
+            return
+        c = 120
+        box = Image.new("RGBA", (c * 3, c * 3), (0, 0, 0, 0))
+        d = ImageDraw.Draw(box)
+        clign = attente and math.floor(t * 4) % 2 == 0
+        d.rounded_rectangle([12, 12, c * 3 - 12, c * 3 - 12], radius=30, outline=ROUGE if clign else BLANC, width=30)
+        if t_ok is not None and t >= t_ok:
+            p = out_cubic(prog(t, t_ok, 0.25))
+            pts = [(0.22, 0.52), (0.42, 0.72), (0.8, 0.28)]
+            pts = [(x * c * 3, y_ * c * 3) for x, y_ in pts]
+            l1, l2 = math.dist(pts[0], pts[1]), math.dist(pts[1], pts[2])
+            r = p * (l1 + l2)
+            seg = [pts[0]]
+            if r <= l1:
+                u = r / l1; seg.append((pts[0][0] + (pts[1][0] - pts[0][0]) * u, pts[0][1] + (pts[1][1] - pts[0][1]) * u))
+            else:
+                u = (r - l1) / l2; seg += [pts[1], (pts[1][0] + (pts[2][0] - pts[1][0]) * u, pts[1][1] + (pts[2][1] - pts[1][1]) * u)]
+            d.line(seg, fill=ROUGE, width=44, joint="curve")
+        box = box.resize((c, c), Image.LANCZOS)
+        if attente:
+            q = texte("?", 90, ROUGE)
+            box.alpha_composite(q, (c // 2 - q.width // 2, c // 2 - q.height // 2))
+        poser(img, box, 210, y, e)
+        lab = texte(label, 96, col, "anton", 600)
+        poser(img, lab, 290 + lab.width / 2, y, e)
+    def b3(img, t):
+        fond_plein(img, NOIR)
+        mot(img, "TU COCHES", 120, CX, 400, t, C3 + 0.03)
+        mot(img, "2 CASES", 150, CX, 540, t, at("deux") - 0.05, ROUGE)
+        ligne_case(img, t, 720, "MAJEUR", at("t'es") - 0.08, at("majeur") + 0.2)
+        ligne_case(img, t, 880, "PC OU IPHONE", at("t'as") - 0.08, at("iphone") + 0.2)
+        ligne_case(img, t, 1040, "TON COMMENTAIRE", at("troisième") - 0.05, None, ROUGE, True)
+    BEATS = [
+        (0, lambda img, t: sc_iphone(img, t, -0.15, at("offert") - 0.05, pastille="OFFERT")),
+        (C2, lambda img, t: (fond_plein(img, ROUGE), rayons(img, CX, 760, t, NOIR, 18, 30),
+                             mot(img, "GRÂCE À LA", 110, CX, 500, t, C2 + 0.03),
+                             mot(img, "TECH APPLE", 170, CX, 660, t, at("tech") - 0.05),
+                             poser(img, relief("2K25", 260, BLANC, NOIR), CX, 950, tape(t, at("2k25") - 0.05) or 0, 1, -5),
+                             etoiles(img, t, at("2k25"), 6))),
+        (C3, b3),
+    ]
+    PUNCH = [at("offert") - 0.05, at("2k25") - 0.05, at("majeur") + 0.2, at("iphone") + 0.2, at("troisième") - 0.05]
+    CHECKS = [at("majeur") + 0.2, at("iphone") + 0.2]
+    RAPPEL = C3
 else:  # « Partout »
     C2, C3, C4, C5, C6 = coupe("dans", 2), coupe("entre"), coupe("la"), coupe("il"), coupe("l'iphone")
     def lieu(img, t, t0, nom, l1, l2, fond):
@@ -452,7 +503,10 @@ else:  # « Partout »
 T_CTA = coupe("commente")
 T_GO = at("go") - 0.05
 T_ACC = at("t'accompagne")
-BEATS.append((T_CTA, lambda img, t: sc_fin(img, t, T_CTA, T_GO, T_ACC)))
+if VIDEO == "5":
+    BEATS.append((T_CTA, lambda img, t: sc_fin(img, t, T_CTA, T_GO, T_ACC, "C'EST OFFERT", at("c'est", 2) - 0.05)))
+else:
+    BEATS.append((T_CTA, lambda img, t: sc_fin(img, t, T_CTA, T_GO, T_ACC)))
 PUNCH.append(T_GO + 0.35)
 
 if "--timeline" in sys.argv:  # instants clés pour synth_pub.py

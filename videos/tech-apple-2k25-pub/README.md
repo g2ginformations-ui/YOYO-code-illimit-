@@ -11,6 +11,7 @@ de leur orange, aucun logo ni nom de marque repris. 1080 × 1920, 30 i/s, voix �
 | 2 — Bravo | BRAVO / LE BON PLAN / COOL / LE PLUS COURT → « fais pareil pour ton iPhone » → téléphones en éventail → MAJEUR ? PC OU IPHONE ? C'EST TOUT. | 16,9 s |
 | 3 — 1·1·1 | 1 MAJEUR / 1 PC OU 1 IPHONE / 1 COMMENTAIRE → POUR 1 IPHONE 18 PRO → TOUT SIMPLEMENT | 12,3 s |
 | 4 — Partout | lit / bus / livres → PARTOUT → il te faut juste… → iPhone 18 Pro | 14,3 s |
+| 5 — Les cases | iPhone 18 Pro OFFERT → TECH APPLE 2K25 → ☑ MAJEUR ☑ PC OU IPHONE ☐ TON COMMENTAIRE (qui clignote) → C'EST OFFERT | 14,1 s |
 
 Fin commune : COMMENTE + champ « GO » cliqué par un curseur + JE T'ACCOMPAGNE GRATUITEMENT + signature.
 Descriptions prêtes à coller : `DESCRIPTIONS.md`.

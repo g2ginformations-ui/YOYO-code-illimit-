@@ -1,0 +1,6 @@
+[excited] L'iPhone 18 Pro... offert.
+[confident] Grâce à la tech Apple deux K vingt-cinq.
+[confident] Tu coches deux cases :
+[confident] T'es majeur. T'as un PC ou un iPhone.
+[playful] Et la troisième case ? C'est ton commentaire.
+[confident] Commente go, et je t'accompagne. C'est offert.

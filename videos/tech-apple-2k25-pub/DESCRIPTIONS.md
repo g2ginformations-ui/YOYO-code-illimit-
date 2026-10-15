@@ -35,6 +35,15 @@ Commente GO, je t'accompagne pas à pas.
 
 #techapple2k25 #iphone18pro #etudiant #bonplan #pourtoi #fyp
 
+## 5 — « Les cases » (la synthèse, à poster en premier)
+✅ Majeur
+✅ PC ou iPhone
+⬜ Ton commentaire
+
+Il te manque une seule case 👇 Écris GO, je t'accompagne. C'est offert.
+
+#techapple2k25 #iphone18pro #bonplan #astuce #pourtoi #fyp
+
 ## Pour convertir plus
 - Épingle ton propre commentaire « GO 👇 » dès la publication.
 - Réponds aux premiers GO dans l'heure (idéalement en DM + un petit « envoyé ✅ » en réponse).
