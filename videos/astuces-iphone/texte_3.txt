@@ -1,0 +1,5 @@
+[confident] Trois réglages qui vident ta batterie pour rien.
+[confident] Un : l'actualisation en arrière-plan. Garde-la seulement pour les apps utiles.
+[confident] Deux : dans les services système de la localisation, coupe ce qui ne te sert pas.
+[confident] Trois : le partage des analyses. Tu peux le désactiver.
+[mysterious] Il en existe un quatrième, encore plus efficace. Tu le connais ?

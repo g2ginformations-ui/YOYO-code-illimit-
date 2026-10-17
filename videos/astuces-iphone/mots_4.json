@@ -1,0 +1,324 @@
+{
+ "language_code": "fra",
+ "language_probability": 1.0,
+ "text": "Arrête de recopier les mots de passe Wi-Fi. Vise avec l'appareil photo et touche l'icône Texte en bas. Tu sélectionnes, tu copies, tu colles. Ça marche aussi sur un numéro, une adresse ou un menu. Dis-moi en commentaire ce que tu vas scanner en premier",
+ "words": [
+  {
+   "text": "Arrête",
+   "start": 0.14,
+   "end": 0.52,
+   "type": "word",
+   "logprob": -0.0002134000858404761
+  },
+  {
+   "text": "de",
+   "start": 0.54,
+   "end": 0.6,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "recopier",
+   "start": 0.64,
+   "end": 0.98,
+   "type": "word",
+   "logprob": -0.004688609186814574
+  },
+  {
+   "text": "les",
+   "start": 1.02,
+   "end": 1.08,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "mots",
+   "start": 1.1,
+   "end": 1.18,
+   "type": "word",
+   "logprob": -0.00043108707177452743
+  },
+  {
+   "text": "de",
+   "start": 1.2,
+   "end": 1.24,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "passe",
+   "start": 1.26,
+   "end": 1.42,
+   "type": "word",
+   "logprob": -0.00018356545479036868
+  },
+  {
+   "text": "Wi-Fi.",
+   "start": 1.46,
+   "end": 1.78,
+   "type": "word",
+   "logprob": -0.01434975578316274
+  },
+  {
+   "text": "Vise",
+   "start": 2.26,
+   "end": 2.4,
+   "type": "word",
+   "logprob": -2.205369469265861e-06
+  },
+  {
+   "text": "avec",
+   "start": 2.46,
+   "end": 2.6,
+   "type": "word",
+   "logprob": -4.768370445162873e-07
+  },
+  {
+   "text": "l'appareil",
+   "start": 2.64,
+   "end": 2.92,
+   "type": "word",
+   "logprob": -4.1674594808682744e-05
+  },
+  {
+   "text": "photo",
+   "start": 2.96,
+   "end": 3.24,
+   "type": "word",
+   "logprob": -1.0371154530730564e-05
+  },
+  {
+   "text": "et",
+   "start": 3.52,
+   "end": 3.64,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "touche",
+   "start": 3.68,
+   "end": 3.84,
+   "type": "word",
+   "logprob": -0.0007849234389141202
+  },
+  {
+   "text": "l'icône",
+   "start": 3.88,
+   "end": 4.12,
+   "type": "word",
+   "logprob": -9.51818866639087e-05
+  },
+  {
+   "text": "Texte",
+   "start": 4.2,
+   "end": 4.48,
+   "type": "word",
+   "logprob": -0.7073625922203064
+  },
+  {
+   "text": "en",
+   "start": 4.62,
+   "end": 4.68,
+   "type": "word",
+   "logprob": -5.960462772236497e-07
+  },
+  {
+   "text": "bas.",
+   "start": 4.72,
+   "end": 4.88,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "Tu",
+   "start": 5.12,
+   "end": 5.2,
+   "type": "word",
+   "logprob": -0.00011276562872808427
+  },
+  {
+   "text": "sélectionnes,",
+   "start": 5.3,
+   "end": 5.82,
+   "type": "word",
+   "logprob": -0.0010684581408300941
+  },
+  {
+   "text": "tu",
+   "start": 6.06,
+   "end": 6.12,
+   "type": "word",
+   "logprob": -8.344646857949556e-07
+  },
+  {
+   "text": "copies,",
+   "start": 6.24,
+   "end": 6.56,
+   "type": "word",
+   "logprob": -0.00031150539039665707
+  },
+  {
+   "text": "tu",
+   "start": 6.82,
+   "end": 6.9,
+   "type": "word",
+   "logprob": -1.5497195136049413e-06
+  },
+  {
+   "text": "colles.",
+   "start": 7.04,
+   "end": 7.38,
+   "type": "word",
+   "logprob": -0.002102807753902068
+  },
+  {
+   "text": "Ça",
+   "start": 7.7,
+   "end": 7.76,
+   "type": "word",
+   "logprob": -0.0007030876004137099
+  },
+  {
+   "text": "marche",
+   "start": 7.8,
+   "end": 7.96,
+   "type": "word",
+   "logprob": -6.854299135738984e-05
+  },
+  {
+   "text": "aussi",
+   "start": 8.0,
+   "end": 8.18,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "sur",
+   "start": 8.24,
+   "end": 8.36,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "un",
+   "start": 8.38,
+   "end": 8.44,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "numéro,",
+   "start": 8.48,
+   "end": 8.94,
+   "type": "word",
+   "logprob": -1.106927110023597e-05
+  },
+  {
+   "text": "une",
+   "start": 9.14,
+   "end": 9.22,
+   "type": "word",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "adresse",
+   "start": 9.28,
+   "end": 9.72,
+   "type": "word",
+   "logprob": -3.0874729418428615e-05
+  },
+  {
+   "text": "ou",
+   "start": 9.92,
+   "end": 9.98,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "un",
+   "start": 10.02,
+   "end": 10.08,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "menu.",
+   "start": 10.12,
+   "end": 10.34,
+   "type": "word",
+   "logprob": -2.3126570908971187e-06
+  },
+  {
+   "text": "Dis-moi",
+   "start": 10.76,
+   "end": 11.0,
+   "type": "word",
+   "logprob": -2.767242079114242e-05
+  },
+  {
+   "text": "en",
+   "start": 11.02,
+   "end": 11.1,
+   "type": "word",
+   "logprob": -4.768370445162873e-07
+  },
+  {
+   "text": "commentaire",
+   "start": 11.12,
+   "end": 11.52,
+   "type": "word",
+   "logprob": -5.936446541454643e-05
+  },
+  {
+   "text": "ce",
+   "start": 11.58,
+   "end": 11.62,
+   "type": "word",
+   "logprob": -4.768370445162873e-07
+  },
+  {
+   "text": "que",
+   "start": 11.64,
+   "end": 11.7,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "tu",
+   "start": 11.74,
+   "end": 11.82,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "vas",
+   "start": 11.86,
+   "end": 11.94,
+   "type": "word",
+   "logprob": -2.002696055569686e-05
+  },
+  {
+   "text": "scanner",
+   "start": 11.98,
+   "end": 12.24,
+   "type": "word",
+   "logprob": -4.5298504119273275e-05
+  },
+  {
+   "text": "en",
+   "start": 12.26,
+   "end": 12.32,
+   "type": "word",
+   "logprob": -5.960462772236497e-07
+  },
+  {
+   "text": "premier",
+   "start": 12.36,
+   "end": 12.64,
+   "type": "word",
+   "logprob": -4.577531944960356e-05
+  }
+ ],
+ "transcription_id": "pE2bUpgMauDpnRoyf2XW",
+ "audio_duration_secs": 12.7401875
+}

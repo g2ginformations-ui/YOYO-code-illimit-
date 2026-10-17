@@ -1,0 +1,5 @@
+[confident] Arrête de recopier les mots de passe wifi.
+[confident] Vise avec l'appareil photo, et touche l'icône texte en bas.
+[excited] Tu sélectionnes, tu copies, tu colles.
+[confident] Ça marche aussi sur un numéro, une adresse, ou un menu.
+[playful] Dis-moi en commentaire ce que tu vas scanner en premier.

@@ -1,0 +1,380 @@
+{
+ "language_code": "fra",
+ "language_probability": 1.0,
+ "text": "Trois réglages qui vident ta batterie pour rien. Un: l'actualisation en arrière-plan. Garde-la seulement pour les apps utiles. Deux: dans les services système de la localisation, coupe ce qui ne te sert pas. Trois: le partage des analyses. Tu peux le désactiver. Il en existe un quatrième encore plus efficace. Tu le connais?",
+ "words": [
+  {
+   "text": "Trois",
+   "start": 0.12,
+   "end": 0.32,
+   "type": "word",
+   "logprob": -0.0008998334162242827
+  },
+  {
+   "text": "réglages",
+   "start": 0.38,
+   "end": 0.78,
+   "type": "word",
+   "logprob": -8.761821732150565e-06
+  },
+  {
+   "text": "qui",
+   "start": 0.8,
+   "end": 0.88,
+   "type": "word",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "vident",
+   "start": 1.0,
+   "end": 1.18,
+   "type": "word",
+   "logprob": -0.0005609713292263526
+  },
+  {
+   "text": "ta",
+   "start": 1.2,
+   "end": 1.28,
+   "type": "word",
+   "logprob": -1.0132738680113107e-05
+  },
+  {
+   "text": "batterie",
+   "start": 1.32,
+   "end": 1.56,
+   "type": "word",
+   "logprob": -9.417489309271332e-06
+  },
+  {
+   "text": "pour",
+   "start": 1.66,
+   "end": 1.78,
+   "type": "word",
+   "logprob": -1.1920922133867862e-06
+  },
+  {
+   "text": "rien.",
+   "start": 1.84,
+   "end": 2.04,
+   "type": "word",
+   "logprob": -4.524712658167118e-05
+  },
+  {
+   "text": "Un:",
+   "start": 2.32,
+   "end": 2.4,
+   "type": "word",
+   "logprob": -0.00012540031457319856
+  },
+  {
+   "text": "l'actualisation",
+   "start": 2.88,
+   "end": 3.58,
+   "type": "word",
+   "logprob": -0.0006973321914301778
+  },
+  {
+   "text": "en",
+   "start": 3.62,
+   "end": 3.68,
+   "type": "word",
+   "logprob": -5.960462772236497e-07
+  },
+  {
+   "text": "arrière-plan.",
+   "start": 3.74,
+   "end": 4.18,
+   "type": "word",
+   "logprob": -5.900602984463778e-05
+  },
+  {
+   "text": "Garde-la",
+   "start": 4.52,
+   "end": 4.82,
+   "type": "word",
+   "logprob": -2.1710688116627352e-05
+  },
+  {
+   "text": "seulement",
+   "start": 4.96,
+   "end": 5.3,
+   "type": "word",
+   "logprob": -3.373566141817719e-05
+  },
+  {
+   "text": "pour",
+   "start": 5.32,
+   "end": 5.42,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "les",
+   "start": 5.44,
+   "end": 5.56,
+   "type": "word",
+   "logprob": -1.0728830375228426e-06
+  },
+  {
+   "text": "apps",
+   "start": 5.58,
+   "end": 5.74,
+   "type": "word",
+   "logprob": -8.749579137656838e-05
+  },
+  {
+   "text": "utiles.",
+   "start": 5.78,
+   "end": 6.08,
+   "type": "word",
+   "logprob": -0.00020949344350031294
+  },
+  {
+   "text": "Deux:",
+   "start": 6.44,
+   "end": 6.56,
+   "type": "word",
+   "logprob": -8.904537389753386e-05
+  },
+  {
+   "text": "dans",
+   "start": 6.98,
+   "end": 7.04,
+   "type": "word",
+   "logprob": -5.8887653722194955e-05
+  },
+  {
+   "text": "les",
+   "start": 7.08,
+   "end": 7.16,
+   "type": "word",
+   "logprob": -8.344646857949556e-07
+  },
+  {
+   "text": "services",
+   "start": 7.2,
+   "end": 7.48,
+   "type": "word",
+   "logprob": -0.00012599628826137632
+  },
+  {
+   "text": "système",
+   "start": 7.52,
+   "end": 7.82,
+   "type": "word",
+   "logprob": -0.10067106038331985
+  },
+  {
+   "text": "de",
+   "start": 7.86,
+   "end": 7.92,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "la",
+   "start": 7.96,
+   "end": 8.02,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "localisation,",
+   "start": 8.039,
+   "end": 8.7,
+   "type": "word",
+   "logprob": -0.000423792642078087
+  },
+  {
+   "text": "coupe",
+   "start": 9.0,
+   "end": 9.18,
+   "type": "word",
+   "logprob": -0.00023946279543451965
+  },
+  {
+   "text": "ce",
+   "start": 9.26,
+   "end": 9.34,
+   "type": "word",
+   "logprob": -1.311301275563892e-06
+  },
+  {
+   "text": "qui",
+   "start": 9.36,
+   "end": 9.44,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "ne",
+   "start": 9.46,
+   "end": 9.5,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "te",
+   "start": 9.56,
+   "end": 9.66,
+   "type": "word",
+   "logprob": -1.9073468138230965e-06
+  },
+  {
+   "text": "sert",
+   "start": 9.68,
+   "end": 9.86,
+   "type": "word",
+   "logprob": -4.792098479811102e-05
+  },
+  {
+   "text": "pas.",
+   "start": 9.88,
+   "end": 10.02,
+   "type": "word",
+   "logprob": -4.172322807249884e-07
+  },
+  {
+   "text": "Trois:",
+   "start": 10.28,
+   "end": 10.52,
+   "type": "word",
+   "logprob": -0.0029525042045861483
+  },
+  {
+   "text": "le",
+   "start": 10.9,
+   "end": 10.96,
+   "type": "word",
+   "logprob": -8.49926145747304e-05
+  },
+  {
+   "text": "partage",
+   "start": 11.08,
+   "end": 11.46,
+   "type": "word",
+   "logprob": -4.2199197196168825e-05
+  },
+  {
+   "text": "des",
+   "start": 11.5,
+   "end": 11.64,
+   "type": "word",
+   "logprob": -2.7418097943154862e-06
+  },
+  {
+   "text": "analyses.",
+   "start": 11.68,
+   "end": 12.16,
+   "type": "word",
+   "logprob": -4.988115223467402e-05
+  },
+  {
+   "text": "Tu",
+   "start": 12.48,
+   "end": 12.54,
+   "type": "word",
+   "logprob": -8.821448318485636e-06
+  },
+  {
+   "text": "peux",
+   "start": 12.6,
+   "end": 12.66,
+   "type": "word",
+   "logprob": -4.0531076592742465e-06
+  },
+  {
+   "text": "le",
+   "start": 12.7,
+   "end": 12.74,
+   "type": "word",
+   "logprob": -8.344646857949556e-07
+  },
+  {
+   "text": "désactiver.",
+   "start": 12.78,
+   "end": 13.26,
+   "type": "word",
+   "logprob": -1.569214501531943e-05
+  },
+  {
+   "text": "Il",
+   "start": 13.58,
+   "end": 13.64,
+   "type": "word",
+   "logprob": -0.00017105070583056659
+  },
+  {
+   "text": "en",
+   "start": 13.68,
+   "end": 13.76,
+   "type": "word",
+   "logprob": -3.814689989667386e-06
+  },
+  {
+   "text": "existe",
+   "start": 13.8,
+   "end": 14.1,
+   "type": "word",
+   "logprob": -3.1709168979432434e-05
+  },
+  {
+   "text": "un",
+   "start": 14.14,
+   "end": 14.22,
+   "type": "word",
+   "logprob": -1.0728830375228426e-06
+  },
+  {
+   "text": "quatrième",
+   "start": 14.24,
+   "end": 14.76,
+   "type": "word",
+   "logprob": -2.2172682292875834e-05
+  },
+  {
+   "text": "encore",
+   "start": 15.12,
+   "end": 15.44,
+   "type": "word",
+   "logprob": -0.00524205481633544
+  },
+  {
+   "text": "plus",
+   "start": 15.5,
+   "end": 15.7,
+   "type": "word",
+   "logprob": -5.960462772236497e-07
+  },
+  {
+   "text": "efficace.",
+   "start": 15.76,
+   "end": 16.239,
+   "type": "word",
+   "logprob": -1.4318251032818807e-05
+  },
+  {
+   "text": "Tu",
+   "start": 16.68,
+   "end": 16.74,
+   "type": "word",
+   "logprob": -4.410734163684538e-06
+  },
+  {
+   "text": "le",
+   "start": 16.78,
+   "end": 16.82,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "connais?",
+   "start": 16.86,
+   "end": 17.06,
+   "type": "word",
+   "logprob": -6.760837873035338e-06
+  }
+ ],
+ "transcription_id": "5i2vD51cI4FynNoKNiTw",
+ "audio_duration_secs": 17.1264375
+}

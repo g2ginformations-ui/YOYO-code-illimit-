@@ -1,0 +1,324 @@
+{
+ "language_code": "fra",
+ "language_probability": 1.0,
+ "text": "Ton iPhone a un bouton caché. Juste là, au dos. Va dans Réglages, Accessibilité, Toucher, puis Toucher le dos. Choisis une action: capture d'écran, lampe de poche, appareil photo. Et avec un triple tapotement, t'en as une deuxième. Tu connaissais? Oui ou non? En commentaire.",
+ "words": [
+  {
+   "text": "Ton",
+   "start": 0.26,
+   "end": 0.38,
+   "type": "word",
+   "logprob": -0.00874203722923994
+  },
+  {
+   "text": "iPhone",
+   "start": 0.48,
+   "end": 0.92,
+   "type": "word",
+   "logprob": -0.00014673586701974273
+  },
+  {
+   "text": "a",
+   "start": 1.14,
+   "end": 1.18,
+   "type": "word",
+   "logprob": -7.867782187531702e-06
+  },
+  {
+   "text": "un",
+   "start": 1.22,
+   "end": 1.28,
+   "type": "word",
+   "logprob": -8.344646857949556e-07
+  },
+  {
+   "text": "bouton",
+   "start": 1.4,
+   "end": 1.66,
+   "type": "word",
+   "logprob": -1.9192511899746023e-05
+  },
+  {
+   "text": "caché.",
+   "start": 1.74,
+   "end": 2.14,
+   "type": "word",
+   "logprob": -0.0003259992937879967
+  },
+  {
+   "text": "Juste",
+   "start": 2.6,
+   "end": 2.86,
+   "type": "word",
+   "logprob": -2.0694464910775424e-05
+  },
+  {
+   "text": "là,",
+   "start": 2.9,
+   "end": 3.0,
+   "type": "word",
+   "logprob": -6.599676089535933e-05
+  },
+  {
+   "text": "au",
+   "start": 3.28,
+   "end": 3.34,
+   "type": "word",
+   "logprob": -6.318072337307967e-06
+  },
+  {
+   "text": "dos.",
+   "start": 3.4,
+   "end": 3.56,
+   "type": "word",
+   "logprob": -0.0001466751218686113
+  },
+  {
+   "text": "Va",
+   "start": 3.96,
+   "end": 4.019,
+   "type": "word",
+   "logprob": -0.00014578233822248876
+  },
+  {
+   "text": "dans",
+   "start": 4.08,
+   "end": 4.22,
+   "type": "word",
+   "logprob": -2.0265558760002023e-06
+  },
+  {
+   "text": "Réglages,",
+   "start": 4.26,
+   "end": 4.72,
+   "type": "word",
+   "logprob": -0.02861958988827003
+  },
+  {
+   "text": "Accessibilité,",
+   "start": 5.02,
+   "end": 5.74,
+   "type": "word",
+   "logprob": -0.0002626372500214659
+  },
+  {
+   "text": "Toucher,",
+   "start": 6.16,
+   "end": 6.48,
+   "type": "word",
+   "logprob": -0.008841871529511991
+  },
+  {
+   "text": "puis",
+   "start": 6.8,
+   "end": 6.98,
+   "type": "word",
+   "logprob": -1.4305104514278355e-06
+  },
+  {
+   "text": "Toucher",
+   "start": 7.14,
+   "end": 7.38,
+   "type": "word",
+   "logprob": -0.002945896770256695
+  },
+  {
+   "text": "le",
+   "start": 7.42,
+   "end": 7.48,
+   "type": "word",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "dos.",
+   "start": 7.52,
+   "end": 7.64,
+   "type": "word",
+   "logprob": -0.0030445379520642746
+  },
+  {
+   "text": "Choisis",
+   "start": 7.96,
+   "end": 8.22,
+   "type": "word",
+   "logprob": -0.00017068731955305338
+  },
+  {
+   "text": "une",
+   "start": 8.26,
+   "end": 8.32,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "action:",
+   "start": 8.38,
+   "end": 8.9,
+   "type": "word",
+   "logprob": -0.00011419598013162613
+  },
+  {
+   "text": "capture",
+   "start": 8.92,
+   "end": 9.18,
+   "type": "word",
+   "logprob": -0.014257471077144146
+  },
+  {
+   "text": "d'écran,",
+   "start": 9.2,
+   "end": 9.58,
+   "type": "word",
+   "logprob": -1.1518439904989464e-05
+  },
+  {
+   "text": "lampe",
+   "start": 9.84,
+   "end": 9.98,
+   "type": "word",
+   "logprob": -0.0002060916303889826
+  },
+  {
+   "text": "de",
+   "start": 10.02,
+   "end": 10.08,
+   "type": "word",
+   "logprob": -2.50339189733495e-06
+  },
+  {
+   "text": "poche,",
+   "start": 10.16,
+   "end": 10.48,
+   "type": "word",
+   "logprob": -2.8907123729974653e-05
+  },
+  {
+   "text": "appareil",
+   "start": 10.66,
+   "end": 10.94,
+   "type": "word",
+   "logprob": -0.00014673586701974273
+  },
+  {
+   "text": "photo.",
+   "start": 10.96,
+   "end": 11.22,
+   "type": "word",
+   "logprob": -1.7463983340348932e-05
+  },
+  {
+   "text": "Et",
+   "start": 11.5,
+   "end": 11.62,
+   "type": "word",
+   "logprob": -6.544376083184034e-05
+  },
+  {
+   "text": "avec",
+   "start": 11.68,
+   "end": 11.86,
+   "type": "word",
+   "logprob": -2.9802276912960224e-06
+  },
+  {
+   "text": "un",
+   "start": 11.92,
+   "end": 12.0,
+   "type": "word",
+   "logprob": -9.536738616588991e-07
+  },
+  {
+   "text": "triple",
+   "start": 12.04,
+   "end": 12.28,
+   "type": "word",
+   "logprob": -7.092700980138034e-05
+  },
+  {
+   "text": "tapotement,",
+   "start": 12.36,
+   "end": 12.8,
+   "type": "word",
+   "logprob": -0.0006785800122357118
+  },
+  {
+   "text": "t'en",
+   "start": 13.08,
+   "end": 13.2,
+   "type": "word",
+   "logprob": -0.056380111724136484
+  },
+  {
+   "text": "as",
+   "start": 13.22,
+   "end": 13.28,
+   "type": "word",
+   "logprob": -8.344646857949556e-07
+  },
+  {
+   "text": "une",
+   "start": 13.3,
+   "end": 13.36,
+   "type": "word",
+   "logprob": -9.536738616588991e-07
+  },
+  {
+   "text": "deuxième.",
+   "start": 13.38,
+   "end": 13.76,
+   "type": "word",
+   "logprob": -1.0596373714280262e-06
+  },
+  {
+   "text": "Tu",
+   "start": 13.98,
+   "end": 14.08,
+   "type": "word",
+   "logprob": -7.033323527139146e-06
+  },
+  {
+   "text": "connaissais?",
+   "start": 14.1,
+   "end": 14.82,
+   "type": "word",
+   "logprob": -4.9686898736664176e-05
+  },
+  {
+   "text": "Oui",
+   "start": 14.88,
+   "end": 15.02,
+   "type": "word",
+   "logprob": -2.6464111215318553e-05
+  },
+  {
+   "text": "ou",
+   "start": 15.18,
+   "end": 15.22,
+   "type": "word",
+   "logprob": -2.264974000354414e-06
+  },
+  {
+   "text": "non?",
+   "start": 15.28,
+   "end": 15.66,
+   "type": "word",
+   "logprob": -6.556489552167477e-06
+  },
+  {
+   "text": "En",
+   "start": 15.7,
+   "end": 15.76,
+   "type": "word",
+   "logprob": -2.396077979938127e-05
+  },
+  {
+   "text": "commentaire.",
+   "start": 15.8,
+   "end": 16.2,
+   "type": "word",
+   "logprob": -0.04372947582426908
+  }
+ ],
+ "transcription_id": "BdlBxx6q9YWqlnGJUWtR",
+ "audio_duration_secs": 16.2441875
+}

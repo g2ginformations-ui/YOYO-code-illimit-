@@ -1,0 +1,6 @@
+[mysterious] Ton iPhone a un bouton caché.
+[confident] Juste là, au dos.
+[confident] Va dans Réglages, Accessibilité, Toucher, puis Toucher le dos.
+[excited] Choisis une action : capture d'écran, lampe de poche, appareil photo.
+[playful] Et avec un triple tapotement, t'en as une deuxième.
+[confident] Tu connaissais ? Oui ou non, en commentaire.

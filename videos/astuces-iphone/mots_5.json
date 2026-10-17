@@ -1,0 +1,275 @@
+{
+ "language_code": "fra",
+ "language_probability": 1.0,
+ "text": "Changer d'iPhone tous les ans, ça sert à quoi? Mon avis: à rien. Garde-le deux ou trois ans, change la batterie si besoin et tu verras à peine la différence. Et toi, tu le gardes combien de temps?",
+ "words": [
+  {
+   "text": "Changer",
+   "start": 0.18,
+   "end": 0.42,
+   "type": "word",
+   "logprob": -0.0030856096564093605
+  },
+  {
+   "text": "d'iPhone",
+   "start": 0.44,
+   "end": 0.76,
+   "type": "word",
+   "logprob": -2.868426668101165e-05
+  },
+  {
+   "text": "tous",
+   "start": 0.8,
+   "end": 0.9,
+   "type": "word",
+   "logprob": -6.794906312279636e-06
+  },
+  {
+   "text": "les",
+   "start": 0.92,
+   "end": 1.06,
+   "type": "word",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "ans,",
+   "start": 1.1,
+   "end": 1.24,
+   "type": "word",
+   "logprob": -7.747446807115921e-05
+  },
+  {
+   "text": "ça",
+   "start": 1.6,
+   "end": 1.64,
+   "type": "word",
+   "logprob": -2.3841830625315197e-06
+  },
+  {
+   "text": "sert",
+   "start": 1.7,
+   "end": 1.84,
+   "type": "word",
+   "logprob": -5.483612312673358e-06
+  },
+  {
+   "text": "à",
+   "start": 1.88,
+   "end": 1.96,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "quoi?",
+   "start": 2.0,
+   "end": 2.18,
+   "type": "word",
+   "logprob": -4.768370445162873e-07
+  },
+  {
+   "text": "Mon",
+   "start": 2.5,
+   "end": 2.6,
+   "type": "word",
+   "logprob": -7.223821739898995e-05
+  },
+  {
+   "text": "avis:",
+   "start": 2.64,
+   "end": 3.34,
+   "type": "word",
+   "logprob": -6.747018051100895e-05
+  },
+  {
+   "text": "à",
+   "start": 3.4,
+   "end": 3.44,
+   "type": "word",
+   "logprob": -0.0001591317413840443
+  },
+  {
+   "text": "rien.",
+   "start": 3.52,
+   "end": 3.74,
+   "type": "word",
+   "logprob": -1.6927703882174684e-06
+  },
+  {
+   "text": "Garde-le",
+   "start": 4.059,
+   "end": 4.38,
+   "type": "word",
+   "logprob": -1.4409269212478648e-05
+  },
+  {
+   "text": "deux",
+   "start": 4.5,
+   "end": 4.6,
+   "type": "word",
+   "logprob": -0.0005645350320264697
+  },
+  {
+   "text": "ou",
+   "start": 4.64,
+   "end": 4.7,
+   "type": "word",
+   "logprob": -1.1920922133867862e-06
+  },
+  {
+   "text": "trois",
+   "start": 4.72,
+   "end": 4.96,
+   "type": "word",
+   "logprob": -0.005096420645713806
+  },
+  {
+   "text": "ans,",
+   "start": 5.0,
+   "end": 5.14,
+   "type": "word",
+   "logprob": -4.529941065811727e-06
+  },
+  {
+   "text": "change",
+   "start": 5.42,
+   "end": 5.62,
+   "type": "word",
+   "logprob": -0.00023731753753963858
+  },
+  {
+   "text": "la",
+   "start": 5.66,
+   "end": 5.7,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "batterie",
+   "start": 5.74,
+   "end": 5.98,
+   "type": "word",
+   "logprob": -0.00029345019720494747
+  },
+  {
+   "text": "si",
+   "start": 6.02,
+   "end": 6.1,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "besoin",
+   "start": 6.14,
+   "end": 6.46,
+   "type": "word",
+   "logprob": -5.602820692729438e-06
+  },
+  {
+   "text": "et",
+   "start": 6.68,
+   "end": 6.76,
+   "type": "word",
+   "logprob": -2.4318398573086597e-05
+  },
+  {
+   "text": "tu",
+   "start": 6.8,
+   "end": 6.88,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "verras",
+   "start": 6.92,
+   "end": 7.2,
+   "type": "word",
+   "logprob": -6.254220594807218e-05
+  },
+  {
+   "text": "à",
+   "start": 7.26,
+   "end": 7.3,
+   "type": "word",
+   "logprob": -2.622600959512056e-06
+  },
+  {
+   "text": "peine",
+   "start": 7.48,
+   "end": 7.64,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "la",
+   "start": 7.68,
+   "end": 7.76,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "différence.",
+   "start": 7.78,
+   "end": 8.26,
+   "type": "word",
+   "logprob": -0.00031709573047258095
+  },
+  {
+   "text": "Et",
+   "start": 8.52,
+   "end": 8.62,
+   "type": "word",
+   "logprob": -3.2305197237292305e-05
+  },
+  {
+   "text": "toi,",
+   "start": 8.66,
+   "end": 8.82,
+   "type": "word",
+   "logprob": -1.4305101103673223e-06
+  },
+  {
+   "text": "tu",
+   "start": 9.06,
+   "end": 9.14,
+   "type": "word",
+   "logprob": -5.960462772236497e-07
+  },
+  {
+   "text": "le",
+   "start": 9.16,
+   "end": 9.22,
+   "type": "word",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "gardes",
+   "start": 9.24,
+   "end": 9.4,
+   "type": "word",
+   "logprob": -0.0001306405756622553
+  },
+  {
+   "text": "combien",
+   "start": 9.44,
+   "end": 9.62,
+   "type": "word",
+   "logprob": -4.529942543740617e-06
+  },
+  {
+   "text": "de",
+   "start": 9.66,
+   "end": 9.7,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "temps?",
+   "start": 9.74,
+   "end": 9.88,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  }
+ ],
+ "transcription_id": "4DAeM66tpwFWSyCdQlPs",
+ "audio_duration_secs": 9.944625
+}

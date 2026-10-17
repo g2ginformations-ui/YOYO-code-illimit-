@@ -1,0 +1,254 @@
+{
+ "language_code": "fra",
+ "language_probability": 1.0,
+ "text": "Arrête de corriger tes textes comme ça. Reste appuyé sur la barre d'espace. Ton clavier devient un trackpad. Tu places ton curseur exactement où tu veux. Enregistre pour pas l'oublier. Team clavier ou team dictée?",
+ "words": [
+  {
+   "text": "Arrête",
+   "start": 0.16,
+   "end": 0.44,
+   "type": "word",
+   "logprob": -0.00023085675047695986
+  },
+  {
+   "text": "de",
+   "start": 0.48,
+   "end": 0.56,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "corriger",
+   "start": 0.58,
+   "end": 0.86,
+   "type": "word",
+   "logprob": -2.2649316974820977e-05
+  },
+  {
+   "text": "tes",
+   "start": 0.9,
+   "end": 1.0,
+   "type": "word",
+   "logprob": -4.172316494077677e-06
+  },
+  {
+   "text": "textes",
+   "start": 1.04,
+   "end": 1.3,
+   "type": "word",
+   "logprob": -0.00012766500003635883
+  },
+  {
+   "text": "comme",
+   "start": 1.32,
+   "end": 1.44,
+   "type": "word",
+   "logprob": -5.245195097813848e-06
+  },
+  {
+   "text": "ça.",
+   "start": 1.54,
+   "end": 1.72,
+   "type": "word",
+   "logprob": -4.86338878999959e-05
+  },
+  {
+   "text": "Reste",
+   "start": 2.14,
+   "end": 2.32,
+   "type": "word",
+   "logprob": -2.8133315026934726e-06
+  },
+  {
+   "text": "appuyé",
+   "start": 2.38,
+   "end": 2.66,
+   "type": "word",
+   "logprob": -5.344535111362347e-06
+  },
+  {
+   "text": "sur",
+   "start": 2.7,
+   "end": 2.8,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "la",
+   "start": 2.84,
+   "end": 2.9,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "barre",
+   "start": 2.92,
+   "end": 3.04,
+   "type": "word",
+   "logprob": -0.00040642108069732785
+  },
+  {
+   "text": "d'espace.",
+   "start": 3.06,
+   "end": 3.46,
+   "type": "word",
+   "logprob": -3.9377789720320936e-05
+  },
+  {
+   "text": "Ton",
+   "start": 3.76,
+   "end": 3.9,
+   "type": "word",
+   "logprob": -7.080780778778717e-05
+  },
+  {
+   "text": "clavier",
+   "start": 3.94,
+   "end": 4.26,
+   "type": "word",
+   "logprob": -6.794906312279636e-06
+  },
+  {
+   "text": "devient",
+   "start": 4.32,
+   "end": 4.54,
+   "type": "word",
+   "logprob": -8.153582894010469e-05
+  },
+  {
+   "text": "un",
+   "start": 4.58,
+   "end": 4.66,
+   "type": "word",
+   "logprob": -5.483612312673358e-06
+  },
+  {
+   "text": "trackpad.",
+   "start": 4.7,
+   "end": 5.22,
+   "type": "word",
+   "logprob": -7.288528684057383e-05
+  },
+  {
+   "text": "Tu",
+   "start": 5.58,
+   "end": 5.64,
+   "type": "word",
+   "logprob": -1.4185804502631072e-05
+  },
+  {
+   "text": "places",
+   "start": 5.74,
+   "end": 5.92,
+   "type": "word",
+   "logprob": -0.0006719953380525112
+  },
+  {
+   "text": "ton",
+   "start": 5.96,
+   "end": 6.04,
+   "type": "word",
+   "logprob": -8.344646857949556e-07
+  },
+  {
+   "text": "curseur",
+   "start": 6.08,
+   "end": 6.46,
+   "type": "word",
+   "logprob": -2.3586019649103817e-05
+  },
+  {
+   "text": "exactement",
+   "start": 6.62,
+   "end": 7.32,
+   "type": "word",
+   "logprob": -9.65590606938349e-06
+  },
+  {
+   "text": "où",
+   "start": 7.34,
+   "end": 7.42,
+   "type": "word",
+   "logprob": -5.960462772236497e-07
+  },
+  {
+   "text": "tu",
+   "start": 7.46,
+   "end": 7.54,
+   "type": "word",
+   "logprob": -5.960462772236497e-07
+  },
+  {
+   "text": "veux.",
+   "start": 7.58,
+   "end": 7.7,
+   "type": "word",
+   "logprob": -9.202849105349742e-06
+  },
+  {
+   "text": "Enregistre",
+   "start": 7.96,
+   "end": 8.46,
+   "type": "word",
+   "logprob": -0.0027105218730184787
+  },
+  {
+   "text": "pour",
+   "start": 8.5,
+   "end": 8.6,
+   "type": "word",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "pas",
+   "start": 8.62,
+   "end": 8.7,
+   "type": "word",
+   "logprob": -0.25193220376968384
+  },
+  {
+   "text": "l'oublier.",
+   "start": 8.72,
+   "end": 9.08,
+   "type": "word",
+   "logprob": -0.00010713139348581536
+  },
+  {
+   "text": "Team",
+   "start": 9.4,
+   "end": 9.52,
+   "type": "word",
+   "logprob": -8.4638240878121e-06
+  },
+  {
+   "text": "clavier",
+   "start": 9.58,
+   "end": 9.9,
+   "type": "word",
+   "logprob": -0.0015772057231515646
+  },
+  {
+   "text": "ou",
+   "start": 10.18,
+   "end": 10.28,
+   "type": "word",
+   "logprob": -1.6689286894688848e-06
+  },
+  {
+   "text": "team",
+   "start": 10.46,
+   "end": 10.6,
+   "type": "word",
+   "logprob": -0.0001408954558428377
+  },
+  {
+   "text": "dictée?",
+   "start": 10.64,
+   "end": 10.88,
+   "type": "word",
+   "logprob": -0.0007789425580995157
+  }
+ ],
+ "transcription_id": "8l2WlL87mjSkOr5stZjO",
+ "audio_duration_secs": 10.99875
+}
