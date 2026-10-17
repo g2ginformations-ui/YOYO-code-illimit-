@@ -21,6 +21,7 @@ FUSIONS = [  # suite de mots entendue -> mot affiché
     (["Il", "n'y", "a"], "Y'a"),
     (["Il", "y", "a"], "Y'a"),
     (["Commande"], "Commente"),
+    (["commande"], "commente"),
     (["commandes"], "commentes"),
 ]
 out, i = [], 0

@@ -44,6 +44,16 @@ Il te manque une seule case 👇 Écris GO, je t'accompagne. C'est offert.
 
 #techapple2k25 #iphone18pro #bonplan #astuce #pourtoi #fyp
 
+## 7 — « Les prérequis » (la plus claire : à poster en premier)
+Ce qu'il te faut pour la tech Apple 2K25 👇
+
+1️⃣ Être majeur (18 ans minimum)
+2️⃣ Un PC ou un iPhone (l'un ou l'autre suffit)
+
+C'est tout. Tu coches les 2 ? Commente GO, je t'explique tout en privé.
+
+#techapple2k25 #iphone18pro #bonplan #astuce #pourtoi #fyp
+
 ## 6 — « L'offre » (formation payante, 70 €)
 La tech Apple 2K25, je te la montre de A à Z 👇
 

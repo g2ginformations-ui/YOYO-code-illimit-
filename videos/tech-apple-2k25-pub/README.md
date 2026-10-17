@@ -11,6 +11,7 @@ de leur orange, aucun logo ni nom de marque repris. 1080 × 1920, 30 i/s, voix �
 | 2 — Bravo | BRAVO / LE BON PLAN / COOL / LE PLUS COURT → « fais pareil pour ton iPhone » → téléphones en éventail → MAJEUR ? PC OU IPHONE ? C'EST TOUT. | 16,9 s |
 | 3 — 1·1·1 | 1 MAJEUR / 1 PC OU 1 IPHONE / 1 COMMENTAIRE → POUR 1 IPHONE 18 PRO → TOUT SIMPLEMENT | 12,3 s |
 | 4 — Partout | lit / bus / livres → PARTOUT → il te faut juste… → iPhone 18 Pro | 14,3 s |
+| 7 — Les prérequis (`tech-apple-2k25-prerequis.mp4`) | iPhone 18 Pro OFFERT → CE QU'IL TE FAUT → CONDITION 1 : 18+ / ÊTRE MAJEUR / 18 ANS MINIMUM ✓ → CONDITION 2 : PC OU IPHONE / L'UN OU L'AUTRE SUFFIT ✓ → ET C'EST TOUT. RIEN D'AUTRE → TU COCHES LES 2 ? ☑☑☐ TON COMMENTAIRE → JE T'EXPLIQUE TOUT EN PRIVÉ | 18,9 s |
 | 6 — L'offre (`tech-apple-2k25-offre.mp4`) | formation payante : DE A À Z + étiquette 70 € → INCLUS : 1 appel avec moi / accompagnement en privé / groupe privé → TOUT ÇA POUR 70 € → JE T'ENVOIE TOUT EN PRIVÉ | 15 s |
 | 5 — Les cases | iPhone 18 Pro OFFERT → TECH APPLE 2K25 → ☑ MAJEUR ☑ PC OU IPHONE ☐ TON COMMENTAIRE (qui clignote) → C'EST OFFERT | 14,1 s |
 

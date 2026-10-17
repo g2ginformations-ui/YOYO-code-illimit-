@@ -1,11 +1,12 @@
 """Tech Apple 2K25 — 4 vidéos format « pub » (fonds pleins noir / rouge, mots plein écran, coupes sèches).
 
-Usage : python3 pub.py <voix.wav> <dossier_polices> <sortie.mp4> --video 1|2|3|4|5|6 [--stills t1,...] [--timeline f.json]
+Usage : python3 pub.py <voix.wav> <dossier_polices> <sortie.mp4> --video 1|2|3|4|5|6|7 [--stills t1,...] [--timeline f.json]
   1 « Sans »     : sans prise de tête, sans cravate, sans te ruiner (mots barrés).
   2 « Bravo »    : tu trouves toujours le bon plan... fais pareil pour ton iPhone (texte en relief, rayons).
   3 « 1·1·1 »    : 1 majeur, 1 PC ou 1 iPhone, 1 commentaire (liste qui s'empile).
   4 « Partout »  : dans ton lit, dans le bus, entre deux cours (pictos).
   5 « Les cases »: iPhone 18 Pro offert -> 2 cases cochées -> la 3e case, c'est ton commentaire.
+  7 « Prérequis »: chaque condition sur son écran (18 ans minimum ; un PC ou un iPhone, l'un ou l'autre suffit).
   6 « L'offre »  : la formation payante — ce qui est inclus (appel, accompagnement, groupe), TOUT ÇA POUR 70 €.
 Les instants des mots viennent de mots_<video>.json ; le son de out/mix.wav (synth_pub.py).
 """
@@ -235,6 +236,11 @@ def picto(nom, taille=320, col=BLANC):
         for x in (28, 72):
             d.ellipse([(x - 9) * u, 68 * u, (x + 9) * u, 86 * u], fill=col)
             d.ellipse([(x - 4) * u, 73 * u, (x + 4) * u, 81 * u], fill=vide)
+    elif nom == "pc":  # écran d'ordinateur
+        d.rounded_rectangle([8 * u, 14 * u, 92 * u, 68 * u], radius=6 * u, fill=col)
+        d.rounded_rectangle([15 * u, 21 * u, 85 * u, 61 * u], radius=3 * u, fill=vide)
+        d.rectangle([44 * u, 68 * u, 56 * u, 80 * u], fill=col)
+        d.rounded_rectangle([28 * u, 80 * u, 72 * u, 88 * u], radius=3 * u, fill=col)
     elif nom == "appel":  # combiné de téléphone
         d.arc([14 * u, 14 * u, 86 * u, 86 * u], 110, 250, fill=col, width=int(16 * u))
         for a in (110, 250):
@@ -333,6 +339,36 @@ def sc_fin(img, t, t0, t_go, t_acc, bas="GRATUITEMENT", t_bas=None, haut="JE T'A
 
 def coupe(mot_, n=1):
     return at(mot_, n) - 0.15
+
+def ligne_case(img, t, y, label, t_app, t_ok, col=BLANC, attente=False):
+    """Case carrée + libellé ; se coche en rouge à t_ok ; en attente : contour qui clignote et « ? »."""
+    e = tape(t, t_app)
+    if e is None:
+        return
+    c = 120
+    box = Image.new("RGBA", (c * 3, c * 3), (0, 0, 0, 0))
+    d = ImageDraw.Draw(box)
+    clign = attente and math.floor(t * 4) % 2 == 0
+    d.rounded_rectangle([12, 12, c * 3 - 12, c * 3 - 12], radius=30, outline=ROUGE if clign else BLANC, width=30)
+    if t_ok is not None and t >= t_ok:
+        p = out_cubic(prog(t, t_ok, 0.25))
+        pts = [(0.22, 0.52), (0.42, 0.72), (0.8, 0.28)]
+        pts = [(x * c * 3, y_ * c * 3) for x, y_ in pts]
+        l1, l2 = math.dist(pts[0], pts[1]), math.dist(pts[1], pts[2])
+        r = p * (l1 + l2)
+        seg = [pts[0]]
+        if r <= l1:
+            u = r / l1; seg.append((pts[0][0] + (pts[1][0] - pts[0][0]) * u, pts[0][1] + (pts[1][1] - pts[0][1]) * u))
+        else:
+            u = (r - l1) / l2; seg += [pts[1], (pts[1][0] + (pts[2][0] - pts[1][0]) * u, pts[1][1] + (pts[2][1] - pts[1][1]) * u)]
+        d.line(seg, fill=ROUGE, width=44, joint="curve")
+    box = box.resize((c, c), Image.LANCZOS)
+    if attente:
+        q = texte("?", 90, ROUGE)
+        box.alpha_composite(q, (c // 2 - q.width // 2, c // 2 - q.height // 2))
+    poser(img, box, 210, y, e)
+    lab = texte(label, 96, col, "anton", 600)
+    poser(img, lab, 290 + lab.width / 2, y, e)
 
 # ---------- les 4 vidéos ----------
 if VIDEO == "1":  # « Sans »
@@ -438,35 +474,6 @@ elif VIDEO == "3":  # « 1·1·1 »
     RAPPEL = C2
 elif VIDEO == "5":  # « Les cases » : la synthèse (résultat d'abord, cases à cocher, le commentaire = 3e case)
     C2, C3 = coupe("grâce"), coupe("tu")
-    def ligne_case(img, t, y, label, t_app, t_ok, col=BLANC, attente=False):
-        """Case carrée + libellé ; se coche en rouge à t_ok ; en attente : contour qui clignote et « ? »."""
-        e = tape(t, t_app)
-        if e is None:
-            return
-        c = 120
-        box = Image.new("RGBA", (c * 3, c * 3), (0, 0, 0, 0))
-        d = ImageDraw.Draw(box)
-        clign = attente and math.floor(t * 4) % 2 == 0
-        d.rounded_rectangle([12, 12, c * 3 - 12, c * 3 - 12], radius=30, outline=ROUGE if clign else BLANC, width=30)
-        if t_ok is not None and t >= t_ok:
-            p = out_cubic(prog(t, t_ok, 0.25))
-            pts = [(0.22, 0.52), (0.42, 0.72), (0.8, 0.28)]
-            pts = [(x * c * 3, y_ * c * 3) for x, y_ in pts]
-            l1, l2 = math.dist(pts[0], pts[1]), math.dist(pts[1], pts[2])
-            r = p * (l1 + l2)
-            seg = [pts[0]]
-            if r <= l1:
-                u = r / l1; seg.append((pts[0][0] + (pts[1][0] - pts[0][0]) * u, pts[0][1] + (pts[1][1] - pts[0][1]) * u))
-            else:
-                u = (r - l1) / l2; seg += [pts[1], (pts[1][0] + (pts[2][0] - pts[1][0]) * u, pts[1][1] + (pts[2][1] - pts[1][1]) * u)]
-            d.line(seg, fill=ROUGE, width=44, joint="curve")
-        box = box.resize((c, c), Image.LANCZOS)
-        if attente:
-            q = texte("?", 90, ROUGE)
-            box.alpha_composite(q, (c // 2 - q.width // 2, c // 2 - q.height // 2))
-        poser(img, box, 210, y, e)
-        lab = texte(label, 96, col, "anton", 600)
-        poser(img, lab, 290 + lab.width / 2, y, e)
     def b3(img, t):
         fond_plein(img, NOIR)
         mot(img, "TU COCHES", 120, CX, 400, t, C3 + 0.03)
@@ -537,6 +544,70 @@ elif VIDEO == "6":  # « L'offre » : ce qui est inclus, puis TOUT ÇA POUR 70 �
     PUNCH = [at("de") - 0.05, C2 + 0.05, C3 + 0.05, C4 + 0.05, at("soixante") - 0.05]
     CHECKS = [C5 + 0.03, C5 + 0.11, C5 + 0.19]
     RAPPEL = C2
+elif VIDEO == "7":  # « Les prérequis » : chaque condition sur son écran, puis le commentaire = 3e case
+    C2, C3, C4, C5, C6 = coupe("ce"), coupe("un"), coupe("deux"), coupe("et"), coupe("si", 2)  # le 1er « si… » est « simple »
+    def b1(img, t):
+        sc_iphone(img, t, -0.15, at("offert") - 0.05, pastille="OFFERT")
+        if t >= at("tech") - 0.1:
+            poser(img, pilule("GRÂCE À LA TECH APPLE 2K25", 50, BLANC, NOIR, 30, 12), CX, 1185, tape(t, at("tech") - 0.1))
+    def b2(img, t):
+        fond_plein(img, NOIR)
+        mot(img, "CE QU'IL", 150, CX, 560, t, C2 + 0.03)
+        mot(img, "TE FAUT", 190, CX, 740, t, at("faut") - 0.1)
+        mot(img, "C'EST SIMPLE.", 140, CX, 940, t, at("simple") - 0.1, ROUGE)
+    def coche_ronde(img, t, t0, cx, cy, r=90, fond=BLANC, trait=ROUGE):
+        e = tape(t, t0)
+        if e is None:
+            return
+        s3 = 3
+        im = Image.new("RGBA", (r * 2 * s3, r * 2 * s3), (0, 0, 0, 0))
+        d = ImageDraw.Draw(im)
+        d.ellipse([0, 0, r * 2 * s3 - 1, r * 2 * s3 - 1], fill=fond)
+        k = r * 2 * s3
+        d.line([(0.27 * k, 0.53 * k), (0.44 * k, 0.7 * k), (0.75 * k, 0.33 * k)], fill=trait, width=int(0.11 * k), joint="curve")
+        poser(img, im.resize((r * 2, r * 2), Image.LANCZOS), cx, cy, e, 1, -8)
+    def b3(img, t):
+        fond_plein(img, ROUGE)
+        mot(img, "CONDITION 1", 80, CX, 400, t, C3 + 0.03, NOIR)
+        e = tape(t, at("être") - 0.1)
+        if e:
+            poser(img, relief("18+", 300, BLANC, NOIR), CX, 660, e, 1, -6)
+        mot(img, "ÊTRE MAJEUR", 150, CX, 930, t, at("majeur") - 0.1)
+        if t >= at("18") - 0.1:
+            poser(img, pilule("18 ANS MINIMUM", 60, NOIR, BLANC, 34, 14), CX, 1085, tape(t, at("18") - 0.1))
+        coche_ronde(img, t, at("majeur") + 0.3, 790, 560)
+    def b4(img, t):
+        fond_plein(img, NOIR)
+        mot(img, "CONDITION 2", 80, CX, 400, t, C4 + 0.03, ROUGE)
+        e = tape(t, at("pc") - 0.1)
+        if e:
+            poser(img, picto("pc", 260), CX - 220, 660, e)
+        mot(img, "OU", 110, CX, 660, t, at("ou") - 0.1, ROUGE)
+        e = tape(t, at("iphone") - 0.1)
+        if e:
+            poser(img, telephone(130), CX + 220, 660, e, 1, -6)
+        mot(img, "UN PC OU UN IPHONE", 120, CX, 900, t, at("pc") - 0.05)
+        if t >= at("l'un") - 0.1:
+            poser(img, pilule("L'UN OU L'AUTRE SUFFIT", 56, ROUGE, BLANC, 34, 14), CX, 1070, tape(t, at("l'un") - 0.1))
+        coche_ronde(img, t, at("iphone") + 0.2, 830, 520, 80, ROUGE, BLANC)
+    def b5(img, t):
+        fond_plein(img, ROUGE)
+        rayons(img, CX, 760, t, NOIR, 18, 25)
+        mot(img, "ET C'EST TOUT.", 170, CX, 640, t, C5 + 0.03)
+        e = tape(t, at("rien") - 0.08)
+        if e:
+            poser(img, relief("RIEN D'AUTRE", 170, BLANC, NOIR), CX, 900, e, 1, -6)
+            etoiles(img, t, at("rien"), 5)
+    def b6(img, t):
+        fond_plein(img, NOIR)
+        mot(img, "TU COCHES LES 2 ?", 110, CX, 430, t, C6 + 0.03)
+        ligne_case(img, t, 640, "MAJEUR", C6 + 0.05, C6 + 0.15)
+        ligne_case(img, t, 800, "PC OU IPHONE", C6 + 0.15, C6 + 0.3)
+        ligne_case(img, t, 960, "TON COMMENTAIRE", C6 + 0.3, None, ROUGE, True)
+    BEATS = [(0, b1), (C2, b2), (C3, b3), (C4, b4), (C5, b5), (C6, b6)]
+    PUNCH = [at("offert") - 0.05, at("majeur") + 0.3, at("iphone") + 0.2, at("rien") - 0.08, C6 + 0.3]
+    CHECKS = [at("majeur") + 0.3, at("iphone") + 0.2, C6 + 0.15, C6 + 0.3]
+    RAPPEL = C3
 else:  # « Partout »
     C2, C3, C4, C5, C6 = coupe("dans", 2), coupe("entre"), coupe("la"), coupe("il"), coupe("l'iphone")
     def lieu(img, t, t0, nom, l1, l2, fond):
@@ -574,8 +645,10 @@ else:  # « Partout »
 
 T_CTA = coupe("commente")
 T_GO = at("go") - 0.05
-T_ACC = at("t'envoie") if VIDEO == "6" else at("t'accompagne")
-if VIDEO == "6":
+T_ACC = at("t'envoie") if VIDEO == "6" else (at("t'explique") if VIDEO == "7" else at("t'accompagne"))
+if VIDEO == "7":
+    BEATS.append((T_CTA, lambda img, t: sc_fin(img, t, T_CTA, T_GO, T_ACC, "TOUT EN PRIVÉ", T_ACC + 0.25, "JE T'EXPLIQUE")))
+elif VIDEO == "6":
     BEATS.append((T_CTA, lambda img, t: sc_fin(img, t, T_CTA, T_GO, T_ACC, "TOUT EN PRIVÉ", T_ACC + 0.25, "JE T'ENVOIE")))
 elif VIDEO == "5":
     BEATS.append((T_CTA, lambda img, t: sc_fin(img, t, T_CTA, T_GO, T_ACC, "C'EST OFFERT", at("c'est", 2) - 0.05)))

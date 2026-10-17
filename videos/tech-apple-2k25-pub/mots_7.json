@@ -1,0 +1,379 @@
+{
+ "language_code": "fra",
+ "language_probability": 1.0,
+ "text": "L'iPhone 18 Pro, tu peux l'avoir offert grâce à la tech Apple 2K25. Ce qu'il te faut, c'est simple. Un: être majeur, 18 ans minimum. Deux: un PC ou un iPhone. L'un ou l'autre, ça suffit. Et c'est tout, rien d'autre. Si tu coches les deux, commente Go. Je t'explique tout en privé",
+ "words": [
+  {
+   "text": "L'iPhone",
+   "start": 0.2,
+   "end": 0.54,
+   "type": "word",
+   "logprob": -0.00011765260387619492
+  },
+  {
+   "text": "18",
+   "start": 0.6,
+   "end": 0.9,
+   "type": "word",
+   "logprob": -7.307029727599001e-05
+  },
+  {
+   "text": "Pro,",
+   "start": 0.92,
+   "end": 1.12,
+   "type": "word",
+   "logprob": -0.002506732038455084
+  },
+  {
+   "text": "tu",
+   "start": 1.38,
+   "end": 1.44,
+   "type": "word",
+   "logprob": -7.986990567587782e-06
+  },
+  {
+   "text": "peux",
+   "start": 1.5,
+   "end": 1.56,
+   "type": "word",
+   "logprob": -1.0132738680113107e-05
+  },
+  {
+   "text": "l'avoir",
+   "start": 1.6,
+   "end": 1.84,
+   "type": "word",
+   "logprob": -1.3504582181919236e-05
+  },
+  {
+   "text": "offert",
+   "start": 1.98,
+   "end": 2.4,
+   "type": "word",
+   "logprob": -0.0001616347290109843
+  },
+  {
+   "text": "grâce",
+   "start": 2.66,
+   "end": 2.84,
+   "type": "word",
+   "logprob": -1.6689286894688848e-06
+  },
+  {
+   "text": "à",
+   "start": 2.88,
+   "end": 2.92,
+   "type": "word",
+   "logprob": -1.4305104514278355e-06
+  },
+  {
+   "text": "la",
+   "start": 2.94,
+   "end": 3.0,
+   "type": "word",
+   "logprob": -9.536738616588991e-07
+  },
+  {
+   "text": "tech",
+   "start": 3.04,
+   "end": 3.24,
+   "type": "word",
+   "logprob": -0.0022665781434625387
+  },
+  {
+   "text": "Apple",
+   "start": 3.3,
+   "end": 3.58,
+   "type": "word",
+   "logprob": -5.686121585313231e-05
+  },
+  {
+   "text": "2K25.",
+   "start": 3.78,
+   "end": 4.42,
+   "type": "word",
+   "logprob": -0.00422118869603878
+  },
+  {
+   "text": "Ce",
+   "start": 4.66,
+   "end": 4.72,
+   "type": "word",
+   "logprob": -4.0411134250462055e-05
+  },
+  {
+   "text": "qu'il",
+   "start": 4.74,
+   "end": 4.86,
+   "type": "word",
+   "logprob": -3.1947976367519003e-06
+  },
+  {
+   "text": "te",
+   "start": 4.9,
+   "end": 4.98,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "faut,",
+   "start": 5.1,
+   "end": 5.22,
+   "type": "word",
+   "logprob": -4.792183790414128e-06
+  },
+  {
+   "text": "c'est",
+   "start": 5.54,
+   "end": 5.66,
+   "type": "word",
+   "logprob": -3.0994390272098825e-07
+  },
+  {
+   "text": "simple.",
+   "start": 5.72,
+   "end": 6.04,
+   "type": "word",
+   "logprob": -0.0006100452662524601
+  },
+  {
+   "text": "Un:",
+   "start": 6.54,
+   "end": 6.64,
+   "type": "word",
+   "logprob": -0.0004413345886860043
+  },
+  {
+   "text": "être",
+   "start": 7.1,
+   "end": 7.34,
+   "type": "word",
+   "logprob": -7.855583680793643e-05
+  },
+  {
+   "text": "majeur,",
+   "start": 7.4,
+   "end": 7.84,
+   "type": "word",
+   "logprob": -0.0004749529338628885
+  },
+  {
+   "text": "18",
+   "start": 8.22,
+   "end": 8.56,
+   "type": "word",
+   "logprob": -1.251696744475339e-06
+  },
+  {
+   "text": "ans",
+   "start": 8.58,
+   "end": 8.68,
+   "type": "word",
+   "logprob": -2.038458114839159e-05
+  },
+  {
+   "text": "minimum.",
+   "start": 8.88,
+   "end": 9.28,
+   "type": "word",
+   "logprob": -6.079653402935037e-06
+  },
+  {
+   "text": "Deux:",
+   "start": 9.64,
+   "end": 9.76,
+   "type": "word",
+   "logprob": -0.00026770823751576245
+  },
+  {
+   "text": "un",
+   "start": 10.2,
+   "end": 10.24,
+   "type": "word",
+   "logprob": -2.264974000354414e-06
+  },
+  {
+   "text": "PC",
+   "start": 10.32,
+   "end": 10.64,
+   "type": "word",
+   "logprob": -6.031808152329177e-05
+  },
+  {
+   "text": "ou",
+   "start": 10.98,
+   "end": 11.04,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "un",
+   "start": 11.08,
+   "end": 11.14,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "iPhone.",
+   "start": 11.2,
+   "end": 11.54,
+   "type": "word",
+   "logprob": -1.3487530200758816e-05
+  },
+  {
+   "text": "L'un",
+   "start": 11.84,
+   "end": 11.94,
+   "type": "word",
+   "logprob": -5.9604641222676946e-08
+  },
+  {
+   "text": "ou",
+   "start": 11.96,
+   "end": 12.0,
+   "type": "word",
+   "logprob": -8.344646857949556e-07
+  },
+  {
+   "text": "l'autre,",
+   "start": 12.04,
+   "end": 12.28,
+   "type": "word",
+   "logprob": -2.533193182330251e-06
+  },
+  {
+   "text": "ça",
+   "start": 12.52,
+   "end": 12.58,
+   "type": "word",
+   "logprob": -1.0728830375228426e-06
+  },
+  {
+   "text": "suffit.",
+   "start": 12.64,
+   "end": 12.88,
+   "type": "word",
+   "logprob": -1.5326907235443547e-07
+  },
+  {
+   "text": "Et",
+   "start": 13.24,
+   "end": 13.3,
+   "type": "word",
+   "logprob": -3.635817120084539e-05
+  },
+  {
+   "text": "c'est",
+   "start": 13.38,
+   "end": 13.5,
+   "type": "word",
+   "logprob": -2.002712028570386e-06
+  },
+  {
+   "text": "tout,",
+   "start": 13.54,
+   "end": 13.66,
+   "type": "word",
+   "logprob": -0.0013440471137073473
+  },
+  {
+   "text": "rien",
+   "start": 14.06,
+   "end": 14.22,
+   "type": "word",
+   "logprob": -0.0002057340752799064
+  },
+  {
+   "text": "d'autre.",
+   "start": 14.24,
+   "end": 14.52,
+   "type": "word",
+   "logprob": -4.145365710073179e-05
+  },
+  {
+   "text": "Si",
+   "start": 14.78,
+   "end": 14.84,
+   "type": "word",
+   "logprob": -9.536738616588991e-07
+  },
+  {
+   "text": "tu",
+   "start": 14.9,
+   "end": 14.98,
+   "type": "word",
+   "logprob": -9.536738616588991e-07
+  },
+  {
+   "text": "coches",
+   "start": 15.02,
+   "end": 15.2,
+   "type": "word",
+   "logprob": -0.004633641801774502
+  },
+  {
+   "text": "les",
+   "start": 15.24,
+   "end": 15.32,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "deux,",
+   "start": 15.36,
+   "end": 15.52,
+   "type": "word",
+   "logprob": -7.581677209600457e-06
+  },
+  {
+   "text": "commente",
+   "start": 15.82,
+   "end": 16.059,
+   "type": "word"
+  },
+  {
+   "text": "Go.",
+   "start": 16.14,
+   "end": 16.26,
+   "type": "word",
+   "logprob": -0.0022267562890192494
+  },
+  {
+   "text": "Je",
+   "start": 16.54,
+   "end": 16.6,
+   "type": "word",
+   "logprob": -4.529942543740617e-06
+  },
+  {
+   "text": "t'explique",
+   "start": 16.62,
+   "end": 16.94,
+   "type": "word",
+   "logprob": -0.0004087834618069053
+  },
+  {
+   "text": "tout",
+   "start": 16.98,
+   "end": 17.06,
+   "type": "word",
+   "logprob": -5.364403477869928e-06
+  },
+  {
+   "text": "en",
+   "start": 17.08,
+   "end": 17.16,
+   "type": "word",
+   "logprob": -2.3841855067985307e-07
+  },
+  {
+   "text": "privé",
+   "start": 17.18,
+   "end": 17.38,
+   "type": "word",
+   "logprob": -0.02267760969698429
+  }
+ ],
+ "transcription_id": "AhXbGTmcCuIvDBKw7V6e",
+ "audio_duration_secs": 17.4268125
+}
