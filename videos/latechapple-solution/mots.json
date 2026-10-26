@@ -1,0 +1,308 @@
+{
+ "language_code": "fra",
+ "language_probability": 1.0,
+ "text": "T'en as marre de ton vieux téléphone? J'ai la solution pour toi. La tech Apple 2K25. Un iPhone et tu payes seulement à la réception. Cinquante euros, pas plus. Deux conditions: être majeur, un PC ou un iPhone. Commente Go et je t'accompagne.",
+ "words": [
+  {
+   "text": "T'en",
+   "start": 0.18,
+   "end": 0.28,
+   "type": "word",
+   "logprob": -0.00014520138205398325
+  },
+  {
+   "text": "as",
+   "start": 0.32,
+   "end": 0.4,
+   "type": "word",
+   "logprob": -1.311301275563892e-06
+  },
+  {
+   "text": "marre",
+   "start": 0.44,
+   "end": 0.6,
+   "type": "word",
+   "logprob": -7.98697001016535e-06
+  },
+  {
+   "text": "de",
+   "start": 0.64,
+   "end": 0.72,
+   "type": "word",
+   "logprob": -2.0265558760002023e-06
+  },
+  {
+   "text": "ton",
+   "start": 0.74,
+   "end": 0.84,
+   "type": "word",
+   "logprob": -3.576278118089249e-07
+  },
+  {
+   "text": "vieux",
+   "start": 0.86,
+   "end": 0.98,
+   "type": "word",
+   "logprob": -4.529942543740617e-06
+  },
+  {
+   "text": "téléphone?",
+   "start": 1.02,
+   "end": 1.46,
+   "type": "word",
+   "logprob": -1.6689286894688848e-06
+  },
+  {
+   "text": "J'ai",
+   "start": 1.84,
+   "end": 1.96,
+   "type": "word",
+   "logprob": -1.996753553612507e-06
+  },
+  {
+   "text": "la",
+   "start": 2.0,
+   "end": 2.14,
+   "type": "word",
+   "logprob": -1.311301275563892e-06
+  },
+  {
+   "text": "solution",
+   "start": 2.18,
+   "end": 2.6,
+   "type": "word",
+   "logprob": -0.0002302858338225633
+  },
+  {
+   "text": "pour",
+   "start": 2.66,
+   "end": 2.76,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "toi.",
+   "start": 2.82,
+   "end": 2.98,
+   "type": "word",
+   "logprob": -2.2947757116753564e-06
+  },
+  {
+   "text": "La",
+   "start": 3.36,
+   "end": 3.44,
+   "type": "word",
+   "logprob": -6.103329360485077e-05
+  },
+  {
+   "text": "tech",
+   "start": 3.52,
+   "end": 3.68,
+   "type": "word",
+   "logprob": -0.06233472377061844
+  },
+  {
+   "text": "Apple",
+   "start": 3.74,
+   "end": 4.0,
+   "type": "word",
+   "logprob": -6.878139538457617e-05
+  },
+  {
+   "text": "2K25.",
+   "start": 4.12,
+   "end": 4.96,
+   "type": "word"
+  },
+  {
+   "text": "Un",
+   "start": 5.28,
+   "end": 5.36,
+   "type": "word",
+   "logprob": -3.4570634852570947e-06
+  },
+  {
+   "text": "iPhone",
+   "start": 5.44,
+   "end": 5.8,
+   "type": "word",
+   "logprob": -1.7165990357170813e-05
+  },
+  {
+   "text": "et",
+   "start": 6.08,
+   "end": 6.16,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "tu",
+   "start": 6.18,
+   "end": 6.3,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "payes",
+   "start": 6.32,
+   "end": 6.52,
+   "type": "word",
+   "logprob": -0.0004730266984552145
+  },
+  {
+   "text": "seulement",
+   "start": 6.6,
+   "end": 7.0,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "à",
+   "start": 7.04,
+   "end": 7.06,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "la",
+   "start": 7.1,
+   "end": 7.16,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "réception.",
+   "start": 7.2,
+   "end": 7.62,
+   "type": "word",
+   "logprob": -6.49071812404145e-05
+  },
+  {
+   "text": "Cinquante",
+   "start": 8.039,
+   "end": 8.36,
+   "type": "word",
+   "logprob": -0.0131801683585056
+  },
+  {
+   "text": "euros,",
+   "start": 8.38,
+   "end": 8.6,
+   "type": "word",
+   "logprob": -0.0006443355133380161
+  },
+  {
+   "text": "pas",
+   "start": 8.86,
+   "end": 9.0,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "plus.",
+   "start": 9.04,
+   "end": 9.34,
+   "type": "word",
+   "logprob": -3.099441059362107e-07
+  },
+  {
+   "text": "Deux",
+   "start": 9.74,
+   "end": 9.86,
+   "type": "word",
+   "logprob": -4.4225667807040736e-05
+  },
+  {
+   "text": "conditions:",
+   "start": 9.88,
+   "end": 10.3,
+   "type": "word",
+   "logprob": -9.63164638960734e-05
+  },
+  {
+   "text": "être",
+   "start": 10.68,
+   "end": 10.88,
+   "type": "word",
+   "logprob": -0.0004372832481749356
+  },
+  {
+   "text": "majeur,",
+   "start": 10.94,
+   "end": 11.38,
+   "type": "word",
+   "logprob": -0.0006129766275729967
+  },
+  {
+   "text": "un",
+   "start": 11.72,
+   "end": 11.82,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "PC",
+   "start": 11.84,
+   "end": 12.2,
+   "type": "word",
+   "logprob": -2.2053474822314456e-05
+  },
+  {
+   "text": "ou",
+   "start": 12.48,
+   "end": 12.54,
+   "type": "word",
+   "logprob": -1.1920928244535389e-07
+  },
+  {
+   "text": "un",
+   "start": 12.58,
+   "end": 12.66,
+   "type": "word",
+   "logprob": 0.0
+  },
+  {
+   "text": "iPhone.",
+   "start": 12.7,
+   "end": 13.06,
+   "type": "word",
+   "logprob": -8.702238574187504e-06
+  },
+  {
+   "text": "Commente",
+   "start": 13.3,
+   "end": 13.54,
+   "type": "word"
+  },
+  {
+   "text": "Go",
+   "start": 13.6,
+   "end": 13.72,
+   "type": "word",
+   "logprob": -0.00010275312524754554
+  },
+  {
+   "text": "et",
+   "start": 14.04,
+   "end": 14.12,
+   "type": "word",
+   "logprob": -0.0008586533949710429
+  },
+  {
+   "text": "je",
+   "start": 14.14,
+   "end": 14.18,
+   "type": "word",
+   "logprob": -0.02324707806110382
+  },
+  {
+   "text": "t'accompagne.",
+   "start": 14.2,
+   "end": 14.68,
+   "type": "word",
+   "logprob": -0.024457540506878452
+  }
+ ],
+ "transcription_id": "61kVoOETQlTCRt7i2v5P",
+ "audio_duration_secs": 14.7300625
+}

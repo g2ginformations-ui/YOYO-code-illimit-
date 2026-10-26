@@ -1,0 +1,7 @@
+[curious] T'en as marre de ton vieux téléphone ?
+[confident] J'ai la solution pour toi.
+[excited] La tech Apple deux K vingt-cinq.
+[confident] Un iPhone, et tu paies seulement à la réception.
+[excited] Cinquante euros, pas plus.
+[confident] Deux conditions. Être majeur. Un PC, ou un iPhone.
+[confident] Commente go, et je t'accompagne.
