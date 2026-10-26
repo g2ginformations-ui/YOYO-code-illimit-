@@ -1,4 +1,4 @@
-"""Tag anti-copie commun à toutes les vidéos : nom + @ Instagram, lus dans marque.json.
+"""Tag anti-copie commun à toutes les vidéos : nom + @ TikTok (handle), lus dans marque.json.
 
 - tag mobile : « @APPLE_PDG », semi-transparent, qui saute d'une place à l'autre toutes les 2,5 s
   (en haut puis en bas de la zone sûre, à gauche, au centre, à droite) : on ne peut pas le recadrer
