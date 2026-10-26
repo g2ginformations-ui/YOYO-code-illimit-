@@ -12,7 +12,7 @@ from PIL import Image, ImageDraw, ImageFont
 ICI = os.path.dirname(os.path.abspath(__file__))
 MARQUE = json.load(open(os.path.join(ICI, "marque.json")))
 NOM = MARQUE["nom"].upper()
-HANDLE = "@" + MARQUE["instagram"].upper()
+HANDLE = "@" + MARQUE["handle"].upper()
 
 # places du tag mobile (centre x, centre y) : bande du haut (au-dessus des titres) et du bas (sous les sous-titres)
 PLACES = [(330, 300), (710, 1405), (520, 300), (330, 1405), (710, 300), (520, 1405)]

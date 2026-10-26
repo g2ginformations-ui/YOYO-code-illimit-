@@ -1,6 +1,6 @@
 # Tech Apple 2K25 — « Le jeu en 3 niveaux » (DA pixel noir et rouge)
 
-Vidéo TikTok 9:16 (1080 × 1920, 30 i/s, 18,5 s), voix ElevenLabs « Maxime » (eleven_v4), tag @le_a_poker.
+Vidéo TikTok 9:16 (1080 × 1920, 30 i/s, 18,5 s), voix ElevenLabs « Maxime » (eleven_v4), tag @APPLE_PDG.
 
 1. Écran titre : « LE JEU — TECH APPLE 2K25 » + tampon « 3 NIVEAUX ».
 2. Niveau 1 : « T'ES MAJEUR » → VALIDÉ, la barre PROGRESSION monte.

@@ -23,6 +23,6 @@ python3 rendu.py voix_A.wav polices out/tech-apple-2k25-A.mp4 --variante A
 
 ## Tag anti-copie
 
-Chaque vidéo porte le tag de `../marque.json` (Solex2k25, @le_a_poker), dessiné par `../tag_marque.py` :
+Chaque vidéo porte le tag de `../marque.json` (Solex2k25, @APPLE_PDG), dessiné par `../tag_marque.py` :
 le @ semi-transparent change de place toutes les 2,5 s (haut et bas de la zone sûre), puis la signature
-« SOLEX2K25 · @LE_A_POKER » s'affiche sous le CTA. Pour changer de nom ou de compte, modifier `marque.json`.
+« SOLEX2K25 · @APPLE_PDG » s'affiche sous le CTA. Pour changer de nom ou de compte, modifier `marque.json`.

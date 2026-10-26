@@ -1,7 +1,6 @@
 # Descriptions — vidéos « pub » Tech Apple 2K25
 
-À coller telles quelles (TikTok et Instagram). Un seul « gratuit » par texte pour limiter la modération.
-Sur Instagram, ajouter à la fin : `📩 Commente GO ou envoie GO en DM — @le_a_poker`
+À coller telles quelles. Un seul « gratuit » par texte pour limiter la modération.
 
 ## 1 — « Sans »
 Sans prise de tête. Sans cravate. Sans te ruiner. 😮‍💨

@@ -1,6 +1,6 @@
 # Astuces iPhone sans visage — 5 vidéos (motion design, iPhone dessiné)
 
-1080 × 1920, 30 i/s, voix ElevenLabs « Maxime » (eleven_v4), tag @le_a_poker. iPhone générique dessiné (aucun logo),
+1080 × 1920, 30 i/s, voix ElevenLabs « Maxime » (eleven_v4), tag @APPLE_PDG. iPhone générique dessiné (aucun logo),
 écrans façon réglages / clavier / appareil photo, toucher animés, zooms sur les détails, bandeaux, sous-titres
 karaoké sur pastille sombre, carte question finale avec champ de commentaire.
 

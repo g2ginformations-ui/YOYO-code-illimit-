@@ -1,6 +1,6 @@
 # Tech Apple 2K25 — 3 vidéos en motion design (noir et rouge)
 
-Vidéos TikTok 9:16 (1080 × 1920, **60 i/s**), voix ElevenLabs « Maxime » (eleven_v4), tag @le_a_poker.
+Vidéos TikTok 9:16 (1080 × 1920, **60 i/s**), voix ElevenLabs « Maxime » (eleven_v4), tag @APPLE_PDG.
 Style motion design : Poppins grasse, ressorts et accélérations douces, transitions zoom + flou, lueurs,
 punchs (flash + secousse) sur les moments forts, éclats de particules, coches qui se tracent,
 téléphone dessiné (générique, sans logo), sous-titres karaoké, beat moderne (808, clap, charleston, nappe).

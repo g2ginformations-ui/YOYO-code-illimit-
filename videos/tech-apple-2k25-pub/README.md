@@ -3,7 +3,7 @@
 Inspirées du langage des pubs « compte en 5 minutes » fournies en référence : fonds pleins qui alternent à chaque
 mot, police condensée très grasse (Anton) plein écran, mots qui « tapent », mots barrés, listes qui s'empilent,
 texte en relief penché avec rayons et étoiles, téléphones en éventail, fin avec curseur qui clique. Rouge à la place
-de leur orange, aucun logo ni nom de marque repris. 1080 × 1920, 30 i/s, voix « Maxime » (eleven_v4), tag @le_a_poker.
+de leur orange, aucun logo ni nom de marque repris. 1080 × 1920, 30 i/s, voix « Maxime » (eleven_v4), tag @APPLE_PDG.
 
 | Vidéo | Idée | Durée |
 |---|---|---|

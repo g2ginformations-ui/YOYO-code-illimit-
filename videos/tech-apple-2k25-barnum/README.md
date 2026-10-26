@@ -1,6 +1,6 @@
 # Tech Apple 2K25 — « Je lis dans ta tête » (effet Barnum + double twist)
 
-Vidéo TikTok 9:16 (1080 × 1920, 30 i/s, 27,5 s), voix ElevenLabs « Maxime » (eleven_v4), tag @le_a_poker.
+Vidéo TikTok 9:16 (1080 × 1920, 30 i/s, 27,5 s), voix ElevenLabs « Maxime » (eleven_v4), tag @APPLE_PDG.
 
 1. Hook : boule de cristal pixel, « JE LIS DANS TA TÊTE ».
 2. La boule « devine » 4 traits qui collent à tout le monde (fenêtre « TON PROFIL » qui se coche).
