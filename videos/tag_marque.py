@@ -1,9 +1,9 @@
 """Tag anti-copie commun à toutes les vidéos : nom + @ Instagram, lus dans marque.json.
 
-- tag mobile : « @LE_A_POKER », semi-transparent, qui saute d'une place à l'autre toutes les 2,5 s
+- tag mobile : « @APPLE_PDG », semi-transparent, qui saute d'une place à l'autre toutes les 2,5 s
   (en haut puis en bas de la zone sûre, à gauche, au centre, à droite) : on ne peut pas le recadrer
   ni l'effacer d'un seul coup ;
-- signature : « SOLEX2K25 · @LE_A_POKER » sous le CTA final.
+- signature : « SOLEX2K25 · @APPLE_PDG » sous le CTA final.
 Jamais sur la bande des sous-titres (y 1215 à 1360).
 """
 import json, os
